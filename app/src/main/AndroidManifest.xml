@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:installLocation="auto" package="ru.ok.android" >
+    <!--platformBuildVersionCode="23" platformBuildVersionName="6.0-2438415"-->
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <permission android:name="ru.ok.android.permission.C2D_MESSAGE" android:protectionLevel="signature"/>
+    <uses-permission android:name="ru.ok.android.permission.C2D_MESSAGE"/>
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE"/>
+    <uses-permission android:name="com.google.android.c2dm.permission.SEND"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.RECEIVE_SMS"/>
+    <uses-permission android:name="android.permission.READ_SMS"/>
+    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.USE_CREDENTIALS"/>
+    <uses-permission android:name="android.permission.ACCESS_GPS"/>
+    <uses-permission android:name="android.permission.ACCESS_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <uses-permission android:name="android.permission.READ_PROFILE"/>
+    <uses-permission android:name="android.permission.WRITE_CONTACTS"/>
+    <uses-permission android:name="android.permission.WRITE_PROFILE"/>
+    <uses-permission android:name="android.permission.READ_SYNC_SETTINGS"/>
+    <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS"/>
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT"/>
+    <uses-permission android:name="android.permission.READ_CALENDAR"/>
+    <uses-permission android:name="android.permission.WRITE_CALENDAR"/>
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES"/>
+    <uses-feature android:name="android.hardware.camera" android:required="false"/>
+    <uses-feature android:name="android.hardware.camera.autofocus" android:required="false"/>
+    <uses-feature android:name="android.hardware.microphone" android:required="false"/>
+    <uses-feature android:name="android.hardware.touchscreen" android:required="false"/>
+    <uses-feature android:name="android.hardware.location" android:required="false"/>
+    <uses-feature android:name="android.hardware.location.gps" android:required="false"/>
+    <uses-feature android:name="android.hardware.location.network" android:required="false"/>
+    <uses-feature android:name="android.hardware.wifi" android:required="false"/>
+    <uses-feature android:name="android.hardware.telephony" android:required="false"/>
+    <uses-feature android:glEsVersion="0x20000" android:required="true"/>
+    <android:uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_CALL_LOG"/>
+    <application android:allowBackup="false" android:hardwareAccelerated="true" android:icon="@drawable/icon" android:label="@string/app_name" android:largeHeap="true" android:name="ru.ok.android.app.OdnoklassnikiApplication" android:theme="@style/Theme.Odnoklassniki">
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
+        <meta-data android:name="com.google.android.maps.v2.API_KEY" android:value="AIzaSyCwmW3mQ1dLKjCe6S5KmxnItCVwoOKoWCk"/>
+        <activity android:configChanges="orientation|screenSize" android:hardwareAccelerated="true" android:label="@string/app_name_ru" android:launchMode="singleTop" android:name="ru.ok.android.ui.activity.main.OdklActivity" android:theme="@style/Theme.Odnoklassniki.OdklActivity" android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="orientation|screenSize" android:name="ru.ok.android.ui.activity.main.LinksActivity" android:theme="@style/Theme.Odnoklassniki.Activity.Transparent.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="m.odnoklassniki.ru" android:scheme="odnoklassniki"/>
+                <data android:host="m.ok.ru" android:scheme="odnoklassniki"/>
+                <data android:host="odnoklassniki.ru" android:scheme="odnoklassniki"/>
+                <data android:host="ok.ru" android:scheme="odnoklassniki"/>
+                <data android:host="www.odnoklassniki.ru" android:scheme="odnoklassniki"/>
+                <data android:host="www.ok.ru" android:scheme="odnoklassniki"/>
+                <data android:host="www.odnoklassniki.ru" android:scheme="http"/>
+                <data android:host="m.odnoklassniki.ru" android:scheme="http"/>
+                <data android:host="www.ok.ru" android:scheme="http"/>
+                <data android:host="m.ok.ru" android:scheme="http"/>
+                <data android:host="odnoklassniki.ru" android:scheme="http"/>
+                <data android:host="ok.ru" android:scheme="http"/>
+                <data android:host="www.odnoklassniki.ru" android:scheme="https"/>
+                <data android:host="m.odnoklassniki.ru" android:scheme="https"/>
+                <data android:host="www.ok.ru" android:scheme="https"/>
+                <data android:host="m.ok.ru" android:scheme="https"/>
+                <data android:host="odnoklassniki.ru" android:scheme="https"/>
+                <data android:host="ok.ru" android:scheme="https"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="orientation|screenSize" android:excludeFromRecents="true" android:name="ru.ok.android.ui.activity.RequestPermissionsActivity" android:theme="@style/Theme.Odnoklassniki.Activity.Transparent.NoActionBar"/>
+        <activity android:configChanges="orientation|screenSize" android:name="ru.ok.android.ui.activity.UserMusicActivity"/>
+        <activity android:configChanges="orientation|screenSize" android:name="ru.ok.android.ui.nativeRegistration.NativeLoginActivity" android:theme="@style/Theme.Odnoklassniki.NativeLoginActivity" android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity android:configChanges="orientation|screenSize" android:exported="false" android:name="ru.ok.android.ui.nativeRegistration.TallTitleFullHeightShowDialogFragmentActivity" android:theme="@style/Theme.Odnoklassniki.Activity.White.Toolbar" android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity android:configChanges="orientation|screenSize" android:name="ru.ok.android.ui.nativeRegistration.CountryCodeListActivity" android:theme="@style/Theme.Odnoklassniki.Activity.White.Toolbar" android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity android:configChanges="screenSize" android:name="ru.ok.android.ui.nativeRegistration.FirstEnterActivity" android:theme="@style/Theme.Odnoklassniki.NativeLoginActivity" android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity android:configChanges="orientation|screenSize" android:name="ru.ok.android.billing.BillingActivity" android:theme="@style/Theme.Odnoklassniki.Activity.Transparent.NoActionBar"/>
+        <activity android:configChanges="orientation|screenSize" android:excludeFromRecents="true" android:label="@string/app_name_ru" android:name="ru.ok.android.ui.activity.EditStatusActivity" android:taskAffinity="ru.ok.android.status.task" android:windowSoftInputMode="adjustResize"/>
+        <activity android:excludeFromRecents="true" android:label="@string/settings" android:name="ru.ok.android.ui.settings.SettingsActivity" android:taskAffinity="ru.ok.android.settings.task">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="orientation|screenSize" android:hardwareAccelerated="true" android:name="ru.ok.android.ui.search.activity.SearchActivity" android:theme="@style/Theme.Odnoklassniki.Search" android:windowSoftInputMode="stateAlwaysVisible|adjustResize"/>
+        <activity android:configChanges="orientation|screenSize" android:name="ru.ok.android.ui.activity.ShowFragmentActivity" android:windowSoftInputMode="adjustUnspecified|stateUnspecified"/>
+        <activity android:configChanges="orientation|screenSize" android:name="ru.ok.android.ui.users.activity.RecommendedUsersActivity" android:windowSoftInputMode="adjustUnspecified|stateUnspecified"/>
+        <activity android:configChanges="orientation|screenSize" android:exported="true" android:name="ru.ok.android.ui.activity.main.OdklSubActivity" android:theme="@style/Theme.Odnoklassniki" android:windowSoftInputMode="adjustUnspecified|stateUnspecified"/>
+        <activity android:configChanges="orientation|screenSize" android:exported="true" android:name="ru.ok.android.ui.activity.NotificationsActivity" android:theme="@style/Theme.Odnoklassniki" android:windowSoftInputMode="adjustUnspecified|stateUnspecified"/>
+        <activity android:configChanges="orientation|screenSize" android:exported="false" android:name="ru.ok.android.ui.activity.MarksActivity" android:theme="@style/Theme.Odnoklassniki" android:windowSoftInputMode="adjustUnspecified|stateUnspecified"/>
+        <activity android:configChanges="orientation|screenSize" android:exported="false" android:name="ru.ok.android.ui.activity.GuestsActivity" android:theme="@style/Theme.Odnoklassniki" android:windowSoftInputMode="adjustUnspecified|stateUnspecified"/>
+        <activity android:configChanges="orientation|screenSize" android:exported="false" android:name="ru.ok.android.ui.activity.FriendsActivity" android:theme="@style/Theme.Odnoklassniki.WhiteBackground" android:windowSoftInputMode="adjustUnspecified|stateUnspecified"/>
+        <activity android:configChanges="orientation|screenSize" android:exported="false" android:name="ru.ok.android.ui.activity.ExternalUrlActivity" android:theme="@style/Theme.Odnoklassniki" android:windowSoftInputMode="adjustUnspecified|stateUnspecified"/>
+        <activity android:configChanges="orientation|screenSize" android:exported="true" android:name="ru.ok.android.ui.activity.PresentsActivity" android:theme="@style/Theme.Odnoklassniki" android:windowSoftInputMode="adjustUnspecified|stateUnspecified"/>
+        <activity android:configChanges="orientation|screenSize" android:exported="false" android:name="ru.ok.android.ui.activity.PaymentActivity" android:theme="@style/Theme.Odnoklassniki" android:windowSoftInputMode="adjustUnspecified|stateUnspecified"/>
+        <activity android:configChanges="orientation|screenSize" android:exported="false" android:name="ru.ok.android.ui.activity.AdmanBannersActivity" android:theme="@style/Theme.Odnoklassniki" android:windowSoftInputMode="adjustUnspecified|stateUnspecified"/>
+        <activity android:configChanges="orientation|screenSize" android:name="ru.ok.android.ui.settings.SettingsProfileActivity" android:windowSoftInputMode="adjustUnspecified|stateUnspecified"/>
+        <activity android:configChanges="orientation|screenSize" android:name="ru.ok.android.ui.activity.PlayerActivity" android:theme="@style/Theme.Odnoklassniki.MusicPlayer"/>
+        <activity android:configChanges="orientation|screenSize" android:name="ru.ok.android.ui.activity.PlayListActivity" android:theme="@style/Theme.Odnoklassniki.DarkActionBar"/>
+        <activity android:configChanges="orientation|screenSize" android:name="ru.ok.android.ui.activity.ShowDialogFragmentActivity" android:theme="@style/Theme.Odnoklassniki.Activity.Select.Friends" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="orientation|screenSize" android:launchMode="singleTop" android:name="ru.ok.android.ui.activity.PhoneCallActivity" android:theme="@android:style/Theme.NoTitleBar"/>
+        <activity android:configChanges="orientation|screenSize" android:name="ru.ok.android.ui.nativeRegistration.UpdateUserInfoActivity" android:theme="@style/Theme.Odnoklassniki.NativeLoginActivity" android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity android:exported="true" android:name="ru.ok.android.ui.users.activity.ProfileUserActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="vnd.android.cursor.item/vnd.ru.ok.android.profile"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="ru.ok.android.ui.groups.activity.ProfileGroupsActivity"/>
+        <activity android:configChanges="keyboard|orientation|screenSize" android:exported="true" android:name="ru.ok.android.ui.messaging.activity.MessagesActivity">
+            <intent-filter android:icon="@drawable/ic_contacts_send_message">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="vnd.android.cursor.item/vnd.ru.ok.android.messages"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="ru.ok.android.ui.messaging.activity.PayStickersActivity" android:theme="@style/Theme.Odnoklassniki.Activity.Transparent"/>
+        <activity android:exported="false" android:name="ru.ok.android.ui.image.AddImagesActivity" android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:hardwareAccelerated="true" android:name="ru.ok.android.ui.image.PrepareImagesActivity" android:theme="@style/Theme.Odnoklassniki.DarkActionBar"/>
+        <activity android:configChanges="orientation|screenSize" android:hardwareAccelerated="false" android:name="ru.ok.android.ui.image.crop.CropImageActivity"/>
+        <activity android:configChanges="orientation|screenSize" android:name="ru.ok.android.ui.image.pick.PickFromCameraActivity" android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:configChanges="orientation|screenSize" android:launchMode="singleTask" android:name="ru.ok.android.ui.image.ImageUploadStatusActivity" android:theme="@style/Theme.Odnoklassniki.DarkActionBar" android:windowSoftInputMode="stateHidden"/>
+        <activity android:configChanges="orientation|screenSize" android:exported="true" android:hardwareAccelerated="false" android:name="ru.ok.android.external.LoginExternal" android:theme="@style/Theme.Odnoklassniki.LoginActivity"/>
+        <activity android:configChanges="orientation|screenSize" android:name="ru.ok.android.ui.NotLoggedInWebActivity" android:theme="@style/Theme.Odnoklassniki.NativeLoginActivity" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="orientation|screenSize" android:name="ru.ok.android.ui.video.activity.VideoActivity" android:theme="@style/Theme.Odnoklassniki.DarkActionBar"/>
+        <activity android:configChanges="keyboard|orientation|screenSize" android:hardwareAccelerated="true" android:name="ru.ok.android.ui.image.view.StreamPhotosLayerActivity" android:theme="@style/Theme.Odnoklassniki.PhotoLayer.Transparent"/>
+        <activity android:hardwareAccelerated="true" android:name="ru.ok.android.ui.image.view.PhotoAlbumsActivity" android:theme="@style/Theme.Odnoklassniki.DarkActionBar" android:windowSoftInputMode="adjustPan|stateHidden"/>
+        <activity android:name="ru.ok.android.ui.activity.TestSettingsActivity" android:theme="@style/Theme.Odnoklassniki"/>
+        <activity android:configChanges="orientation|screenSize" android:name="ru.ok.android.ui.users.activity.UsersLikesActivity"/>
+        <activity android:name="ru.ok.android.ui.users.activity.SelectFriendsActivity" android:theme="@style/Theme.Odnoklassniki.Activity.Select.Friends"/>
+        <activity android:exported="false" android:name="ru.ok.android.ui.messaging.activity.SelectFriendsForChatActivity" android:theme="@style/Theme.Odnoklassniki.Activity.Select.Friends"/>
+        <activity android:exported="false" android:name="ru.ok.android.ui.messaging.activity.SelectConversationForSendMediaActivity"/>
+        <activity android:hardwareAccelerated="true" android:name="ru.ok.android.ui.activity.MediaComposerActivity"/>
+        <activity-alias android:label="@string/media_composer_user_title" android:name="ru.ok.android.ui.activity.MediaComposerUserActivity" android:targetActivity="ru.ok.android.ui.activity.MediaComposerActivity"/>
+        <activity-alias android:label="@string/media_composer_group_title" android:name="ru.ok.android.ui.activity.MediaComposerGroupActivity" android:targetActivity="ru.ok.android.ui.activity.MediaComposerActivity"/>
+        <activity android:exported="false" android:name="ru.ok.android.ui.activity.ShareImageTopicActivity"/>
+        <activity android:configChanges="keyboard|orientation|screenSize" android:hardwareAccelerated="true" android:name="ru.ok.android.ui.places.PlacesActivity"/>
+        <activity android:configChanges="keyboard|screenSize" android:hardwareAccelerated="true" android:name="ru.ok.android.ui.places.AddPlaceActivity"/>
+        <activity android:configChanges="keyboard|orientation|screenSize" android:hardwareAccelerated="true" android:name="ru.ok.android.ui.places.CategoryActivity"/>
+        <activity android:exported="true" android:launchMode="singleTop" android:name="ru.ok.android.ui.activity.MediaTopicStatusActivity"/>
+        <activity-alias android:exported="true" android:label="@string/media_composer_user_title" android:name="ru.ok.android.ui.activity.MediaTopicUserStatusActivity" android:targetActivity="ru.ok.android.ui.activity.MediaTopicStatusActivity">
+            <meta-data android:name="send_action_label" android:value="@string/media_composer_send_update"/>
+            <meta-data android:name="blank_text_hint" android:value="@string/mediatopic_type_text_hint_user"/>
+        </activity-alias>
+        <activity-alias android:exported="true" android:label="@string/media_composer_group_title" android:name="ru.ok.android.ui.activity.MediaTopicGroupStatusActivity" android:targetActivity="ru.ok.android.ui.activity.MediaTopicStatusActivity">
+            <meta-data android:name="send_action_label" android:value="@string/media_composer_send_update"/>
+            <meta-data android:name="blank_text_hint" android:value="@string/mediatopic_type_text_hint_group"/>
+        </activity-alias>
+        <activity android:label="@string/file_upload_alert_title" android:name="ru.ok.android.ui.activity.StartVideoUploadActivity">
+            <intent-filter>                
+<action android:name="android.intent.action.SEND"/>                
+<category android:name="android.intent.category.DEFAULT"/>                
+<data android:mimeType="video/*"/>            
+</intent-filter>
+        </activity>
+        <activity android:exported="true" android:launchMode="singleTop" android:name="ru.ok.android.ui.activity.VideoUploadStatusActivity"/>
+        <activity android:configChanges="orientation|screenSize" android:name="ru.ok.android.ui.activity.ChoiceMusicActivity"/>
+        <activity android:label="@string/poll_editor_title" android:name="ru.ok.android.ui.activity.PollActivity"/>
+        <activity android:name="ru.ok.android.ui.users.activity.SelectFriendsFilteredActivity" android:theme="@style/Theme.Odnoklassniki.Activity.Select.Friends"/>
+        <activity android:name="ru.ok.android.ui.groups.activity.SelectFriendsForGroupActivity" android:theme="@style/Theme.Odnoklassniki.Activity.Select.Friends"/>
+        <activity-alias android:label="@string/select_with_friends_title" android:name="ru.ok.android.ui.users.activity.CheckFriendsFilteredActivity" android:targetActivity="ru.ok.android.ui.users.activity.SelectFriendsFilteredActivity"/>
+        <activity-alias android:label="@string/select_friends" android:name="ru.ok.android.ui.users.activity.ChooseFriendsFilteredActivity" android:targetActivity="ru.ok.android.ui.users.activity.SelectFriendsFilteredActivity"/>
+        <activity android:hardwareAccelerated="true" android:name="ru.ok.android.ui.image.pick.PickImagesActivity" android:theme="@style/Theme.Odnoklassniki.DarkActionBar"/>
+        <activity android:exported="true" android:name="ru.ok.android.db.DbFailureActivity"/>
+        <activity android:configChanges="orientation|screenSize" android:name="ru.ok.android.ui.VerificationActivity" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="keyboard|orientation|screenSize" android:hardwareAccelerated="true" android:name="ru.ok.android.ui.image.view.AttachPhotosLayerActivity" android:theme="@style/Theme.Odnoklassniki.PhotoLayer.Transparent"/>
+        <activity android:exported="false" android:name="ru.ok.android.ui.users.activity.SearchFriendsActivity" android:theme="@style/Theme.Odnoklassniki.Activity.Select.Friends"/>
+        <activity android:name="ru.ok.android.ui.polls.AppPollsActivity"/>
+        <activity android:exported="true" android:label="@string/share_to_ok" android:name="ru.ok.android.ui.activity.ChooseImageUploadActivity" android:theme="@style/Theme.Odnoklassniki.Activity.Transparent.NoActionBar">
+            <intent-filter android:icon="@drawable/icon" android:label="@string/share_to_ok">
+                <action android:name="android.intent.action.SEND"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="image/*"/>
+            </intent-filter>
+            <intent-filter android:icon="@drawable/icon" android:label="@string/share_to_ok">
+                <action android:name="android.intent.action.SEND_MULTIPLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="image/*"/>
+            </intent-filter>
+            <intent-filter android:icon="@drawable/icon" android:label="@string/share_to_ok">
+                <action android:name="android.intent.action.SEND"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="text/plain"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="ru.ok.android.ui.messaging.activity.MessageEditActivity" android:windowSoftInputMode="adjustResize|stateUnchanged"/>
+        <activity android:name="ru.ok.android.ui.messaging.activity.MessageQuickReplyActivity" android:taskAffinity="ru.ok.android.quickreply.task" android:theme="@style/Theme.Odnoklassniki.Activity.Dialog.Transparent" android:windowSoftInputMode="adjustResize|stateVisible"/>
+        <activity android:name="ru.ok.android.ui.mediatopics.MediaTopicTextEditActivity" android:windowSoftInputMode="adjustResize|stateUnchanged"/>
+        <activity android:name="ru.ok.android.ui.presents.activity.PreloadSendPresentActivity" android:theme="@style/Theme.Odnoklassniki.Activity.FloatingDialog.NoDimmed"/>
+        <activity android:name="ru.ok.android.ui.presents.activity.PreloadPresentReceivedActivity" android:theme="@style/Theme.Odnoklassniki.Activity.FloatingDialog.NoDimmed"/>
+        <activity android:name="ru.ok.android.ui.presents.activity.PresentReceivedActivity" android:theme="@style/Theme.Odnoklassniki.Activity.FloatingDialog"/>
+        <activity android:name="ru.ok.android.ui.presents.activity.SendPresentActivity" android:theme="@style/Theme.Odnoklassniki.Activity.FloatingDialog" android:windowSoftInputMode="adjustNothing"/>
+        <service android:name="ru.ok.android.services.app.OdnoklassnikiService"/>
+        <service android:name="ru.ok.android.services.GoogleInfoService"/>
+        <service android:name="ru.ok.android.services.app.MusicService"/>
+        <service android:name="ru.mail.android.mytracker.campaign.CampaignService"/>
+        <provider android:authorities="ru.ok.android.provider" android:exported="false" android:name="ru.ok.android.db.provider.OdklProvider"/>
+        <receiver android:exported="true" android:name="ru.ok.android.receivers.InstallReceiver">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:label="@string/widget_odkl" android:name="ru.ok.android.widget.OdnoklassnikiWidgetProvider">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="ru.ok.android.widget.STATUS_CHANGED"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="ru.ok.android.widget.STATE_CHANGED"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/odnkl"/>
+        </receiver>
+        <receiver android:name="ru.ok.android.gcm.ReceiverGCM" android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
+                <category android:name="ru.ok.android"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="ru.ok.android.videochat.VideoChatBroadcastReceiver">
+            <intent-filter>
+                <action android:name="ru.ok.android.videochat.END_CALL"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:enabled="@bool/constant_size_widget_enabled" android:icon="@drawable/icon" android:label="@string/widget_music_one_row" android:name="ru.ok.android.widget.music.MusicOneRowWidget">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/widget_music_onerow_provider"/>
+        </receiver>
+        <receiver android:enabled="@bool/constant_size_widget_enabled" android:icon="@drawable/icon" android:label="@string/widget_music_two_rows" android:name="ru.ok.android.widget.music.MusicTwoRowsWidget">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/widget_music_tworows_provider"/>
+        </receiver>
+        <receiver android:enabled="@bool/resizable_widget_enabled" android:icon="@drawable/icon" android:label="@string/widget_music" android:name="ru.ok.android.widget.music.MusicResizableWidget">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/widget_music_resizable_provider"/>
+        </receiver>
+        <receiver android:name="ru.ok.android.widget.music.receiver.MusicCopyrightReceiver" android:priority="0">
+            <intent-filter>
+                <action android:name="copyright_error"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="false" android:name="ru.ok.android.services.app.NotifyReceiver" android:priority="0">
+            <intent-filter>
+                <action android:name="ru.ok.android.action.NOTIFY"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="ru.ok.android.receivers.ConnectivityReceiver">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:enabled="@bool/connectivity_immediate_enabled" android:name="ru.ok.android.receivers.ConnectivityReceiverImmediate">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE_IMMEDIATE"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="ru.ok.android.receivers.LanguageChangeReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.LOCALE_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <service android:name="ru.ok.android.services.persistent.PersistentTaskService"/>
+        <service android:enabled="true" android:exported="false" android:name="ru.ok.android.services.messages.MessagesService"/>
+        <service android:name="ru.ok.android.services.app.NotificationsService"/>
+        <service android:exported="false" android:name="ru.ok.android.services.app.messaging.OdklMessagingEventsService"/>
+        <service android:exported="false" android:name="ru.ok.android.services.app.upgrade.AppUpgradeService"/>
+        <service android:enabled="true" android:exported="true" android:name="ru.ok.android.services.sync.SyncContactsService">
+            <intent-filter>
+                <action android:name="android.content.SyncAdapter"/>
+            </intent-filter>
+            <meta-data android:name="android.content.SyncAdapter" android:resource="@xml/sync_contacts_adapter"/>
+            <meta-data android:name="android.provider.CONTACTS_STRUCTURE" android:resource="@xml/contacts"/>
+        </service>
+        <service android:name="ru.ok.android.services.sync.AuthenticatorService">
+            <intent-filter>
+                <action android:name="android.accounts.AccountAuthenticator"/>
+            </intent-filter>
+            <meta-data android:name="android.accounts.AccountAuthenticator" android:resource="@xml/accountauthenticator"/>
+        </service>
+        <receiver android:enabled="true" android:name="ru.ok.android.services.persistent.PersistentConnectivityReceiver">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:enabled="true" android:name="ru.ok.android.services.app.upgrade.AppUpgradeService$AppUpgradeReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED"/>
+            </intent-filter>
+        </receiver>
+        <provider android:authorities="ru.ok.android.persistent_tasks" android:enabled="true" android:exported="false" android:name="ru.ok.android.services.persistent.provider.PersistentTasksProvider"/>
+        <provider android:authorities="ru.ok.android.stat" android:enabled="true" android:exported="false" android:name="ru.ok.android.statistics.local.provider.StatisticsProvider"/>
+        <receiver android:name="ru.ok.android.services.app.remote.MusicIntentReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.MEDIA_BUTTON"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="io.github.eterverda.sntp.android.SNTPResetCacheReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.TIME_SET"/>
+            </intent-filter>
+        </receiver>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:name="com.google.android.gms.ads.AdActivity" android:theme="@android:style/Theme.Translucent"/>
+        <activity android:name="com.google.android.gms.ads.purchase.InAppPurchaseActivity" android:theme="@style/Theme.IAPTheme"/>
+        <service android:exported="false" android:name="io.github.eterverda.sntp.android.SNTPService"/>
+        <service android:name="ru.mail.libverify.gcm.GcmIntentService"/>
+        <service android:exported="false" android:name="ru.mail.libverify.gcm.GcmRegisterService"/>
+        <receiver android:exported="true" android:name="ru.mail.libverify.gcm.GcmBroadcastReceiver" android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
+                <category android:name="ru.mail.libverify"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:enabled="true" android:exported="true" android:name="ru.mail.libverify.sms.IncomingSmsReceiver">
+            <intent-filter android:priority="999">
+                <action android:name="android.provider.Telephony.SMS_RECEIVED"/>
+            </intent-filter>
+        </receiver>
+        <service android:enabled="true" android:exported="true" android:name="ru.mail.libverify.ipc.IpcMessageService" android:permission="android.permission.READ_SMS">
+            <intent-filter>
+                <action android:name="ru.mail.libverify.ipc.IpcMessageService"/>
+            </intent-filter>
+        </service>
+        <service android:enabled="true" android:exported="true" android:name="ru.mail.libverify.ipc.IpcNotificationService" android:permission="com.google.android.c2dm.permission.RECEIVE">
+            <intent-filter>
+                <action android:name="ru.mail.libverify.ipc.IpcNotificationService"/>
+            </intent-filter>
+        </service>
+        <service android:enabled="true" android:exported="false" android:name="ru.mail.libverify.notifications.NotificationService">
+            <intent-filter>
+                <action android:name="ru.mail.notifications.NotificationService"/>
+            </intent-filter>
+        </service>
+        <service android:enabled="true" android:exported="false" android:name="ru.mail.libverify.sms.SmsHandlingService">
+            <intent-filter>
+                <action android:name="ru.mail.sms.SmsHandlingService"/>
+            </intent-filter>
+        </service>
+        <receiver android:name="ru.mail.libverify.utils.NetworkStateReceiver">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="ru.mail.libverify.utils.ScreenStateReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.SCREEN_OFF"/>
+                <action android:name="android.intent.action.SCREEN_ON"/>
+            </intent-filter>
+        </receiver>
+        <service android:enabled="true" android:exported="false" android:name="ru.mail.libverify.utils.ScreenStateHandlingService">
+            <intent-filter>
+                <action android:name="ru.mail.utils.ScreenStateHandlingService"/>
+            </intent-filter>
+        </service>
+        <service android:enabled="true" android:exported="false" android:name="ru.mail.libverify.utils.VerificationService"/>
+        <service android:enabled="true" android:exported="false" android:name="ru.mail.libverify.utils.NetworkCheckService"/>
+        <activity android:clearTaskOnLaunch="true" android:excludeFromRecents="true" android:exported="false" android:launchMode="singleTask" android:name="ru.mail.libverify.notifications.SettingsActivity" android:noHistory="true" android:taskAffinity="ru.mail.libverify.notifications.SettingsActivity" android:theme="@style/libverify.Theme.Settings"/>
+        <activity android:clearTaskOnLaunch="true" android:configChanges="keyboardHidden|orientation|screenSize" android:excludeFromRecents="true" android:exported="false" android:launchMode="singleTask" android:name="ru.mail.libverify.notifications.SmsCodeNotificationActivity" android:noHistory="true" android:taskAffinity="ru.mail.libverify.notifications.SmsCodeNotificationActivity" android:theme="@style/libverify.Theme.Custom.Popup" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <service android:exported="false" android:name="ru.ok.android.onelog.UploadService">
+            <intent-filter>
+                <action android:name="ru.ok.android.onelog.action.UPLOAD"/>
+            </intent-filter>
+        </service>
+    </application>
+</manifest>

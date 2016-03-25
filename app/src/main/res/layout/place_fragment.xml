@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <fragment android:name="com.google.android.gms.maps.SupportMapFragment" android:id="@id/map_fragment" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/address_panel" android:background="@drawable/selector_bg" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/image" android:background="@drawable/avatar_background_item" android:padding="5.0dip" android:clickable="false" android:layout_width="60.0dip" android:layout_height="60.0dip" android:src="@drawable/geolocation_ico" />
+        <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/black_text" android:id="@id/text_address" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+    </LinearLayout>
+</LinearLayout>

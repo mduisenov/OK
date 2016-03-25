@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ok="http://schemas.android.com/apk/res-auto">
+    <ru.ok.android.ui.custom.imageview.AspectRatioGifAsMp4ImageView android:id="@id/gif_as_mp4_image" android:layout_width="fill_parent" android:layout_height="wrap_content" ok:aspectRatio="1.0" />
+</FrameLayout>

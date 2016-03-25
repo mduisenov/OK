@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="avatar_background_item">@drawable/selector_bg</item>
+    <item type="drawable" name="dark_ab_selector_gray">@drawable/selector_bg</item>
+    <item type="drawable" name="selector_bg_on_dark">@drawable/selector_bg</item>
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/playlist_song_item" android:background="@drawable/selector_bg" android:layout_width="fill_parent" android:layout_height="@dimen/card_height" android:minHeight="@dimen/card_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/dots_checkbox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignTop="@id/text_block" android:layout_alignParentRight="true">
+        <ImageView android:id="@id/dots" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/options_btn_padding_horizontal" android:layout_marginRight="@dimen/dots_right_margin" android:src="@drawable/ic_more_medium_xml" />
+        <ImageView android:id="@id/select_checkbox" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" android:src="@drawable/checkbox_material" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/rightLayout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/dots_checkbox" android:layout_alignTop="@id/dots_checkbox">
+        <ImageView android:layout_gravity="right" android:id="@id/play_image" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/playlist_notification" />
+        <TextView android:textSize="12.0sp" android:textStyle="normal" android:textColor="@color/conversation_time_text_color_selector" android:layout_gravity="right" android:id="@id/text_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/text_block" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_toLeftOf="@id/rightLayout" android:layout_alignParentLeft="true" android:layout_centerVertical="true">
+        <TextView android:textSize="16.0sp" android:textColor="@color/black_text" android:id="@id/text_track_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:includeFontPadding="false" android:layout_alignParentLeft="true" />
+        <TextView android:textSize="12.0sp" android:textStyle="normal" android:textColor="@color/playlist_track_text_color_selector" android:id="@id/text_artist_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:includeFontPadding="false" />
+    </LinearLayout>
+    <View android:id="@id/divider" android:background="@color/list_separator" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_alignParentBottom="true" />
+</RelativeLayout>

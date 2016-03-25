@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="feed_set_avatar_image_size">186.0dip</dimen>
+    <dimen name="stream_photo_height_land">288.0dip</dimen>
+    <dimen name="empty_view_text_margin">40.0dip</dimen>
+    <dimen name="mc_photo_size_in_block">96.0dip</dimen>
+    <dimen name="media_composer_toolbar_text_size">12.0sp</dimen>
+    <dimen name="ok_messaging_button_padding">10.0dip</dimen>
+    <dimen name="ok_messaging_button_text_size">14.0sp</dimen>
+    <dimen name="ok_messaging_message_text_size">14.0sp</dimen>
+    <dimen name="toolbar_menu_item_with">52.0dip</dimen>
+</resources>

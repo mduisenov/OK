@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/feed_header" android:background="@drawable/feed_card_top_selector_bg" android:paddingLeft="@dimen/feed_card_padding_total" android:paddingRight="@dimen/feed_card_margin_outer" android:paddingBottom="@dimen/feed_card_padding_inner" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/feed_header_options_btn" android:paddingLeft="@dimen/mt_options_left_padding" android:paddingTop="@dimen/options_btn_padding_vertical" android:paddingRight="@dimen/options_btn_padding_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_more_medium_xml" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/feed_card_padding_inner" android:layout_toLeftOf="@id/feed_header_options_btn" android:layout_alignParentLeft="true" android:layout_alignParentTop="true">
+        <ru.ok.android.ui.custom.layout.RelativeLayoutRounded android:layout_gravity="top" android:id="@id/avatar" android:layout_width="@dimen/feed_header_round_avatar" android:layout_height="@dimen/feed_header_round_avatar" app:roundingType="rounded" app:strokeColor="@color/grey_light" app:fillColor="@color/white" app:strokeWidth="1.0dip">
+            <com.facebook.drawee.view.SimpleDraweeView android:id="@id/icon" android:layout_width="18.0dip" android:layout_height="18.0dip" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+        </ru.ok.android.ui.custom.layout.RelativeLayoutRounded>
+        <TextView android:layout_gravity="center_vertical" android:id="@id/promo_link_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" />
+    </LinearLayout>
+</RelativeLayout>

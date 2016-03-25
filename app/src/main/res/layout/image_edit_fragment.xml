@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText android:id="@id/comment" android:background="@drawable/textfield_slim_statelist" android:fadingEdge="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:layout_marginRight="30.0dip" android:hint="@string/sign_image" android:scrollHorizontally="true" android:singleLine="true" android:maxLength="255" android:layout_alignParentBottom="true" android:inputType="textCapSentences" style="@style/TextAppearance_DarkTheme_Edit" />
+    <ru.ok.android.ui.custom.PaddingBorderedBitmapView android:id="@id/image" android:padding="2.0dip" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="25.0dip" android:scaleType="centerInside" android:layout_above="@id/comment" />
+    <RelativeLayout android:id="@id/image_placeholder" android:background="@drawable/photo_sharp_bg_tiled" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="30.0dip" android:layout_above="@id/comment">
+        <LinearLayout android:orientation="vertical" android:id="@id/error_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:layout_width="fill_parent" android:layout_height="0.0dip" android:src="@drawable/image_broken" android:scaleType="centerInside" android:layout_weight="2.0" />
+            <TextView android:textSize="20.0sp" android:textColor="#ff1d1d1d" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/error" android:layout_width="wrap_content" android:layout_height="0.0dip" android:text="@string/unable_to_load_image" android:shadowColor="@android:color/black" android:shadowDy="1.0" android:shadowRadius="1.0" android:layout_weight="1.0" />
+        </LinearLayout>
+        <ImageView android:id="@id/image_default" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/photo_cover_bg" android:scaleType="centerInside" />
+    </RelativeLayout>
+    <View android:id="@id/remove" android:background="@drawable/remove_icon" android:visibility="gone" android:layout_width="30.0dip" android:layout_height="30.0dip" />
+</RelativeLayout>

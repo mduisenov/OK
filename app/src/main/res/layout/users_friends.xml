@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/pull_to_refresh_bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ru.ok.android.ui.swiperefresh.OkSwipeRefreshLayout android:id="@id/swipe_refresh" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <android.support.v7.widget.RecyclerView android:id="@id/list" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:cacheColorHint="@color/white" style="@style/CardList" />
+            <ru.ok.android.ui.custom.emptyview.SmartEmptyViewAnimated android:id="@id/empty_view" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/SmartEmptyViewAnimatedWithTabbarAndScroll" />
+        </FrameLayout>
+    </ru.ok.android.ui.swiperefresh.OkSwipeRefreshLayout>
+</FrameLayout>

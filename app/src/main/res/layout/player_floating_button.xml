@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ru.ok.android.music.view.FloatingPlayerButton android:layout_gravity="bottom|center|right" android:background="@drawable/ic_fab_button_orange" android:padding="7.0dip" android:visibility="invisible" android:clickable="true" android:layout_width="71.0dip" android:layout_height="71.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="58.0dip" android:scaleType="centerCrop"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

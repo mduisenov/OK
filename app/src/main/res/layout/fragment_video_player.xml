@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/root" android:layout_width="fill_parent" android:layout_height="fill_parent" android:animateLayoutChanges="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ru.ok.android.ui.video.player.VideoSurfaceView android:layout_gravity="center" android:id="@id/surface_view" android:fitsSystemWindows="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <View android:id="@id/gradient_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+    <ru.ok.android.ui.video.player.FitSystemControlsFrameLayout android:id="@id/player_controls_anchor" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ProgressBar android:layout_gravity="center" android:id="@id/loading_spinner" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <ImageButton android:layout_gravity="center" android:id="@id/repeat" android:visibility="gone" android:src="@drawable/ic_repeat" style="@android:style/MediaButton.Play" />
+        <ViewStub android:layout_gravity="center" android:id="@id/error_stub" android:layout="@layout/error_text_stub" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </ru.ok.android.ui.video.player.FitSystemControlsFrameLayout>
+</FrameLayout>

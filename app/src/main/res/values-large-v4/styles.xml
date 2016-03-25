@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="OrientationLayout">
+        <item name="android:orientation">vertical</item>
+    </style>
+    <style name="OrientationLayoutInverse">
+        <item name="android:orientation">horizontal</item>
+    </style>
+    <style name="WeightLandscape" />
+    <style name="Base.Theme.AppCompat.DialogWhenLarge" parent="@style/Base.Theme.AppCompat.Dialog.FixedSize" />
+    <style name="Base.Theme.AppCompat.Light.DialogWhenLarge" parent="@style/Base.Theme.AppCompat.Light.Dialog.FixedSize" />
+    <style name="Theme.Odnoklassniki.Activity.Select.Friends" parent="@style/Theme.Odnoklassniki.Activity.Dialog" />
+    <style name="Widget.Styled.ActionBar.Search" parent="@style/Widget.Styled.ActionBar" />
+</resources>

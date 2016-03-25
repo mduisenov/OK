@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:paddingLeft="@dimen/user_list_item_left_margin" android:paddingTop="@dimen/user_list_item_vmargin" android:paddingRight="@dimen/user_list_item_right_margin" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ok="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/image_layout" android:padding="5.0dip" android:layout_width="60.0dip" android:layout_height="60.0dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true">
+        <ru.ok.android.ui.custom.imageview.UrlImageView android:id="@id/image" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_centerVertical="true" ok:backgroundImage="@color/white" />
+    </FrameLayout>
+    <TextView android:textSize="@dimen/c_bubble_menu_text_size" android:textColor="@android:color/white" android:gravity="center" android:id="@id/notify" android:background="@drawable/c_bubble_menu_big_green" android:paddingLeft="4.0dip" android:paddingRight="4.0dip" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="14.0dip" android:maxLength="15" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:textIsSelectable="false" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="5.0dip" android:layout_toLeftOf="@id/notify" android:layout_toRightOf="@id/image_layout" android:layout_alignParentRight="true" android:layout_centerInParent="true">
+        <TextView android:textSize="14.0sp" android:textColor="@color/black_text" android:id="@id/text_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minWidth="100.0dip" android:singleLine="true" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/playlist_text_color" android:gravity="top" android:id="@id/text_disc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minWidth="100.0dip" android:text="" android:singleLine="true" android:layout_below="@id/text_title" />
+    </RelativeLayout>
+    <View android:id="@id/divider" android:background="@color/list_separator" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_alignParentBottom="true" />
+</RelativeLayout>

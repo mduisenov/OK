@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/theme_dark_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:id="@id/controls" android:background="@color/theme_dark_bg" android:padding="4.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="45.0dip" android:layout_alignParentBottom="true">
+        <Button android:id="@id/pause" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/hold" android:layout_weight="1.0" style="@style/actionviewButton" />
+        <ru.ok.android.ui.custom.ButtonBar android:orientation="horizontal" android:id="@id/pause_bar" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <Button android:id="@id/resume" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/resume" android:layout_weight="1.0" style="@style/actionviewButton" />
+            <Button android:id="@id/cancel" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/cancel" android:layout_weight="1.0" style="@style/actionviewButton" />
+        </ru.ok.android.ui.custom.ButtonBar>
+        <Button android:id="@id/to_album" android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/to_album" android:layout_weight="1.0" style="@style/actionviewButton" />
+    </LinearLayout>
+    <ru.ok.android.ui.custom.ImageUploadStatusView android:id="@id/single_upload" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="30.0dip" android:layout_above="@id/controls" />
+    <com.tonicartos.widget.stickygridheaders.StickyGridHeadersGridView android:id="@id/uploads" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="4.0dip" android:listSelector="@drawable/black_glow_border_statelist" android:drawSelectorOnTop="true" android:stretchMode="spacingWidth" android:columnWidth="@dimen/gallery_image_tile_side_min" android:numColumns="auto_fit" android:layout_above="@id/controls" android:smoothScrollbar="true" />
+    <TextView android:textSize="18.0sp" android:id="@android:id/empty" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/uploads_list_empty" android:layout_centerInParent="true" />
+</RelativeLayout>

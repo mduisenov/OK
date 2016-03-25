@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="cache_music_keys">
+        <item>Всю музыку</item>
+        <item>Только мою музыку</item>
+        <item>Не кэшировать</item>
+    </string-array>
+    <string-array name="ccl_prefs_caption_color_names">
+        <item>White</item>
+        <item>Black</item>
+        <item>Red</item>
+        <item>Yellow</item>
+        <item>Green</item>
+        <item>Cyan</item>
+        <item>Blue</item>
+        <item>Magenta</item>
+    </string-array>
+    <string-array name="ccl_prefs_caption_color_values">
+        <item>\#FFFFFF</item>
+        <item>\#000000</item>
+        <item>\#FF0000</item>
+        <item>\#FFFF00</item>
+        <item>\#00FF00</item>
+        <item>\#00FFFF</item>
+        <item>\#0000FF</item>
+        <item>\#FF00FF</item>
+    </string-array>
+    <string-array name="ccl_prefs_caption_edge_type_names">
+        <item>None</item>
+        <item>Outline</item>
+        <item>Drop Shadow</item>
+    </string-array>
+    <string-array name="ccl_prefs_caption_edge_type_values">
+        <item>EDGE_TYPE_NONE</item>
+        <item>EDGE_TYPE_OUTLINE</item>
+        <item>EDGE_TYPE_DROP_SHADOW</item>
+    </string-array>
+    <string-array name="ccl_prefs_caption_font_family_names">
+        <item>San-serif</item>
+        <item>Serif</item>
+        <item>Monospace</item>
+    </string-array>
+    <string-array name="ccl_prefs_caption_font_family_values">
+        <item>FONT_FAMILY_SANS_SERIF</item>
+        <item>FONT_FAMILY_SERIF</item>
+        <item>FONT_FAMILY_MONOSPACED_SANS_SERIF</item>
+    </string-array>
+    <string-array name="ccl_prefs_caption_font_scale_names">
+        <item>Very Small</item>
+        <item>Small</item>
+        <item>Normal</item>
+        <item>Large</item>
+        <item>Very Large</item>
+    </string-array>
+    <string-array name="ccl_prefs_caption_font_scale_values">
+        <item>0.5</item>
+        <item>0.75</item>
+        <item>1.0</item>
+        <item>1.5</item>
+        <item>2.0</item>
+    </string-array>
+    <string-array name="ccl_prefs_caption_opacity_names">
+        <item>25%</item>
+        <item>50%</item>
+        <item>75%</item>
+        <item>100%</item>
+    </string-array>
+    <string-array name="ccl_prefs_caption_opacity_values">
+        <item>3F</item>
+        <item>80</item>
+        <item>BF</item>
+        <item>FF</item>
+    </string-array>
+    <string-array name="deep_link_install_urls">
+        <item>none</item>
+        <item>https://play.google.com/store/apps/details?id=com.facebook.katana</item>
+        <item>https://play.google.com/store/apps/details?id=com.twitter.android</item>
+        <item>https://play.google.com/store/apps/details?id=com.google.android.apps.plus</item>
+        <item>https://play.google.com/store/apps/details?id=com.pinterest</item>
+        <item>https://play.google.com/store/apps/details?id=com.instagram.android</item>
+        <item>https://play.google.com/store/apps/details?id=com.google.android.youtube</item>
+        <item>https://play.google.com/store/apps/details?id=com.yelp.android</item>
+        <item>https://play.google.com/store/apps/details?id=ru.ok.android</item>
+    </string-array>
+    <string-array name="deep_link_names">
+        <item>Выключено</item>
+        <item>Facebook</item>
+        <item>Twitter</item>
+        <item>Google+</item>
+        <item>Pinterest</item>
+        <item>Instagram</item>
+        <item>YouTube</item>
+        <item>Yelp</item>
+        <item>Одноклассники</item>
+        <item>Свой вариант</item>
+    </string-array>
+    <string-array name="deep_link_urls">
+        <item>none</item>
+        <item>fb://profile/439304466091585</item>
+        <item>twitter://user?screen_name=_odnoklassniki</item>
+        <item>gplus://plus.google.com/101597204835056201255/about</item>
+        <item>pinterest://www.pinterest.com/pin/237705686559994049</item>
+        <item>http://instagram.com/p/-PbCTaAlEF</item>
+        <item>http://www.youtube.com/ok</item>
+        <item>http://www.yelp.com/biz/stanford-university-stanford</item>
+        <item>odnoklassniki://ok.ru/vokru</item>
+        <item>none</item>
+    </string-array>
+    <string-array name="deep_link_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+    </string-array>
+    <string-array name="discussion_notifications_pos_keys">
+        <item>Сбрасывать вручную</item>
+        <item>Автоматически при переходе в другой раздел</item>
+    </string-array>
+    <string-array name="gender_array_keys">
+        <item>Женщина</item>
+        <item>Мужчина</item>
+    </string-array>
+    <string-array name="group_avatar_actions">
+        <item>Загрузить</item>
+        <item>Посмотреть</item>
+    </string-array>
+    <string-array name="libverify_block_notification_names">
+        <item>@string/block_for_one_day_text</item>
+        <item>@string/block_for_one_hour_text</item>
+        <item>@string/block_for_one_minute_text</item>
+    </string-array>
+    <string-array name="libverify_block_notification_values">
+        <item>86400</item>
+        <item>3600</item>
+        <item>60</item>
+    </string-array>
+    <string-array name="month_array">
+        <item>января</item>
+        <item>февраля</item>
+        <item>марта</item>
+        <item>апреля</item>
+        <item>мая</item>
+        <item>июня</item>
+        <item>июля</item>
+        <item>августа</item>
+        <item>сентября</item>
+        <item>октября</item>
+        <item>ноября</item>
+        <item>декабря</item>
+    </string-array>
+    <string-array name="month_array_short">
+        <item>янв</item>
+        <item>фев</item>
+        <item>мар</item>
+        <item>апр</item>
+        <item>мая</item>
+        <item>июн</item>
+        <item>июл</item>
+        <item>авг</item>
+        <item>сен</item>
+        <item>окт</item>
+        <item>ноя</item>
+        <item>дек</item>
+    </string-array>
+    <string-array name="music_cache_pos_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="photo_upload_header_selection">
+        <item>К альбому</item>
+        <item>К группе</item>
+    </string-array>
+    <string-array name="test_pref_environment_keys">
+        <item>Custom</item>
+        <item>Production</item>
+        <item>Test</item>
+        <item>Dev</item>
+    </string-array>
+    <string-array name="test_pref_environment_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="user_avatar_actions">
+        <item>Выбрать из личных</item>
+        <item>Загрузить</item>
+        <item>Посмотреть</item>
+    </string-array>
+    <string-array name="user_avatar_actions_native">
+        <item>Выбрать из личных</item>
+        <item>Загрузить</item>
+    </string-array>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ru.ok.android.ui.measuredobserver.MeasureObservableLinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.facebook.drawee.view.SimpleDraweeView android:layout_gravity="top" android:id="@id/avatar_view" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/FrescoRectImage.ProfileAvatar" />
+        <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:background="@drawable/bg_profile_shape" android:paddingTop="100.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" android:layout_marginBottom="12.0dip">
+                <include android:id="@id/information_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" layout="@layout/profile_information" />
+                <ru.ok.android.ui.custom.imageview.CarouselPresentsImageView android:layout_gravity="bottom|center|right" android:id="@id/present" android:visibility="gone" android:layout_width="@dimen/profile_present_big" android:layout_height="@dimen/profile_present_big" android:scaleType="centerCrop" />
+            </LinearLayout>
+            <include android:id="@id/button_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" android:layout_marginBottom="12.0dip" android:layout_alignParentLeft="true" android:layout_alignParentRight="true" layout="@layout/profile_buttons" />
+            <View android:id="@id/divider" android:background="#ff404040" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="1.0px" />
+            <ru.ok.android.ui.custom.profiles.HorizontalItemsView android:id="@id/sections_horizontal" android:background="#30000000" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_alignParentLeft="true" />
+        </LinearLayout>
+    </FrameLayout>
+    <ru.ok.android.ui.custom.profiles.StatusView android:id="@id/user_status" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="0.0dip" />
+    <include layout="@layout/profile_friends_stub" />
+</ru.ok.android.ui.measuredobserver.MeasureObservableLinearLayout>

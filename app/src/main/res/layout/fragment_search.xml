@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ru.ok.android.ui.custom.emptyview.SmartEmptyViewAnimated android:id="@id/empty_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ru.ok.android.ui.custom.SearchListView android:id="@id/list" android:background="@android:color/white" android:visibility="gone" style="@style/CardList" />
+</RelativeLayout>

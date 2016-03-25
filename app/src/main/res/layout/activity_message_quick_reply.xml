@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ru.ok.android.ui.messaging.views.FrameEmojiQuickReplyLayout android:layout_gravity="center" android:id="@id/root" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:background="@drawable/selector_bg" android:paddingLeft="12.0dip" android:paddingTop="10.0dip" android:paddingRight="12.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:onClick="onHeaderClicked">
+            <include android:id="@id/avatar_container" android:layout_width="@dimen/size_avatars_w" android:layout_height="@dimen/size_avatars_h" android:layout_alignParentLeft="true" android:layout_centerVertical="true" layout="@layout/online_avatar_view" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/grey_3" android:id="@id/date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_toLeftOf="@id/date" android:layout_toRightOf="@id/avatar_container" android:layout_centerInParent="true">
+                <TextView android:textSize="14.0sp" android:textColor="@color/grey_5" android:id="@id/name" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <ru.ok.android.emoji.view.EmojiTextView android:textSize="12.0sp" android:textColor="@color/grey_3" android:ellipsize="end" android:id="@id/incoming_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" />
+            </LinearLayout>
+        </RelativeLayout>
+        <EditText android:textColor="@color/grey_5" android:gravity="center|left|top" android:id="@id/message" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginLeft="12.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="12.0dip" android:lines="5" android:layout_weight="1.0" android:inputType="textAutoCorrect|textCapSentences|textImeMultiLine|textMultiLine" android:imeOptions="flagNoExtractUi" />
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <CheckBox android:layout_gravity="center|left" android:id="@id/add_smile_checkbox" android:background="@drawable/btn_smile_item" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:button="@null" android:width="50.0dip" />
+            <ru.ok.android.ui.custom.ImageFadeButton android:enabled="false" android:layout_gravity="center|right" android:id="@id/send_button" android:background="@color/fade_button_color" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_marginRight="4.0dip" android:src="@drawable/ic_send" />
+        </FrameLayout>
+    </LinearLayout>
+</ru.ok.android.ui.messaging.views.FrameEmojiQuickReplyLayout>

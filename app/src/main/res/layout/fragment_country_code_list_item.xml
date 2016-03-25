@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="66.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="18.0sp" android:textColor="@color/gray_text" android:gravity="center_vertical" android:id="@id/first_letter_text" android:background="@color/white" android:padding="0.0dip" android:focusableInTouchMode="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/fragment_activity_left_right_padding" android:layout_marginRight="20.0dip" android:minEms="1" />
+    <TextView android:textSize="18.0sp" android:textColor="@color/black" android:gravity="center_vertical" android:id="@id/radio_button" android:background="@color/selector_bg" android:paddingRight="@dimen/fragment_activity_left_right_padding" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

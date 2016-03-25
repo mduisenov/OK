@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/actionbar_filter" android:id="@id/search_friends" android:title="@string/search_friends" app:showAsAction="ifRoom" />
+    <item android:icon="@drawable/ic_popup_shortcut" android:id="@id/create_shortcut_list" android:title="@string/conversation_shortcut" app:showAsAction="never" />
+</menu>

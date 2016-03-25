@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="slidingmenu_offset">500.0dip</dimen>
+    <dimen name="abc_search_view_text_min_width">192.0dip</dimen>
+    <item type="dimen" name="dialog_fixed_height_major">60.000004%</item>
+    <item type="dimen" name="dialog_fixed_height_minor">90.0%</item>
+    <item type="dimen" name="dialog_fixed_width_major">50.0%</item>
+    <item type="dimen" name="dialog_fixed_width_minor">70.00001%</item>
+    <dimen name="repeat_width">60.0dip</dimen>
+    <dimen name="gallery_album_row_height">125.0dip</dimen>
+    <dimen name="gallery_grid_spacing">4.0dip</dimen>
+    <dimen name="gallery_image_tile_side_min">150.0dip</dimen>
+    <item type="dimen" name="user_list_item_left_margin">@dimen/user_list_item_left_margin_extra</item>
+    <item type="dimen" name="user_list_item_right_margin">@dimen/user_list_item_right_margin_extra</item>
+    <item type="dimen" name="user_list_item_vmargin">@dimen/user_list_item_vmargin_extra</item>
+    <item type="dimen" name="feed_font_size_primary">@dimen/feed_font_size_normal</item>
+    <dimen name="hide_panel_icon_padding_note">8.0dip</dimen>
+    <dimen name="hide_panel_icon_padding_photo">8.0dip</dimen>
+    <dimen name="hide_panel_icon_padding_video">8.0dip</dimen>
+</resources>

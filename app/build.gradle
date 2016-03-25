@@ -1,0 +1,38 @@
+apply plugin: 'com.android.application'
+repositories {
+    maven { url 'https://raw.githubusercontent.com/eterverda/sntp/m2/' }
+}
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.2"
+
+    defaultConfig {
+        applicationId "ru.ok.android"
+        minSdkVersion 14
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+
+        // Enabling multidex support.
+        multiDexEnabled true
+    }
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+    compile project(':media-player')
+    compile 'com.android.support:appcompat-v7:23.2.1'
+    compile 'com.android.support:multidex:1.0.1'
+    compile 'io.github.eterverda.sntp:sntp-android:0.1.5'
+    compile 'com.facebook.fresco:fresco:0.9.0'
+    compile 'com.facebook.network.connectionclass:connectionclass:1.0.1'
+    compile 'com.google.android.libraries.cast.companionlibrary:ccl:2.8.2'
+    compile 'com.android.support:design:23.2.1'
+}

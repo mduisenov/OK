@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/actionbar_filter" android:id="@id/menu_search_music" android:title="@string/music_search" app:showAsAction="always|collapseActionView" app:actionViewClass="ru.ok.android.ui.custom.OkSearchView" />
+    <item android:id="@id/add" android:title="@string/multi_add_music" app:showAsAction="never" />
+    <item android:icon="@drawable/ic_ab_player" android:id="@id/player" android:visible="false" android:title="@string/player" app:showAsAction="always" />
+</menu>

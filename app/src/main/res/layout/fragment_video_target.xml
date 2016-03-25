@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ru.mail.android.mytarget.ads.MyTargetVideoView android:id="@id/target_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ProgressBar android:id="@id/loading_spinner" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    <ImageButton android:id="@id/play" android:background="@android:color/transparent" android:padding="24.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_player_play" android:layout_centerInParent="true" android:contentDescription="@string/description" />
+    <ProgressBar android:id="@id/progress" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="4.0dip" android:layout_margin="16.0dip" android:progressDrawable="@drawable/target_progress" android:layout_alignParentBottom="true" style="?android:attr/progressBarStyleHorizontal" />
+    <TextView android:textSize="16.0sp" android:textColor="#fff8ea05" android:id="@id/text_target" android:paddingRight="10.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:text="@string/advertising" android:layout_above="@id/progress" android:layout_alignParentLeft="true" />
+    <Button android:enabled="false" android:textSize="16.0sp" android:id="@id/target_finish_button" android:background="#8f161616" android:paddingLeft="15.0dip" android:paddingRight="15.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:layout_above="@id/progress" android:layout_alignParentRight="true" />
+</RelativeLayout>

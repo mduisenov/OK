@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ru.ok.android.ui.stream.view.FeedHeaderView android:id="@id/feed_header" android:background="@drawable/feed_card_top_selector_bg" android:paddingLeft="@dimen/feed_card_padding_total" android:paddingRight="@dimen/feed_card_margin_outer" android:paddingBottom="@dimen/feed_card_padding_inner" android:clipToPadding="false" android:addStatesFromChildren="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

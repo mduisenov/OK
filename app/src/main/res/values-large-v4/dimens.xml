@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="receive_present_buttons_margin">22.0dip</dimen>
+    <dimen name="receive_present_dialog_height">470.0dip</dimen>
+    <dimen name="receive_present_dialog_width">320.0dip</dimen>
+    <dimen name="receive_present_size">128.0dip</dimen>
+    <dimen name="receive_present_content_padding">30.0dip</dimen>
+    <dimen name="abc_config_prefDialogWidth">440.0dip</dimen>
+    <dimen name="abc_search_view_text_min_width">192.0dip</dimen>
+    <dimen name="album_tile">375.0dip</dimen>
+    <item type="dimen" name="dialog_fixed_height_major">60.000004%</item>
+    <item type="dimen" name="dialog_fixed_height_minor">90.0%</item>
+    <item type="dimen" name="dialog_fixed_width_major">60.000004%</item>
+    <item type="dimen" name="dialog_fixed_width_minor">90.0%</item>
+    <dimen name="fragment_activity_left_right_padding">66.0dip</dimen>
+    <dimen name="menu_item_height">56.0dip</dimen>
+    <dimen name="photo_tile">252.0dip</dimen>
+    <dimen name="receive_present_sender_text_size">20.0dip</dimen>
+    <dimen name="send_present_badge_buttons_padding">36.0dip</dimen>
+    <dimen name="send_present_buttons_padding">34.0dip</dimen>
+    <dimen name="send_present_card_badge_buttons_padding">36.0dip</dimen>
+    <dimen name="send_present_card_buttons_padding">34.0dip</dimen>
+    <dimen name="send_present_card_content_padding">38.0dip</dimen>
+    <dimen name="send_present_content_padding">38.0dip</dimen>
+    <dimen name="send_present_content_width">330.0dip</dimen>
+</resources>

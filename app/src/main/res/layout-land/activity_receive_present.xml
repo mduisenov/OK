@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/rootLayout" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:clickable="true" android:layout_width="@dimen/receive_present_dialog_width" android:layout_height="@dimen/receive_present_dialog_height" android:layout_centerInParent="true">
+        <FrameLayout android:id="@id/background" android:background="@drawable/present_card_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="24.0dip">
+            <RelativeLayout android:id="@id/content" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="@dimen/receive_present_sender_text_size" android:textColor="@color/black_2" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/sender_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/receive_present_content_padding" android:layout_marginTop="@dimen/receive_present_sender_margin" android:layout_marginRight="@dimen/receive_present_content_padding" />
+                    <View android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_weight="1.0" />
+                    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:id="@id/firstStateLayout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/receive_present_content_padding" android:layout_marginRight="@dimen/receive_present_content_padding">
+                        <RelativeLayout android:id="@id/card_background" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                            <ru.ok.android.ui.custom.CompositePresentView android:id="@id/present_pic" android:layout_width="@dimen/receive_present_size" android:layout_height="@dimen/receive_present_size" />
+                            <ru.ok.android.ui.stream.view.ProfilePresentTrackView android:id="@id/present_music" android:background="@null" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_musicgift_selector" android:layout_alignRight="@id/present_pic" android:layout_alignBottom="@id/present_pic" />
+                        </RelativeLayout>
+                        <ru.ok.android.ui.custom.text.HighlightTextView android:textSize="14.0dip" android:textColor="@color/black_2" android:id="@id/message" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:maxLines="4" />
+                    </LinearLayout>
+                    <RelativeLayout android:layout_gravity="center_horizontal" android:id="@id/secondStateLayout" android:visibility="gone" android:layout_width="210.0dip" android:layout_height="wrap_content">
+                        <ru.ok.android.ui.custom.imageview.RoundAvatarImageView android:enabled="false" android:id="@id/user_avatar" android:layout_width="160.0dip" android:layout_height="160.0dip" android:layout_centerInParent="true" />
+                        <RelativeLayout android:id="@id/present_pic_on_user_layout" android:layout_width="96.0dip" android:layout_height="96.0dip" android:layout_alignBottom="@id/user_avatar" android:layout_alignParentRight="true">
+                            <ru.ok.android.ui.custom.CompositePresentView android:id="@id/present_pic_on_user" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                            <ImageView android:enabled="false" android:id="@id/music_on_present" android:background="@null" android:visibility="invisible" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/ic_music_live_gift_square_play" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+                        </RelativeLayout>
+                    </RelativeLayout>
+                    <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/thirdStateLayout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <ru.ok.android.ui.custom.CompositePresentView android:id="@id/img1" android:clickable="true" android:layout_width="92.0dip" android:layout_height="92.0dip" />
+                        <ru.ok.android.ui.custom.CompositePresentView android:id="@id/img2" android:clickable="true" android:layout_width="92.0dip" android:layout_height="92.0dip" android:layout_marginLeft="@dimen/receive_present_thanks_padding" />
+                        <ru.ok.android.ui.custom.CompositePresentView android:id="@id/img3" android:clickable="true" android:layout_width="92.0dip" android:layout_height="92.0dip" android:layout_marginLeft="@dimen/receive_present_thanks_padding" />
+                    </LinearLayout>
+                    <View android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_weight="1.0" />
+                    <RelativeLayout android:layout_gravity="center_horizontal" android:id="@id/buttonsLayout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/receive_present_content_padding" android:layout_marginTop="-18.0dip" android:layout_marginRight="@dimen/receive_present_content_padding" android:layout_marginBottom="@dimen/receive_present_buttons_margin">
+                        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/buttons" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <Button android:textSize="14.0dip" android:textColor="@color/grey_3" android:gravity="center" android:id="@id/reject" android:background="@drawable/selector_bg_dialog_button" android:layout_width="wrap_content" android:layout_height="45.0dip" android:layout_marginRight="12.0dip" android:text="@string/reject" android:textAllCaps="true" />
+                            <Button android:textSize="14.0dip" android:textColor="@color/orange_2" android:gravity="center" android:id="@id/accept" android:background="@drawable/selector_bg_dialog_button" android:layout_width="wrap_content" android:layout_height="45.0dip" android:text="@string/accept" android:textAllCaps="true" />
+                        </LinearLayout>
+                        <ProgressBar android:id="@id/btn_progress" android:visibility="gone" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_centerInParent="true" />
+                    </RelativeLayout>
+                    <TextView android:textSize="14.0dip" android:textColor="@color/grey_1" android:gravity="center_vertical" android:layout_gravity="center_horizontal" android:id="@id/showAll" android:background="@drawable/selector_bg_dialog_button" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="45.0dip" android:layout_marginTop="-18.0dip" android:layout_marginBottom="14.0dip" android:text="@string/receive_present_show_all" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@id/toastLayout" android:background="@android:drawable/toast_frame" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/receive_present_buttons_margin" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+                    <TextView android:textColor="#ffffffff" android:layout_gravity="center_horizontal" android:id="@id/toastText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="180.0dip" android:shadowColor="#bb000000" android:shadowRadius="2.75" android:layout_weight="1.0" />
+                </LinearLayout>
+            </RelativeLayout>
+        </FrameLayout>
+        <ru.ok.android.ui.custom.imageview.RoundAvatarImageView android:id="@id/sender_avatar" android:layout_width="60.0dip" android:layout_height="60.0dip" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</RelativeLayout>

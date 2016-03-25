@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@drawable/emoji_selector_ripple" android:padding="10.0dip" android:clickable="true" android:layout_width="@dimen/sticker_cell_size" android:layout_height="@dimen/sticker_cell_size"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ru.ok.android.emoji.ui.custom.SimpleUrlImageView android:id="@id/image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitCenter" />
+</FrameLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="@dimen/card_height" android:minHeight="@dimen/card_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ok="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/image_layout" android:background="@drawable/image_border" android:padding="5.0dip" android:layout_width="60.0dip" android:layout_height="60.0dip" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:layout_alignParentLeft="true" android:layout_centerVertical="true">
+        <ru.ok.android.ui.custom.imageview.UrlImageView android:id="@id/image" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_centerVertical="true" ok:placeholderImage="@drawable/album_stub" ok:backgroundImage="@color/white" />
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toRightOf="@id/image_layout" android:layout_centerVertical="true">
+        <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/black_text" android:id="@id/text_album" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minWidth="100.0dip" android:singleLine="true" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/conversation_text_color_selector" android:id="@id/text_ensemble" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:layout_below="@id/text_album" />
+    </LinearLayout>
+    <View android:background="@color/list_separator" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_alignParentBottom="true" />
+</RelativeLayout>

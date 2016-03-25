@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="abc_action_bar_default_height_material">64.0dip</dimen>
+    <dimen name="abc_text_size_subtitle_material_toolbar">16.0dip</dimen>
+    <dimen name="abc_text_size_title_material_toolbar">20.0dip</dimen>
+    <dimen name="profile_present_big">70.0dip</dimen>
+    <dimen name="profile_present_normal">50.0dip</dimen>
+    <dimen name="slidingmenu_offset">300.0dip</dimen>
+    <dimen name="abc_config_prefDialogWidth">580.0dip</dimen>
+    <dimen name="stream_photo_height_land">450.0dip</dimen>
+    <dimen name="mc_photo_size_in_block">144.0dip</dimen>
+    <dimen name="repeat_width">60.0dip</dimen>
+    <dimen name="abc_action_bar_content_inset_material">24.0dip</dimen>
+    <dimen name="abc_action_bar_default_padding_end_material">8.0dip</dimen>
+    <dimen name="abc_action_bar_default_padding_start_material">8.0dip</dimen>
+    <dimen name="c_bubble_tab_corners">9.0dip</dimen>
+    <dimen name="c_bubble_tab_padding">4.0dip</dimen>
+    <dimen name="c_bubble_tab_size">18.0dip</dimen>
+    <dimen name="ccl_mini_controller_font_size_line1">15.0sp</dimen>
+    <dimen name="ccl_mini_controller_font_size_line2">13.0sp</dimen>
+    <dimen name="ccl_mini_controller_icon_height">70.0dip</dimen>
+    <dimen name="ccl_mini_controller_icon_width">124.0dip</dimen>
+    <dimen name="design_snackbar_action_inline_max_width">0.0dip</dimen>
+    <dimen name="design_snackbar_background_corner_radius">2.0dip</dimen>
+    <dimen name="design_snackbar_extra_spacing_horizontal">24.0dip</dimen>
+    <dimen name="design_snackbar_max_width">576.0dip</dimen>
+    <dimen name="design_snackbar_min_width">320.0dip</dimen>
+    <item type="dimen" name="design_snackbar_padding_vertical_2lines">@dimen/design_snackbar_padding_vertical</item>
+    <dimen name="design_tab_min_width">160.0dip</dimen>
+    <dimen name="gallery_album_row_height">125.0dip</dimen>
+    <dimen name="gallery_grid_spacing">4.0dip</dimen>
+    <dimen name="gallery_image_tile_side_min">150.0dip</dimen>
+    <dimen name="mr_media_route_controller_art_max_height">480.0dip</dimen>
+    <dimen name="options_btn_status_padding_horizontal">16.0dip</dimen>
+    <dimen name="photo_label_text_size">18.0sp</dimen>
+    <item type="dimen" name="user_list_item_left_margin">@dimen/user_list_item_left_margin_extra</item>
+    <item type="dimen" name="user_list_item_right_margin">@dimen/user_list_item_right_margin_extra</item>
+    <item type="dimen" name="user_list_item_vmargin">@dimen/user_list_item_vmargin_extra</item>
+    <dimen name="player_controls_first_margin">8.0dip</dimen>
+    <dimen name="player_controls_second_margin">0.0dip</dimen>
+</resources>

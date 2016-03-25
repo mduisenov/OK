@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ok="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="200.0dip" android:layout_height="200.0dip" android:layout_marginBottom="20.0dip">
+        <ru.ok.android.ui.custom.UploadAvatarRoundedImageView android:id="@id/avatar" android:layout_width="fill_parent" android:layout_height="fill_parent" ok:malePlaceHolder="@drawable/ic_reg_takephoto" ok:femalePlaceHolder="@drawable/ic_reg_takephoto" ok:progressRadius="60.0dip" />
+        <ImageView android:id="@id/avatar_remove" android:background="@drawable/orange_2_circle" android:padding="8.0dip" android:visibility="gone" android:clickable="true" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="5.0dip" android:src="@drawable/ic_up_cancel_white" android:layout_alignRight="@id/avatar" />
+    </RelativeLayout>
+    <TextView android:textSize="18.0sp" android:textColor="@color/black" android:gravity="center" android:id="@id/hint_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/add_profile_photo" android:fontFamily="sans-serif-medium" />
+    <TextView android:textSize="14.0sp" android:gravity="center" android:id="@id/hint" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginBottom="32.0dip" android:maxWidth="280.0dip" android:text="@string/add_profile_photo_hint" android:fontFamily="sans-serif" />
+    <Button android:id="@id/upload" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/add_photo_one_line" style="@style/NativeRegistrationButton" />
+    <TextView android:textColor="@color/grey_dark" android:gravity="center" android:id="@id/skip" android:background="@drawable/selector_bg_on_gray" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:text="@string/skip" style="@style/NativeRegistrationLinkButton" />
+    <Button android:id="@id/continue_btn" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/continue_text" style="@style/NativeRegistrationButton" />
+</LinearLayout>

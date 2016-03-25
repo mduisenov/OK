@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@android:color/black" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <bo.pic.android.media.view.AnimatedMediaContentView android:id="@id/image" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ru.ok.android.ui.custom.ProgressWheelView android:id="@id/progress" android:layout_centerInParent="true" style="@style/PhotoViewProgress" />
+    <ViewStub android:id="@id/stub_view" android:layout="@layout/photo_stub_view_xml" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" />
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:background="@drawable/music_widget_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="@dimen/widget_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="2.0" />
+    <TextView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/music" android:drawableLeft="@drawable/small_logo" />
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    <Button android:textAppearance="?android:textAppearanceSmall" android:id="@id/login" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/music_login" style="@style/NativeRegistrationButton" />
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="3.0" />
+</LinearLayout>

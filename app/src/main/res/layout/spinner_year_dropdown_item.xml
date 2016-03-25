@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="16.0sp" android:textColor="@color/grey_3" android:gravity="start" android:paddingLeft="@dimen/popup_padding_left" android:paddingTop="@dimen/popup_padding_top" android:paddingBottom="@dimen/popup_padding_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

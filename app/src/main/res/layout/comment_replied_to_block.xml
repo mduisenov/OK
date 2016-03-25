@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ru.ok.android.ui.fragments.messages.adapter.CommentDataView android:id="@id/message_data" android:background="@drawable/replied_background" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/MessageDataViewNested"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

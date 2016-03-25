@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="@integer/anim_duration_empty_view_step_0" android:drawable="@drawable/empty_view_no_connection_0" />
+    <item android:duration="@integer/anim_duration_empty_view_step" android:drawable="@drawable/empty_view_no_connection_1" />
+    <item android:duration="@integer/anim_duration_empty_view_step" android:drawable="@drawable/empty_view_no_connection_2" />
+    <item android:duration="@integer/anim_duration_empty_view_step" android:drawable="@drawable/empty_view_no_connection_1" />
+    <item android:duration="@integer/anim_duration_empty_view_step" android:drawable="@drawable/empty_view_no_connection_4" />
+    <item android:duration="@integer/anim_duration_empty_view_step" android:drawable="@drawable/empty_view_no_connection_5" />
+    <item android:duration="@integer/anim_duration_empty_view_step" android:drawable="@drawable/empty_view_no_connection_4" />
+    <item android:duration="@integer/anim_duration_empty_view_step" android:drawable="@drawable/empty_view_no_connection_7" />
+    <item android:duration="@integer/anim_duration_empty_view_step" android:drawable="@drawable/empty_view_no_connection_8" />
+    <item android:duration="@integer/anim_duration_empty_view_step" android:drawable="@drawable/empty_view_no_connection_7" />
+    <item android:duration="@integer/anim_duration_empty_view_step" android:drawable="@drawable/empty_view_no_connection_10" />
+    <item android:duration="@integer/anim_duration_empty_view_step" android:drawable="@drawable/empty_view_no_connection_11" />
+    <item android:duration="@integer/anim_duration_empty_view_step" android:drawable="@drawable/empty_view_no_connection_10" />
+</animation-list>

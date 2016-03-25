@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/filter_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:fillAfter="true" android:fillEnabled="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText android:textSize="16.0sp" android:textColor="@color/white" android:textColorHint="#fff6c095" android:gravity="center_vertical" android:layout_gravity="bottom|center|right" android:id="@id/filter_text" android:background="@drawable/textfield_default_holo_dark" android:paddingTop="8.0dip" android:paddingRight="35.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="0.0dip" android:hint="@string/friends_filter_hint" android:singleLine="true" android:imeOptions="actionSearch" />
+    <ru.ok.android.ui.custom.ImageFadeButton android:layout_gravity="center|right" android:id="@id/clear_filter_button" android:background="@drawable/actionbar_btn_pressed" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:visibility="visible" android:layout_width="35.0dip" android:layout_height="25.0dip" android:src="@drawable/clear" />
+</FrameLayout>

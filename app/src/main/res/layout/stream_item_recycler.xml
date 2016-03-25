@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.RecyclerView android:id="@id/recycler" android:background="@drawable/feed_card_middle_bg" android:paddingLeft="@dimen/feed_card_padding_total" android:paddingRight="@dimen/feed_card_padding_total" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

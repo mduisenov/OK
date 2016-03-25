@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ok="http://schemas.android.com/apk/res-auto">
+    <item android:state_pressed="true" android:drawable="@drawable/ic_paused_video_pressed" ok:state_playing="true" />
+    <item android:drawable="@drawable/ic_paused_video" ok:state_playing="true" />
+    <item android:state_pressed="true" android:drawable="@drawable/ic_play_video_pressed" />
+    <item android:drawable="@drawable/ic_play_video" />
+</selector>

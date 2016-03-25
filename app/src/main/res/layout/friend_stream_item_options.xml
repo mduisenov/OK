@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/friend_item" android:clickable="false" android:layout_width="wrap_content" android:layout_height="82.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@color/stream_friends_delimiter" android:layout_width="1.0dip" android:layout_height="30.0dip" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/write_message" android:background="@drawable/selector_bg" android:padding="4.0dip" android:layout_width="wrap_content" android:layout_height="82.0dip" android:layout_marginLeft="16.0dip">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/nav_pad_ico_messages_xml" />
+        <TextView android:textAppearance="@style/TextAppearance_Friend_Action" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="@string/write" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/profile" android:background="@drawable/selector_bg" android:padding="4.0dip" android:layout_width="wrap_content" android:layout_height="82.0dip" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/nav_pad_ico_user_xml" />
+        <TextView android:textAppearance="@style/TextAppearance_Friend_Action" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="@string/profile_short" />
+    </LinearLayout>
+</LinearLayout>

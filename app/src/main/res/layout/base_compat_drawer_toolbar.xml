@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout android:id="@id/drawer_layout" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.design.widget.CoordinatorLayout android:id="@id/full" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:id="@id/content_wrapper" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+        <android.support.design.widget.AppBarLayout android:id="@id/appbar" android:layout_width="fill_parent" android:layout_height="wrap_content" app:background="@null" app:elevation="0.0dip" app:layout_behavior="ru.ok.android.ui.coordinator.behaviors.AppBarLayoutBehavior">
+            <android.support.v7.widget.Toolbar android:id="@id/base_compat_toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?actionBarSize" app:layout_scrollFlags="enterAlways|scroll" style="?attr/toolbarStyle" />
+        </android.support.design.widget.AppBarLayout>
+        <View android:layout_gravity="bottom" android:id="@id/base_compat_toolbar_shadow" app:layout_behavior="ru.ok.android.ui.coordinator.behaviors.ToolbarShadowBehavior" app:layout_anchor="@id/appbar" app:layout_anchorGravity="bottom" style="@style/ActionBar.Shadow" />
+    </android.support.design.widget.CoordinatorLayout>
+    <ru.ok.android.widget.MenuView android:scrollbarSize="3.0dip" android:scrollbarThumbVertical="@color/sliding_menu_thumb" android:layout_gravity="start" android:id="@id/left_drawer" android:background="@color/sliding_menu_background" android:fitsSystemWindows="true" android:layout_width="304.0dip" android:layout_height="fill_parent" android:divider="@android:color/transparent" android:dividerHeight="0.0dip" android:choiceMode="singleChoice" app:insetForeground="@color/sliding_menu_statusbar_shadow" />
+</android.support.v4.widget.DrawerLayout>

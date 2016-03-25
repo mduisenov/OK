@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/actionbar_del" android:id="@id/media_topic_cancel" android:title="@string/persistent_task_cancel" app:showAsAction="always" />
+    <item android:icon="@drawable/popup_pause_a" android:id="@id/media_topic_pause" android:title="@string/persistent_task_pause" app:showAsAction="always" />
+    <item android:icon="@drawable/popup_play_a" android:id="@id/media_topic_resume" android:title="@string/persistent_task_resume" app:showAsAction="always" />
+    <item android:icon="@drawable/ic_refresh_light" android:id="@id/media_topic_retry" android:visible="false" android:title="@string/persistent_task_retry" app:showAsAction="always" />
+    <item android:icon="@drawable/actionbar_edit" android:id="@id/media_topic_edit" android:title="@string/mediatopic_task_edit" app:showAsAction="ifRoom" />
+    <item android:id="@id/media_topic_close" android:title="@string/close" app:showAsAction="always" />
+</menu>

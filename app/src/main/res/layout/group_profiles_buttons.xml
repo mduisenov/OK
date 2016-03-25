@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ru.ok.android.ui.custom.profiles.ProfileButtonsLayout android:layout_width="fill_parent" android:layout_height="40.0dip" android:divider="@drawable/profile_vertical_divider" android:showDividers="middle" profile:maxOpenViews="2"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:profile="http://schemas.android.com/apk/res-auto">
+    <ru.ok.android.ui.custom.profiles.ProfilesButton android:id="@id/invite" android:visibility="gone" android:layout_width="wrap_content" profile:titleText="@string/invite_group" profile:image="@drawable/profile_joingroup" style="@style/StreamGreenButtonNewForProfiles" />
+    <ru.ok.android.ui.custom.profiles.ProfilesButton android:id="@id/invite_happening" android:visibility="gone" android:layout_width="wrap_content" profile:titleText="@string/invite_group_happening" style="@style/StreamGreenButtonNewForProfiles" />
+    <ru.ok.android.ui.custom.profiles.ProfilesButton android:id="@id/may_invite_happening" android:visibility="gone" android:layout_width="wrap_content" profile:titleText="@string/may_invite_group_happening" style="@style/StreamGreenButtonNewForProfiles" />
+    <ru.ok.android.ui.custom.profiles.ProfilesButton android:id="@id/add_friends" android:visibility="gone" android:layout_width="wrap_content" android:text="@string/invite_friend_in_group" profile:titleText="@string/invite_friend_in_group" profile:image="@drawable/profile_adduser" style="@style/StreamGreenButtonNewForProfiles" />
+</ru.ok.android.ui.custom.profiles.ProfileButtonsLayout>

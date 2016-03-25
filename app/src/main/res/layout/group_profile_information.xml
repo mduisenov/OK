@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/selector_bg_on_dark" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/name_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_alignParentRight="true">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/privateView" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" android:src="@drawable/ic_lockuser" />
+        <TextView android:layout_gravity="center_vertical" android:id="@id/name" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Profile_NameText" />
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/premiumView" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:src="@drawable/ic_profile_realperson" />
+    </LinearLayout>
+    <TextView android:id="@id/additional" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/name_layout" android:layout_alignParentLeft="true" android:layout_alignParentRight="true" style="@style/Profile_Group_InformationText" />
+    <TextView android:id="@id/created" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" android:drawableLeft="@drawable/ic_profile_date" android:drawablePadding="5.0dip" android:layout_below="@id/additional" android:layout_alignParentLeft="true" android:layout_alignParentRight="true" style="@style/Profile_Group_InformationText" />
+    <TextView android:id="@id/location" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" android:drawableLeft="@drawable/ic_profile_place" android:drawablePadding="5.0dip" android:layout_below="@id/created" android:layout_alignParentLeft="true" android:layout_alignParentRight="true" style="@style/Profile_Group_InformationText" />
+    <TextView android:id="@id/count_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/location" android:layout_alignParentLeft="true" style="@style/Profile_Group_InformationText" />
+</RelativeLayout>

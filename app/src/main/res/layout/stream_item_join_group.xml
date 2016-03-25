@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@drawable/stream_item_selector_bg" android:paddingLeft="@dimen/feed_card_padding_total" android:paddingRight="@dimen/feed_card_padding_total" android:paddingBottom="@dimen/feed_group_padding_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ok="http://schemas.android.com/apk/res-auto">
+    <ru.ok.android.ui.custom.imageview.ImageRoundPressedView android:layout_gravity="center_vertical" android:id="@id/icon" android:layout_width="@dimen/feed_game_icon_size" android:layout_height="@dimen/feed_game_icon_size" ok:actualImageScaleType="fitCenter" />
+    <LinearLayout android:gravity="left" android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/feed_card_padding_inner">
+        <TextView android:textAppearance="@style/TextAppearance_Feed_Content.Title" android:id="@id/text" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/TextAppearance_Feed_Content.Title" />
+        <TextView android:textAppearance="@style/TextAppearance_Feed.Join_Description" android:ellipsize="end" android:id="@id/description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/feed_vspacing_tiny" android:maxLines="3" style="@style/TextAppearance_Feed.Join_Description" />
+        <ru.ok.android.ui.custom.UsersStripView android:id="@id/users" android:background="@drawable/selector_bg" android:focusable="false" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" />
+    </LinearLayout>
+</LinearLayout>

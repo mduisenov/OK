@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/main_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:id="@id/above_anchor" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+        <include android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="48.0dip" android:layout_marginBottom="20.0dip" layout="@layout/logo_fragment" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:paddingBottom="80.0dip" android:layout_width="256.0dip" android:layout_height="fill_parent" android:layout_below="@id/above_anchor" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+        <TextView android:gravity="center" android:id="@id/phone_view" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/RegInput" />
+        <EditText android:gravity="center" android:id="@id/pin_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/password" style="@style/RegInput" />
+        <include layout="@layout/registration_error_text" />
+        <FrameLayout android:id="@id/go_btn" android:background="@drawable/reg_button_green" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="26.0dip">
+            <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:id="@id/login_lv" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@id/button_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_on_button_phone" />
+                <TextView android:textSize="18.0sp" android:textColor="@color/white" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/get_password" />
+            </LinearLayout>
+            <ProgressBar android:id="@id/progress" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/RegistrationProgressBar" />
+        </FrameLayout>
+    </LinearLayout>
+    <include android:id="@id/below_anchor" android:layout_width="256.0dip" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" layout="@layout/feedback_link" />
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:background="@drawable/present_pack_background" android:layout_width="112.0dip" android:layout_height="128.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/presentPack" android:background="#ffaaaaaa" android:layout_width="96.0dip" android:layout_height="96.0dip" />
+    <TextView android:textSize="12.0dip" android:textColor="@color/grey_3" android:layout_gravity="center_horizontal" android:id="@id/cost" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7.0dip" android:text="5 OK" />
+</LinearLayout>

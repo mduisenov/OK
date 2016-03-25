@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="receive_present_dialog_height">378.0dip</dimen>
+    <dimen name="receive_present_dialog_width">280.0dip</dimen>
+    <dimen name="receive_present_size">96.0dip</dimen>
+</resources>

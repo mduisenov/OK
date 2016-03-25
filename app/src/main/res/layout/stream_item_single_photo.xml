@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/feed_card_middle_bg" android:paddingLeft="@dimen/feed_card_margin_outer" android:paddingRight="@dimen/feed_card_margin_outer" android:addStatesFromChildren="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:foreground="@drawable/transparent_alpha_orange"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ru.ok.android.fresco.FrescoGifMarkerView android:layout_gravity="left" android:id="@id/image" android:background="@color/grey_4" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <TextView android:textAppearance="@style/TextAppearance_Feed.Primary" android:id="@id/comment" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="12.0dip" />
+</LinearLayout>

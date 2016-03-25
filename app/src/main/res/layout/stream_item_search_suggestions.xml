@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/invite_friends_from_stream" android:background="@color/stream_list_bg" style="@style/SearchSuggestions_Item"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/find_friends_from_school" android:background="@drawable/feed_card_bottom_selector_bg" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="true" style="@style/SearchSuggestions_Item.LinearLayout">
+        <ImageView android:background="@color/orange_2" android:src="@drawable/ic_school" style="@style/SearchSuggestions_Item.ImageView" />
+        <TextView android:layout_width="fill_parent" android:layout_height="@dimen/invite_friends_icons_size" android:text="@string/search_suggestion_classmates" style="@style/SearchSuggestions_Item.TextView" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/popular_people_in_town" android:background="@drawable/feed_card_bottom_selector_bg" android:paddingLeft="@dimen/feed_card_margin_outer" android:paddingTop="@dimen/feed_card_margin_outer" android:paddingRight="@dimen/feed_card_margin_outer" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/SearchSuggestions_Item.LinearLayout">
+        <ImageView android:background="@color/blue_2" android:src="@drawable/ic_work" style="@style/SearchSuggestions_Item.ImageView" />
+        <TextView android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="@dimen/invite_friends_icons_size" android:text="@string/search_suggestion_colleagues" style="@style/SearchSuggestions_Item.TextView" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/find_by_name" android:background="@drawable/feed_card_bottom_selector_bg" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/SearchSuggestions_Item.LinearLayout">
+        <ImageView android:background="@color/green_1" android:src="@drawable/ic_profile" style="@style/SearchSuggestions_Item.ImageView" />
+        <TextView android:layout_width="fill_parent" android:layout_height="@dimen/invite_friends_icons_size" android:text="@string/search_global__hint" style="@style/SearchSuggestions_Item.TextView" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/find_by_phonebook" android:background="@drawable/feed_card_bottom_selector_bg" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/SearchSuggestions_Item.LinearLayout">
+        <ImageView android:background="@color/blue_2" android:src="@drawable/ic_star" style="@style/SearchSuggestions_Item.ImageView" />
+        <TextView android:layout_width="fill_parent" android:layout_height="@dimen/invite_friends_icons_size" android:text="@string/search_suggestion_phonebook" style="@style/SearchSuggestions_Item.TextView" />
+    </LinearLayout>
+</LinearLayout>

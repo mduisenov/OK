@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ok="http://schemas.android.com/apk/res-auto">
+    <ru.ok.android.ui.custom.layout.RelativeLayoutRounded android:clipChildren="true" android:clipToPadding="true" android:layout_width="fill_parent" android:layout_height="fill_parent" ok:roundingType="rounded" ok:strokeColor="@color/orange_2" ok:strokeWidth="2.0dip">
+        <LinearLayout android:orientation="vertical" android:clickable="false" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.facebook.drawee.view.SimpleDraweeView android:id="@id/avatar_image" android:clickable="false" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" ok:fadeDuration="500" ok:actualImageScaleType="fitCenter" />
+            <TextView android:textSize="10.0sp" android:textColor="@color/orange_2" android:gravity="center" android:id="@id/avatar_text" android:visibility="gone" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/add_photo" />
+        </LinearLayout>
+        <ProgressBar android:id="@id/progress_ava" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:max="10000" android:indeterminateDrawable="@drawable/progress_ava" android:indeterminateDuration="1000" android:layout_centerInParent="true" style="@android:style/Widget.ProgressBar.Inverse" />
+    </ru.ok.android.ui.custom.layout.RelativeLayoutRounded>
+</merge>

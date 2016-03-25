@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="top" android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <fragment android:name="com.google.android.gms.maps.SupportMapFragment" android:id="@id/map_fragment" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/information_panel" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/first_panel" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="14.0sp" android:textColor="@color/conversation_text_color" android:id="@id/text_addresses" android:padding="15.0dip" android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/address_hint" android:lines="2" android:editable="false" style="@style/AddPlaceItem_Text" />
+            <View android:id="@id/divider0" android:background="@color/list_separator" android:layout_width="fill_parent" android:layout_height="2.0px" android:layout_marginLeft="4.0dip" android:layout_marginRight="4.0dip" />
+            <EditText android:id="@id/place_name" android:padding="15.0dip" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/place_hint" android:singleLine="true" android:maxLength="255" android:editable="true" style="@style/AddPlaceItem_Text" />
+            <View android:id="@id/divider" android:background="@color/list_separator" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="4.0dip" android:layout_marginRight="4.0dip" />
+            <EditText android:id="@id/category_name" android:padding="15.0dip" android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/category_hint" android:editable="false" style="@style/AddPlaceItem_Text" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/addresses_panel" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center" android:background="@drawable/player_list_divider" android:paddingLeft="5.0dip" android:paddingTop="2.0dip" android:paddingBottom="2.0dip" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textColor="#ff808080" android:id="@id/text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/address_dialog_title" />
+            </LinearLayout>
+            <EditText android:id="@id/country" android:padding="15.0dip" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/country_hint" android:singleLine="true" android:maxLength="255" android:editable="true" style="@style/AddPlaceItem_Text" />
+            <View android:background="@color/list_separator" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="4.0dip" android:layout_marginRight="4.0dip" />
+            <EditText android:id="@id/city" android:padding="15.0dip" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/city_hint" android:singleLine="true" android:maxLength="100" android:editable="true" style="@style/AddPlaceItem_Text" />
+            <View android:background="@color/list_separator" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="4.0dip" android:layout_marginRight="4.0dip" />
+            <EditText android:id="@id/street" android:padding="15.0dip" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/street_hint" android:singleLine="true" android:maxLength="255" android:editable="true" style="@style/AddPlaceItem_Text" />
+            <View android:background="@color/list_separator" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="4.0dip" android:layout_marginRight="4.0dip" />
+            <EditText android:id="@id/house" android:padding="15.0dip" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/house_hint" android:singleLine="true" android:maxLength="50" android:editable="true" style="@style/AddPlaceItem_Text" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

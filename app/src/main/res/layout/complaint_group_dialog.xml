@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/Dialog_Layout"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RadioGroup android:layout_gravity="center_horizontal" android:id="@id/radioGroup" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RadioButton android:textSize="14.0sp" android:id="@id/radioButtonPorno" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:checked="true" android:text="@string/complaint_porno" />
+        <RadioButton android:textSize="14.0sp" android:id="@id/radioButtonAdv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/complaint_advertising" />
+        <RadioButton android:textSize="14.0sp" android:id="@id/radioButtonExt" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/complaint_extreme" />
+    </RadioGroup>
+</LinearLayout>

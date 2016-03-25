@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ru.ok.android.ui.custom.search.KeyboardRelativeLayout android:id="@id/search_root" android:background="@color/gray_bcg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ru.ok.android.ui.custom.indicator.PagerSlidingTabStrip android:id="@id/indicator" android:visibility="gone" android:layout_width="fill_parent" style="@style/PageIndicator" />
+    <ru.ok.android.ui.custom.emptyview.SmartEmptyViewAnimated android:id="@id/empty_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ru.ok.android.ui.custom.cards.SuggestionsListView android:id="@id/suggestions" android:background="@drawable/card" android:visibility="gone" android:scrollbars="none" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:listSelector="@drawable/suggestion_item_selector" android:divider="@drawable/suggestion_item_divder" android:dividerHeight="1.0dip" android:layout_below="@id/indicator" />
+    <android.support.v4.view.ViewPager android:id="@id/pager" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/indicator" />
+    <View android:layout_below="@id/indicator" style="@style/ActionBar.Shadow" />
+</ru.ok.android.ui.custom.search.KeyboardRelativeLayout>

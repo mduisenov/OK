@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/main_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ok="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/above_anchor" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+        <ru.ok.android.ui.custom.layout.RelativeLayoutRounded android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:clipChildren="true" android:layout_width="210.0dip" android:layout_height="210.0dip" ok:roundingType="circle" ok:fillColor="@color/orange_7">
+            <Button android:id="@id/autoReg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/allow" android:layout_centerInParent="true" style="@style/NativeRegistrationButton" />
+            <FrameLayout android:id="@id/hand_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="-30.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+                <ImageView android:id="@id/hand_shadow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/hand_allow_2_shadow" />
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/hand_allow_2" />
+            </FrameLayout>
+        </ru.ok.android.ui.custom.layout.RelativeLayoutRounded>
+        <TextView android:textSize="18.0sp" android:textColor="@color/black" android:gravity="center" android:id="@id/hint_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/reg_permissions_hint_title" android:fontFamily="sans-serif-medium" />
+        <TextView android:textSize="14.0sp" android:gravity="center" android:id="@id/hint" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:maxWidth="280.0dip" android:text="@string/reg_permissions_hint" android:fontFamily="sans-serif" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip">
+            <TextView android:id="@id/continue_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/continue_text" android:textAllCaps="true" style="@style/NativeRegistrationLinkButton" />
+            <TextView android:textColor="@color/grey_dark" android:gravity="center" android:id="@id/skip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/skip" android:textAllCaps="true" style="@style/NativeRegistrationLinkButton" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

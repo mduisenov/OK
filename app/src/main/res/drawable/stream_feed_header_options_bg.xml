@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset android:insetLeft="@dimen/mt_options_additional_left_touch" android:insetBottom="@dimen/mt_options_additional_bottom_touch"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <layer-list>
+        <item android:drawable="@drawable/selector_bg" />
+    </layer-list>
+</inset>

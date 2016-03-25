@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ru.ok.android.ui.custom.indicator.PagerSlidingTabStrip android:id="@id/indicator" android:layout_width="fill_parent" style="@style/PageIndicator.MediaTopics" />
+    <ru.ok.android.ui.custom.photo.StableViewPager android:id="@id/pager" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/page_indicator_height" />
+    <View android:id="@id/shadow" android:layout_marginTop="@dimen/page_indicator_height" style="@style/ActionBar.Shadow" />
+</FrameLayout>

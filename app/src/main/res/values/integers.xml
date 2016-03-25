@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="max_buttons_in_profile">1</integer>
+    <integer name="design_snackbar_text_max_lines">2</integer>
+    <integer name="anim_duration_empty_view_step">100</integer>
+    <integer name="anim_duration_empty_view_step_0">600</integer>
+    <integer name="best_friends_count">5</integer>
+    <integer name="big_photo_per_small_photos">7</integer>
+    <integer name="default_title_indicator_footer_indicator_style">2</integer>
+    <integer name="google_play_services_version">7895000</integer>
+    <integer name="photo_marks_anim_dur">160</integer>
+    <integer name="player_play_button_animation_duration">250</integer>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:left="@dimen/hide_panel_padding" android:top="@dimen/hide_panel_padding" android:right="@dimen/hide_panel_padding">
+        <shape android:shape="rectangle">
+            <solid android:color="#ffebebeb" />
+            <stroke android:width="@dimen/hide_panel_border" android:color="#ffc2c2c2" />
+        </shape>
+    </item>
+</layer-list>

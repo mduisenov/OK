@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="abc_action_bar_default_height_material">48.0dip</dimen>
+    <dimen name="abc_action_bar_progress_bar_size">32.0dip</dimen>
+    <dimen name="abc_text_size_subtitle_material_toolbar">12.0dip</dimen>
+    <dimen name="abc_text_size_title_material_toolbar">14.0dip</dimen>
+    <dimen name="keyboard_height">150.0dip</dimen>
+    <dimen name="player_album_image_height">200.0dip</dimen>
+    <dimen name="player_album_image_width">200.0dip</dimen>
+    <dimen name="profile_present_big">70.0dip</dimen>
+    <dimen name="profile_present_normal">50.0dip</dimen>
+    <dimen name="receive_present_buttons_margin">10.0dip</dimen>
+    <dimen name="receive_present_dialog_height">275.0dip</dimen>
+    <dimen name="receive_present_dialog_width">360.0dip</dimen>
+    <dimen name="receive_present_size">96.0dip</dimen>
+    <dimen name="slidingmenu_offset">200.0dip</dimen>
+</resources>

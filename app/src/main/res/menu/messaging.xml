@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/actionbar_call" android:id="@id/call" android:visible="false" android:title="@string/call_text" app:showAsAction="never" />
+    <item android:id="@id/participants" android:visible="false" android:title="@string/conversation_participants" app:showAsAction="never" />
+    <item android:id="@id/invite" android:visible="false" android:title="@string/invite" app:showAsAction="never" />
+    <item android:id="@id/edit" android:title="@string/delete_messages_menu_text" app:showAsAction="never" />
+    <item android:id="@id/delete_all" android:visible="false" android:title="@string/delete_all_messages_menu_text" app:showAsAction="never" />
+    <item android:id="@id/leave_chat" android:visible="false" android:title="@string/leave_chat" app:showAsAction="never" />
+    <item android:id="@id/create_shortcut" android:visible="false" android:title="@string/conversation_shortcut" app:showAsAction="never" />
+</menu>

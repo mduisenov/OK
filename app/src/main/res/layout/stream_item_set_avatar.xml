@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/feed_card_middle_bg" android:paddingLeft="@dimen/feed_set_avatar_padding" android:paddingRight="@dimen/feed_set_avatar_padding" android:paddingBottom="@dimen/feed_vspacing_large" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ok="http://schemas.android.com/apk/res-auto">
+    <ru.ok.android.ui.custom.imageview.ImageRoundPressedView android:id="@id/image_old" android:padding="4.0dip" android:layout_width="@dimen/feed_set_avatar_image_size" android:layout_height="@dimen/feed_set_avatar_image_size" android:layout_marginLeft="@dimen/feed_set_avatar_neg_margin" android:layout_toRightOf="@id/image_new" />
+    <ru.ok.android.ui.custom.imageview.ImageRoundPressedView android:id="@id/image_new" android:padding="4.0dip" android:layout_width="@dimen/feed_set_avatar_image_size" android:layout_height="@dimen/feed_set_avatar_image_size" android:layout_alignParentLeft="true" ok:backgroundImage="@drawable/white_circle" />
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageButton android:id="@id/pause" android:background="@android:color/transparent" android:padding="24.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_player_play" android:layout_centerInParent="true" android:contentDescription="@string/description" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/media_controller_gradient" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@android:color/white" android:id="@id/time_current" android:paddingLeft="20.0dip" android:paddingRight="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <SeekBar android:id="@id/mediacontroller_progress" android:paddingTop="16.0dip" android:paddingBottom="16.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:progressDrawable="@drawable/video_player_progress" android:thumb="@drawable/pin" android:thumbOffset="7.0dip" android:layout_weight="1.0" android:splitTrack="false" style="?android:attr/progressBarStyleHorizontal" />
+        <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@android:color/white" android:id="@id/time" android:paddingLeft="4.0dip" android:paddingRight="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <ImageButton android:id="@id/quality" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_player_settings" android:contentDescription="@string/description" style="@style/Widget.AppCompat.ActionButton" />
+        <ImageButton android:id="@id/fullscreen" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_media_small" android:contentDescription="@string/description" style="@style/Widget.AppCompat.ActionButton" />
+    </LinearLayout>
+</RelativeLayout>

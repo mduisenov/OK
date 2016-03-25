@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@android:color/black" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <bo.pic.android.media.view.AnimatedMediaContentView android:id="@id/image" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ru.ok.android.ui.custom.ProgressWheelView android:id="@id/progress" android:layout_centerInParent="true" style="@style/PhotoViewProgress" />
+    <ViewStub android:id="@id/stub_view" android:layout="@layout/photo_stub_view_xml" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" />
+    <View android:id="@id/shadow_layer" android:background="#aa000000" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <include android:id="@id/controls_bottom" layout="@layout/photo_view_bottom_controls" />
+    <ru.ok.android.ui.custom.photo.DragPeekContentView android:id="@id/comment_container" android:background="@drawable/photo_view_comment_shadow" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/controls_bottom">
+        <ru.ok.android.ui.custom.text.OdklUrlsTextView android:textColor="@android:color/white" android:ellipsize="none" android:gravity="center_horizontal" android:layout_gravity="bottom" android:id="@id/comment" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="false" />
+    </ru.ok.android.ui.custom.photo.DragPeekContentView>
+</RelativeLayout>

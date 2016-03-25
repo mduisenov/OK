@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="design_navigation_padding_top_default">24.0dip</dimen>
+    <dimen name="fab_margin_bottom">10.0dip</dimen>
+    <dimen name="fab_margin_right">8.0dip</dimen>
+    <dimen name="media_composer_circle_plus_margin">26.0dip</dimen>
+    <dimen name="media_composer_circle_size">56.0dip</dimen>
+    <dimen name="media_composer_circles_margin">16.0dip</dimen>
+    <dimen name="media_composer_circles_margin_bottom">16.0dip</dimen>
+    <dimen name="media_composer_circles_margin_right">16.0dip</dimen>
+    <dimen name="media_composer_label_height">34.0dip</dimen>
+    <dimen name="media_composer_labels_margin">38.0dip</dimen>
+    <dimen name="media_composer_labels_margin_top">11.0dip</dimen>
+</resources>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="MusicPlayer_Text">
+        <item name="android:singleLine">true</item>
+        <item name="android:textIsSelectable">false</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="NativeRegistrationButton">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/reg_button_green</item>
+        <item name="android:paddingLeft">12.0dip</item>
+        <item name="android:paddingRight">12.0dip</item>
+        <item name="android:height">60.0dip</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="NativeRegistrationLinkButton">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">@color/orange_2</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:background">@drawable/selector_bg</item>
+        <item name="android:paddingLeft">24.0dip</item>
+        <item name="android:paddingTop">12.0dip</item>
+        <item name="android:paddingRight">24.0dip</item>
+        <item name="android:paddingBottom">12.0dip</item>
+        <item name="android:clickable">true</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="RegInput">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textColorHint">#ffcccccc</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/inputfield_grey</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:imeOptions">actionGo</item>
+        <item name="android:textCursorDrawable">@drawable/cursor_bg_orange</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="StreamGreenButtonNewForProfiles">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/profile_button_text_color</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/profile_buttons_bg</item>
+        <item name="android:paddingLeft">12.0dip</item>
+        <item name="android:paddingRight">12.0dip</item>
+        <item name="android:layout_height">40.0dip</item>
+        <item name="android:minWidth">50.0dip</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="TextAppearance_Feed">
+        <item name="android:textStyle">normal</item>
+        <item name="android:fontFamily">@string/feed_font_family</item>
+    </style>
+    <style name="TextAppearance_Feed.GreenTextButton" parent="@style/TextAppearance_Feed">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ff449f14</item>
+        <item name="android:fontFamily">@string/feed_button_font_family</item>
+    </style>
+    <style name="TextAppearance_Feed.Link" parent="@style/TextAppearance_Feed">
+        <item name="android:layout_marginLeft">8.0dip</item>
+        <item name="android:layout_marginRight">8.0dip</item>
+        <item name="android:fontFamily">@string/feed_link_font_family</item>
+    </style>
+    <style name="TextAppearance_Feed.MusicCover" parent="@style/TextAppearance_Feed">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@string/feed_font_family</item>
+    </style>
+    <style name="TextAppearance_Feed.NavigateInternal" parent="@style/TextAppearance_Feed">
+        <item name="android:textSize">@dimen/feed_font_size_small</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/grey_1</item>
+        <item name="android:fontFamily">@string/feed_actor_font_family</item>
+    </style>
+    <style name="TextAppearance_Feed.TextButtonProfiles" parent="@style/TextAppearance_Feed">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ff26bd20</item>
+        <item name="android:fontFamily">@string/feed_button_font_family</item>
+    </style>
+    <style name="TextAppearance_FeedHeader.Time" parent="@style/TextAppearance_FeedHeader">
+        <item name="android:textSize">@dimen/feed_font_size_tiny</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/grey_1</item>
+        <item name="android:fontFamily">@string/feed_time_font_family</item>
+    </style>
+    <style name="TextAppearance_Feed_CommonFriends">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/grey_3</item>
+        <item name="android:fontFamily">@string/feed_font_family</item>
+    </style>
+    <style name="TextAppearance_Feed_Content">
+        <item name="android:fontFamily">@string/feed_content_font_family</item>
+    </style>
+    <style name="TextAppearance_Feed_Footer">
+        <item name="android:textSize">@dimen/feed_font_size_small</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:fontFamily">@string/feed_footer_font_family</item>
+    </style>
+    <style name="TextAppearance_OnlineUser_Name">
+        <item name="android:textSize">@dimen/feed_font_size_small</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/black_2</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:fontFamily">@string/feed_actor_font_family</item>
+    </style>
+    <style name="TextAppearance_StreamScrollTopView">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/green_1</item>
+        <item name="android:fontFamily">@string/feed_content_font_family</item>
+    </style>
+</resources>

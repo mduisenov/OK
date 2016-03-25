@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:toolbar="http://schemas.android.com/apk/res-auto" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/mt_photos" android:id="@id/add_photo" android:title="@string/media_composer_add_photo" app:showAsAction="always" />
+    <item android:icon="@drawable/mt_music" android:id="@id/add_music" android:title="@string/media_composer_add_music" app:align="left" />
+    <item android:icon="@drawable/mt_poll" android:id="@id/add_poll" android:title="@string/media_composer_add_poll" app:align="left" />
+    <item android:icon="@drawable/ic_mt_geo" android:id="@id/add_place" android:title="@string/media_composer_with_place" app:align="left" />
+</menu>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ru.ok.android.ui.custom.toolbar.ToolbarView android:id="@id/toolbar" android:background="@color/mediacomposer_toolbar_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/ToolbarView"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:toolbar="http://schemas.android.com/apk/res-auto" />

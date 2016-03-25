@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@color/chat_header_background" android:layout_width="fill_parent" android:layout_height="?android:actionBarSize"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ru.ok.android.ui.fragments.messages.view.ParticipantsPreviewView android:id="@id/participants_preview" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_margin="6.0dip" android:layout_alignParentRight="true" />
+    <TextView android:textSize="16.0sp" android:textColor="@color/playlist_text_color" android:gravity="center_vertical" android:id="@id/topic" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:layout_marginRight="4.0dip" android:singleLine="true" android:layout_toLeftOf="@id/participants_preview" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    <View android:background="@color/create_message_view_border" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_alignParentBottom="true" />
+</RelativeLayout>

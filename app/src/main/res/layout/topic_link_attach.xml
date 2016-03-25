@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ru.ok.android.widget.attach.TopicLinkAttachView android:background="@drawable/attach_comment_link_selector_bg" android:padding="10.0dip" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ru.ok.android.ui.custom.imageview.AsyncDraweeView android:id="@id/link_image" android:layout_width="64.0dip" android:layout_height="64.0dip" android:scaleType="centerCrop" android:layout_alignParentLeft="true" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/link_image" android:layout_centerVertical="true">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/link_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_feed_link" android:layout_alignParentRight="true" />
+            <TextView android:textAppearance="@style/TextAppearance_Feed.Link.Title" android:textSize="14.0sp" android:ellipsize="end" android:id="@id/link_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:includeFontPadding="false" android:layout_toLeftOf="@id/link_icon" android:layout_alignParentLeft="true" style="@style/TextAppearance_Feed.Link.Title" />
+        </RelativeLayout>
+        <TextView android:textAppearance="@style/TextAppearance_Feed.Link.Description" android:textSize="14.0sp" android:ellipsize="end" android:id="@id/link_descr" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:maxLines="2" android:includeFontPadding="false" style="@style/TextAppearance_Feed.Link.Description" />
+        <TextView android:textAppearance="@style/TextAppearance_Feed.Link.Link" android:textSize="14.0sp" android:id="@id/link_url" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:maxLines="1" android:includeFontPadding="false" style="@style/TextAppearance_Feed.Link.Link" />
+    </LinearLayout>
+</ru.ok.android.widget.attach.TopicLinkAttachView>

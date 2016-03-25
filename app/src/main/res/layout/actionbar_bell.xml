@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/notification_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/actionbar_bell" style="@style/Widget.Styled.ActionButton" />
+    <ru.ok.android.ui.custom.NotificationsView android:layout_gravity="right" android:id="@id/notification_bubble" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginRight="@dimen/bell_mr_right" app:border_type="empty" />
+    <ru.ok.android.ui.custom.FadeButton android:id="@id/notification_button_h" android:background="@drawable/c_bubble_action_bar_hover" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignWithParentIfMissing="true" style="@style/Widget.Styled.ActionButton" />
+</FrameLayout>

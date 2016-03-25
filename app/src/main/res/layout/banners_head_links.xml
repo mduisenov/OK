@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ru.ok.android.ui.custom.imageview.UrlImageView android:layout_gravity="center_vertical" android:id="@id/icon" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginLeft="@dimen/feed_card_padding_total" />
+    <TextView android:textSize="14.0sp" android:textColor="@android:color/black" android:gravity="center" android:id="@id/promo_link_view" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="8.0dip" android:layout_marginRight="@dimen/feed_card_padding_total" />
+</merge>

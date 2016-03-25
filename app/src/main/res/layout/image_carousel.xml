@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ru.ok.android.ui.custom.profiles.PresentView android:id="@id/currentView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:alpha="1.0" />
+    <ru.ok.android.ui.custom.profiles.PresentView android:id="@id/nextView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:alpha="0.0" />
+</merge>

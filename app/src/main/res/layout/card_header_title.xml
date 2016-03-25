@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textAppearance="@style/TextAppearance_Card_Header_Title" android:id="@id/text_title" android:background="@android:color/white" android:layout_width="fill_parent" android:includeFontPadding="true" style="@style/Card_Header_Title"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

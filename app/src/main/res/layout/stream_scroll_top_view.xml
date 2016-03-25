@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@style/TextAppearance_StreamScrollTopView" android:layout_gravity="center|left" android:id="@id/text" android:paddingLeft="14.0dip" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/stream_news" style="@style/TextAppearance_StreamScrollTopView" />
+    <ImageView android:layout_gravity="center|right" android:id="@id/image" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/stream_scroll_top_transition" android:scaleType="center" android:minWidth="44.0dip" android:minHeight="44.0dip" />
+</merge>

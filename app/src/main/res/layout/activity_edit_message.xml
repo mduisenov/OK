@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ru.ok.android.emoji.container.RelativePanelLayout android:id="@id/root" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ru.ok.android.emoji.view.EmojiEditText android:gravity="top" android:id="@id/message" android:background="@null" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:imeOptions="flagNoExtractUi" style="@style/MessageInput" />
+    <CheckBox android:id="@id/add_smile_checkbox" android:background="@drawable/btn_smile_item" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:width="50.0dip" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+</ru.ok.android.emoji.container.RelativePanelLayout>

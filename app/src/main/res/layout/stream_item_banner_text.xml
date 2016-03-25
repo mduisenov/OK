@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textAppearance="@style/TextAppearance_Feed.Primary" android:id="@id/banner_text" android:background="@drawable/stream_item_selector_bg" android:paddingLeft="@dimen/feed_card_padding_total" android:paddingTop="@dimen/feed_card_padding_inner" android:paddingRight="@dimen/feed_card_padding_total" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/TextAppearance_Feed.Primary"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ru.ok.android.fresco.FrescoGifMarkerView android:id="@id/photo" android:layout_width="0.0dip" android:layout_height="0.0dip" app:placeholderImage="@color/stream_image_stub" app:actualImageScaleType="centerCrop" app:pressedStateOverlayImage="@color/selector_bg"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

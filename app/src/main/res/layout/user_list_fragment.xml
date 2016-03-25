@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/main_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/above_anchor" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip">
+        <ru.ok.android.ui.nativeRegistration.UserAvatarViewPagerContainer android:id="@id/viewpager_container" android:background="@android:color/transparent" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+            <ru.ok.android.ui.nativeRegistration.UserAvatarViewPager android:layout_gravity="center_horizontal" android:id="@id/users_list" android:background="@android:color/transparent" android:paddingTop="48.0dip" android:fadingEdge="none" android:fadingEdgeLength="0.0dip" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="170.0dip" android:fadeScrollbars="false" android:overScrollMode="never" />
+        </ru.ok.android.ui.nativeRegistration.UserAvatarViewPagerContainer>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="256.0dip" android:layout_height="wrap_content">
+            <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="@color/orange_2" android:id="@id/name_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:singleLine="true" />
+            <TextView android:textSize="18.0sp" android:textColor="@color/orange_2" android:id="@id/login_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/ok_enter" android:singleLine="true" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:paddingBottom="80.0dip" android:layout_width="256.0dip" android:layout_height="fill_parent" android:layout_below="@id/above_anchor" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+        <include layout="@layout/registration_error_text" />
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="44.0dip">
+            <Button android:id="@id/login_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/yes_its_me" style="@style/NativeRegistrationButton" />
+            <ProgressBar android:layout_gravity="center" android:id="@id/login_progress" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/RegistrationProgressBar" />
+        </FrameLayout>
+        <Button android:textColor="@color/black" android:id="@id/go_to_registration" android:background="@drawable/reg_button_gray" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:text="@string/new_registration" style="@style/NativeRegistrationButton" />
+    </LinearLayout>
+    <include android:id="@id/below_anchor" android:layout_width="256.0dip" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" layout="@layout/feedback_link" />
+</RelativeLayout>

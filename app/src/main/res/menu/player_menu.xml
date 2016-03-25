@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/ic_ab_playlist" android:id="@id/playlist" android:orderInCategory="2" android:title="@string/playlist" app:showAsAction="always" />
+    <item android:icon="@drawable/actionbar_plus" android:id="@id/add_to_album" android:orderInCategory="1" android:title="@string/add_music" app:showAsAction="always" />
+    <item android:icon="@drawable/ic_ab_status" android:id="@id/status" android:orderInCategory="0" android:title="@string/media_composer_to_status" app:showAsAction="ifRoom" />
+    <item android:id="@id/copy_link" android:title="@string/copy_link" app:showAsAction="never" />
+    <item android:id="@id/go_to_album" android:title="@string/album_music" app:showAsAction="never" />
+    <item android:id="@id/go_to_artist" android:title="@string/artist_music" app:showAsAction="never" />
+</menu>

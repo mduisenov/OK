@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ru.ok.android.ui.custom.VideoPlaybackView android:id="@id/video_playback_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:layout_gravity="center" android:id="@id/error_stub" android:layout="@layout/error_text_stub" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</FrameLayout>

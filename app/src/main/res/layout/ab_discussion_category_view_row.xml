@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="48.0dip"
+    android:background="@drawable/abc_spinner_mtrl_am_alpha"
+    android:gravity="center_vertical"
+    android:maxWidth="240.0dip"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/padding_tiny"
+    android:paddingRight="20.0dip">
+
+    <TextView
+        android:id="@id/name"
+        style="?android:attr/spinnerDropDownItemStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ellipsize="marquee"
+        android:singleLine="true"
+        android:text="@string/discussions"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@id/category"
+        style="?android:attr/spinnerDropDownItemStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ellipsize="marquee"
+        android:singleLine="true"
+        android:text="@string/discussions"
+        android:textColor="@color/white"
+        android:textSize="12.0sp" />
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:paddingTop="@dimen/action_button_padding" android:paddingBottom="@dimen/action_button_padding" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:layout_gravity="center_vertical" android:id="@id/text_comments" android:layout_width="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginRight="8.0dip" android:layout_marginBottom="8.0dip" style="@style/TextView_FeedFooter_Action.Dark.Footer" />
+    <ru.ok.android.ui.custom.photo.LikesViewSynced android:id="@id/likes" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/LikesView.Dark" />
+    <TextView android:layout_gravity="center_vertical" android:id="@id/text_share" android:layout_width="wrap_content" android:layout_marginLeft="8.0dip" style="@style/TextView_FeedFooter_Action.Dark.Footer" />
+    <Space android:layout_width="12.0dip" android:layout_height="0.0dip" />
+</merge>

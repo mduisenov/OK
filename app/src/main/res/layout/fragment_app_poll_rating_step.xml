@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/app_poll_main_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:id="@id/app_poll_question" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" style="@style/AppPollTitle" />
+    <View android:background="@color/grey_7" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginBottom="20.0dip" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/app_poll_radio_group" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ru.ok.android.ui.custom.radio.AppPollRadioView android:id="@id/app_poll_radio_1" android:layout_width="0.0dip" android:layout_height="56.0dip" android:layout_weight="1.0" app:radio_text="1" />
+        <ru.ok.android.ui.custom.radio.AppPollRadioView android:id="@id/app_poll_radio_2" android:layout_width="0.0dip" android:layout_height="56.0dip" android:layout_weight="1.0" app:radio_text="2" />
+        <ru.ok.android.ui.custom.radio.AppPollRadioView android:id="@id/app_poll_radio_3" android:layout_width="0.0dip" android:layout_height="56.0dip" android:layout_weight="1.0" app:radio_text="3" />
+        <ru.ok.android.ui.custom.radio.AppPollRadioView android:id="@id/app_poll_radio_4" android:layout_width="0.0dip" android:layout_height="56.0dip" android:layout_weight="1.0" app:radio_text="4" />
+        <ru.ok.android.ui.custom.radio.AppPollRadioView android:gravity="center" android:id="@id/app_poll_radio_5" android:layout_width="0.0dip" android:layout_height="56.0dip" android:layout_weight="1.0" app:radio_text="5" />
+    </LinearLayout>
+</LinearLayout>

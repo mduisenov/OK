@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ru.ok.android.ui.fragments.messages.view.DiscussionPhotoView android:id="@id/image" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="fitCenter" android:layout_centerHorizontal="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

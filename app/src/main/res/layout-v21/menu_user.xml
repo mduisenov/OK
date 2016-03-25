@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ok="http://schemas.android.com/apk/res-auto">
+    <com.facebook.drawee.view.SimpleDraweeView android:id="@id/menu_user_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" ok:actualImageScaleType="centerCrop" ok:backgroundImage="@color/theme_dark_bg" />
+    <Space android:id="@id/menu_user_status_space" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/sliding_menu_item_user_height" android:minHeight="@dimen/sliding_menu_item_user_height" android:layout_below="@id/menu_user_status_space">
+        <include layout="@layout/menu_user_content" />
+    </RelativeLayout>
+</RelativeLayout>

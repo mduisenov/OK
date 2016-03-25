@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ru.ok.android.ui.relations.RelativeLayoutMaxWidth android:gravity="center_vertical" android:paddingLeft="@dimen/padding_tiny" android:paddingRight="@dimen/padding_tiny" android:layout_width="fill_parent" android:layout_height="fill_parent" android:maxWidth="240.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:gravity="center|left" android:id="@id/count" android:paddingRight="0.0dip" android:layout_width="wrap_content" android:layout_height="48.0dip" android:layout_marginRight="@dimen/padding_medium" android:singleLine="true" android:layout_alignParentRight="true" style="?android:attr/spinnerDropDownItemStyle" />
+    <TextView android:ellipsize="marquee" android:id="@id/name" android:layout_width="fill_parent" android:layout_height="48.0dip" android:singleLine="true" android:layout_toLeftOf="@id/count" style="?android:attr/spinnerDropDownItemStyle" />
+</ru.ok.android.ui.relations.RelativeLayoutMaxWidth>

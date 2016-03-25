@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#ff333333" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/controls" android:background="@drawable/upload_bottom_panel" android:layout_width="fill_parent" android:layout_height="44.0dip" android:layout_alignParentBottom="true">
+        <TextView android:textStyle="bold" android:textColor="@color/green_upload_btn" android:gravity="center" android:id="@id/upload" android:background="@drawable/upload_image_bg" android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/upload_upper_case" android:shadowColor="@android:color/black" android:shadowDy="1.0" android:shadowRadius="1.0" android:layout_alignParentRight="true" />
+        <View android:id="@id/divider1" android:background="@color/gray_divider" android:layout_width="1.0dip" android:layout_height="fill_parent" android:layout_toLeftOf="@id/upload" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="99.0" android:layout_toLeftOf="@id/divider1">
+            <ImageView android:id="@id/rotate_ccw" android:background="@drawable/upload_image_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/btn_rotate_ccw" android:scaleType="center" android:layout_weight="33.0" />
+            <ImageView android:id="@id/crop" android:background="@drawable/upload_image_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/btn_crop" android:scaleType="center" android:layout_weight="33.0" />
+            <ImageView android:id="@id/rotate_cw" android:background="@drawable/upload_image_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/btn_rotate_cw" android:scaleType="center" android:layout_weight="33.0" />
+        </LinearLayout>
+    </RelativeLayout>
+    <View android:id="@id/divider" android:background="#ff222222" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_above="@id/controls" />
+    <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/white" android:id="@id/images_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" android:layout_above="@id/divider" android:layout_centerHorizontal="true" />
+    <ru.ok.android.ui.custom.BlockableViewPager android:id="@id/pager" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="12.0dip" android:layout_above="@id/images_count" android:layout_alignParentTop="true" android:smoothScrollbar="true" />
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/add_container" android:padding="24.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/images_count" android:layout_centerInParent="true">
+        <Button android:gravity="center" android:id="@id/add_photos" android:padding="16.0dip" android:layout_width="fill_parent" android:layout_height="64.0dip" android:text="@string/add_photos" android:drawableLeft="@drawable/popup_gallery" android:drawablePadding="8.0dip" style="@style/actionviewButton" />
+    </LinearLayout>
+</RelativeLayout>

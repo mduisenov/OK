@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@id/change_avatar" android:visible="false" android:title="@string/Set_main_photo" app:showAsAction="never" />
+    <item android:id="@id/may_invite_happening_group" android:visible="false" android:title="@string/may_invite_group_happening" app:showAsAction="never" />
+    <item android:id="@id/leave_group" android:visible="false" android:title="@string/leave_group" app:showAsAction="never" />
+    <item android:id="@id/copy_link" android:visible="true" android:title="@string/copy_link" app:showAsAction="never" />
+    <item android:id="@id/settings_group" android:visible="false" android:title="@string/settings" app:showAsAction="never" />
+    <item android:id="@id/subscribe_to_stream" android:visible="false" android:title="@string/subscribe" app:showAsAction="never" />
+    <item android:id="@id/complaint" android:visible="false" android:title="@string/complaint" app:showAsAction="never" />
+</menu>

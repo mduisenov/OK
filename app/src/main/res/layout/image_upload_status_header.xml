@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="16.0sp" android:textColor="@color/grey_light" android:gravity="center" android:id="@id/album_prefix" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:layout_marginBottom="10.0dip" />
+    <TextView android:textSize="16.0sp" android:textColor="@color/green_upload_btn" android:gravity="center" android:id="@id/album_name" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:layout_marginBottom="10.0dip" />
+    <TextView android:textSize="16.0sp" android:textColor="@color/grey_light" android:gravity="center" android:id="@id/group_prefix" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:layout_marginBottom="10.0dip" />
+    <TextView android:textSize="16.0sp" android:textColor="@color/green_upload_btn" android:gravity="center" android:id="@id/group_name" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:layout_marginBottom="10.0dip" />
+</merge>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@id/change_avatar" android:title="@string/Set_main_photo" app:showAsAction="never" />
+    <item android:id="@id/find_friends" android:title="@string/find_friends" app:showAsAction="never" />
+    <item android:id="@id/copy_link" android:visible="true" android:title="@string/copy_link" app:showAsAction="never" />
+</menu>

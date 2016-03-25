@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ru.ok.android.ui.swiperefresh.OkSwipeUpRefreshLayout android:id="@id/swipe_refresh" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ru.ok.android.ui.RecyclerViewCheckable android:id="@id/playlist" android:focusable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@drawable/selector_bg" android:cacheColorHint="@color/white" android:divider="@null" android:dividerHeight="0.0px" />
+    </ru.ok.android.ui.swiperefresh.OkSwipeUpRefreshLayout>
+    <ru.ok.android.ui.custom.emptyview.SmartEmptyViewAnimated android:id="@id/empty_view" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/SmartEmptyViewAnimatedWithTabbarAndScroll" />
+</FrameLayout>

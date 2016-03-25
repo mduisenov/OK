@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ru.ok.android.music.view.RectangleViewPager android:id="@id/view_pager" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="-11.0dip" />
+    <LinearLayout android:orientation="vertical" android:id="@id/player_body" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:id="@id/progress_layout" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ru.ok.android.music.view.InterceptDisallowSeekBar android:layout_gravity="center" android:id="@id/progress" android:padding="0.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:thumbOffset="2.0dip" style="@style/CustomProgressStyle" />
+        </FrameLayout>
+        <RelativeLayout android:orientation="horizontal" android:background="@color/white" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:id="@id/time_to_start" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" style="@style/MusicPlayer_Text.Time" />
+            <TextView android:id="@id/time_to_end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:layout_alignParentTop="true" android:layout_alignParentRight="true" style="@style/MusicPlayer_Text.Time" />
+        </RelativeLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/info_layout" android:background="@color/white" android:paddingTop="5.0dip" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:id="@id/track_name" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/MusicPlayer_Text.Track" />
+            <TextView android:id="@id/artist_name" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/MusicPlayer_Text.Artist" />
+            <TextView android:id="@id/album_name" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/MusicPlayer_Text.Album" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="2.0">
+            <Space android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/control_layout" android:layout_width="fill_parent" android:layout_height="80.0dip">
+                <ImageButton android:layout_gravity="center" android:id="@id/button_shuffle" android:background="@drawable/player_small_button_bg" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:layout_marginRight="10.0dip" android:src="@drawable/ic_player_random" android:layout_weight="0.2" />
+                <ImageButton android:layout_gravity="center" android:id="@id/button_prev" android:background="@android:color/transparent" android:padding="10.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:src="@drawable/player_button_prev_xml" android:layout_weight="0.2" />
+                <ru.ok.android.ui.custom.player.PlayPauseView android:id="@id/play_pause_view" android:layout_width="0.0dip" android:layout_height="80.0dip" android:layout_marginLeft="24.0dip" android:layout_marginRight="24.0dip" android:scaleType="center" android:layout_weight="0.2" ok:pause_element_width="@dimen/player_pause_element_width" ok:pause_element_height="@dimen/player_pause_element_height" ok:pause_elements_margin="@dimen/player_pause_elements_margin" ok:play_element_width="@dimen/player_play_width" ok:play_offset="@dimen/player_play_offset" ok:pause_color="@color/player_pause" ok:play_color="@color/player_play" ok:animation_duration="@integer/player_play_button_animation_duration" xmlns:ok="http://schemas.android.com/apk/res-auto" />
+                <ImageButton android:layout_gravity="center" android:id="@id/button_next" android:background="@android:color/transparent" android:padding="10.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:src="@drawable/player_button_next_xml" android:layout_weight="0.2" />
+                <ImageButton android:layout_gravity="center" android:id="@id/button_repeat" android:background="@drawable/player_small_button_bg" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="2.0dip" android:src="@drawable/ic_player_loop" android:layout_weight="0.2" />
+            </LinearLayout>
+            <Space android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

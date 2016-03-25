@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="OrientationLayout">
+        <item name="android:orientation">horizontal</item>
+    </style>
+    <style name="OrientationLayoutInverse">
+        <item name="android:orientation">vertical</item>
+    </style>
+    <style name="WeightLandscape">
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="Widget.Design.TabLayout" parent="@style/Base.Widget.Design.TabLayout">
+        <item name="tabMode">fixed</item>
+        <item name="tabGravity">center</item>
+    </style>
+</resources>

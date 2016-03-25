@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ru.ok.android.ui.stream.view.StreamScrollTopView android:layout_gravity="center|right|top" android:id="@id/stream_scroll_top_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/scroll_view_margin" style="@style/StreamScrollTopView"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

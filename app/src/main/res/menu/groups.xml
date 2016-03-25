@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/actionbar_filter" android:id="@id/search" android:hint="@string/groups_search_hint" android:title="@string/groups_search_title" app:showAsAction="always|collapseActionView" app:actionViewClass="ru.ok.android.ui.custom.OkSearchView" />
+    <item android:enabled="true" android:id="@id/menu_groups_create" android:title="@string/group_create" app:showAsAction="never" />
+</menu>

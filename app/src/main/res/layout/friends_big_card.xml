@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/bg_card_friendlist_mask" android:focusable="true" android:clickable="true" android:clipToPadding="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ok="http://schemas.android.com/apk/res-auto">
+    <ru.ok.android.ui.custom.imageview.AspectRatioAsyncDraweeView android:id="@id/avatar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="centerCrop" ok:aspectRatio="1.0" ok:roundingType="roundedCorners" ok:topLeftCornerRadius="@dimen/feed_card_corner_radius" ok:topRightCornerRadius="@dimen/feed_card_corner_radius" ok:bottomRightCornerRadius="0.0dip" ok:bottomLeftCornerRadius="0.0dip" />
+    <ImageView android:id="@id/online" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignLeft="@id/avatar" android:layout_alignBottom="@id/avatar" />
+    <RelativeLayout android:id="@id/info_container" android:background="@drawable/friend_big_card_info_bg" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/avatar" android:layout_alignParentBottom="true">
+        <ImageButton android:id="@id/dots" android:background="@drawable/selector_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/mt_options_g" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <LinearLayout android:orientation="vertical" android:padding="@dimen/card_padding" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/padding_small" android:layout_toLeftOf="@id/dots" android:layout_centerVertical="true">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@id/private_profile" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/padding_medium" android:src="@drawable/ic_list_lock" />
+                <TextView android:ellipsize="end" android:id="@id/name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:drawablePadding="4.0dip" style="@style/TextAppearance_Card_Name" />
+            </LinearLayout>
+            <TextView android:ellipsize="end" android:id="@id/info" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/TextAppearance_Card_Info" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

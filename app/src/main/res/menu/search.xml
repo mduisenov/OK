@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/actionbar_filter" android:id="@id/search" android:hint="@string/search_global__hint" android:title="@string/search_global__hint" app:showAsAction="always" app:actionViewClass="ru.ok.android.ui.custom.OkSearchView" />
+</menu>

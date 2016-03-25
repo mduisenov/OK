@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:addStatesFromChildren="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:foreground="@drawable/transparent_alpha_orange"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ru.ok.android.fresco.FrescoGifMarkerView android:gravity="bottom|center|right" android:layout_gravity="center" android:id="@id/image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    <ru.ok.android.ui.stream.view.FeedFooterView android:layout_gravity="bottom" android:id="@id/likes_layout" android:paddingTop="42.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/FeedFooterView.Photo" />
+</FrameLayout>

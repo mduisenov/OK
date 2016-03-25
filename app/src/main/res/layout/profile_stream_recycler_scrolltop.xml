@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/stream_list_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ru.ok.android.ui.swiperefresh.OkSwipeRefreshLayoutWrappedList android:id="@id/swipe_refresh" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <FrameLayout android:layout_gravity="top" android:id="@id/profile_container_top" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <ru.ok.android.ui.StreamRecyclerView android:id="@id/list" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/StreamAnimationList" />
+            <ru.ok.android.ui.custom.TouchObserverHeader android:layout_gravity="top" android:id="@id/list_header_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <ViewStub android:id="@id/stream_blocked_info" android:layout="@layout/stream_blocked_info" android:inflatedId="@id/stream_blocked_info" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <ru.ok.android.ui.custom.emptyview.SmartEmptyViewAnimated android:id="@id/empty_view" android:background="@color/stream_list_bg" android:paddingBottom="@dimen/empty_view_above_tabbar_with_shadow" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </FrameLayout>
+    </ru.ok.android.ui.swiperefresh.OkSwipeRefreshLayoutWrappedList>
+</FrameLayout>

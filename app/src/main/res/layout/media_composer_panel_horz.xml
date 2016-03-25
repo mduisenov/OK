@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="right" android:orientation="horizontal" android:id="@id/composer_panel_open_circles" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageButton android:id="@id/media_composer_circle_video" android:visibility="invisible" android:layout_marginBottom="@dimen/media_composer_circles_margin_bottom" android:src="@drawable/ic_fab_video" android:layout_alignParentRight="true" style="@style/media_composer_circle" />
+        <ImageButton android:id="@id/media_composer_circle_photo" android:visibility="invisible" android:layout_marginLeft="@dimen/media_composer_circles_margin" android:layout_marginBottom="@dimen/media_composer_circles_margin_bottom" android:src="@drawable/ic_fab_photo" style="@style/media_composer_circle" />
+        <ImageButton android:id="@id/media_composer_circle_note" android:visibility="invisible" android:layout_marginLeft="@dimen/media_composer_circles_margin" android:layout_marginBottom="@dimen/media_composer_circles_margin_bottom" android:src="@drawable/ic_fab_mt" style="@style/media_composer_circle" />
+        <ImageButton android:layout_gravity="right" android:id="@id/media_composer_circle_plus" android:layout_marginLeft="@dimen/media_composer_circle_plus_margin" android:layout_marginRight="@dimen/media_composer_circles_margin_bottom" android:layout_marginBottom="@dimen/media_composer_circles_margin_bottom" android:src="@drawable/ic_fab_add" style="@style/media_composer_circle" />
+    </LinearLayout>
+</merge>

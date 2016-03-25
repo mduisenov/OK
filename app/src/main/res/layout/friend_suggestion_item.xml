@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="?android:actionBarSize"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@drawable/selector_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ru.ok.android.ui.fragments.messages.view.ParticipantsPreviewView android:id="@id/participants" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_margin="6.0dip" android:layout_alignParentRight="true" />
+    <TextView android:textSize="@dimen/friends_title_text_size" android:textColor="@color/messages_author_my_color" android:gravity="center_vertical" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:includeFontPadding="true" android:layout_toLeftOf="@id/participants" android:layout_centerVertical="true" />
+    <View android:background="@color/divider_grey_on_white" android:layout_width="fill_parent" android:layout_height="@dimen/card_shadow_height" android:layout_alignParentBottom="true" />
+</RelativeLayout>

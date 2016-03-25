@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ok="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/album_img_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ru.ok.android.ui.custom.PlayerImageView android:layout_gravity="center" android:id="@id/album_image_view" android:layout_width="fill_parent" android:layout_height="fill_parent" ok:placeholderImage="@drawable/music_placeholder_album" ok:placeholderImageScaleType="centerCrop" ok:actualImageScaleType="centerCrop" />
+        <ProgressBar android:layout_gravity="center" android:id="@id/progress_load" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminateDrawable="@drawable/progress" style="@android:style/Widget.ProgressBar.Small.Inverse" />
+        <LinearLayout android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/user_layout" android:background="@drawable/overphoto_gradient" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="12.0sp" android:textColor="@color/player_legal_info" android:layout_gravity="bottom" android:id="@id/legal_info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:singleLine="false" style="@style/MusicPlayer_Text" />
+        </LinearLayout>
+    </FrameLayout>
+</merge>

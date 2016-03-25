@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/c_bubble_green" />
+            <corners android:radius="@dimen/c_bubble_big_corners" />
+            <size android:height="@dimen/c_bubble_big_size" android:width="@dimen/c_bubble_big_size" />
+            <stroke android:width="@dimen/c_bubble_stroke" android:color="@color/sliding_menu_background" />
+        </shape>
+    </item>
+</selector>

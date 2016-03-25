@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@drawable/app_poll_table_item_background" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@id/app_poll_item_image" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginTop="21.0dip" android:layout_marginBottom="6.0dip" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/app_poll_item_text_color" android:gravity="center" android:id="@id/app_poll_item_text" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="17.0dip" />
+    </LinearLayout>
+    <ImageView android:layout_gravity="end|center|top" android:id="@id/app_poll_mark" android:layout_width="18.0dip" android:layout_height="18.0dip" android:layout_marginTop="4.0dip" android:layout_marginRight="4.0dip" android:src="@drawable/app_poll_mark" />
+</FrameLayout>

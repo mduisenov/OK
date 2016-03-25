@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ru.ok.android.ui.fragments.messages.view.AudioMsgPlayer android:id="@id/audio_player_inflated" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/play_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_centerVertical="true">
+        <FrameLayout android:layout_gravity="center" android:id="@id/btn_layout" android:paddingTop="4.0dip" android:paddingBottom="4.0dip" android:visibility="visible" android:layout_width="28.0dip" android:layout_height="36.0dip">
+            <ImageView android:id="@id/play_btn" android:background="@drawable/voicechat_button_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/ic_voicechat_play" android:scaleType="centerInside" />
+            <ProgressBar android:id="@id/preload_spinner" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:max="10000" android:indeterminateDrawable="@drawable/voicechat_progress_anim" android:indeterminateDuration="1000" android:layout_centerInParent="true" />
+        </FrameLayout>
+        <FrameLayout android:layout_gravity="center" android:id="@id/record_layout" android:paddingTop="4.0dip" android:paddingBottom="4.0dip" android:visibility="visible" android:layout_width="28.0dip" android:layout_height="36.0dip">
+            <View android:layout_gravity="center" android:id="@id/record_view" android:background="@drawable/ic_chat_record_red" android:layout_width="10.0dip" android:layout_height="10.0dip" android:layout_centerInParent="true" />
+            <View android:id="@id/record_bg" android:background="@drawable/voicechat_button_bg_right" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerInside" />
+        </FrameLayout>
+    </FrameLayout>
+    <ru.ok.android.ui.fragments.messages.view.AudioPlayerWaveView android:id="@id/audio_wave" android:layout_width="wrap_content" android:layout_height="36.0dip" android:layout_marginLeft="4.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="4.0dip" android:layout_marginBottom="8.0dip" android:layout_toLeftOf="@id/timer_text" android:layout_toRightOf="@id/play_layout" android:layout_centerVertical="true" />
+    <ru.ok.android.widget.JellyBeanSpanFixTextView android:textSize="10.0sp" android:id="@id/timer_text" android:background="@drawable/voicechat_timer_border" android:paddingLeft="6.0dip" android:paddingTop="2.0dip" android:paddingRight="6.0dip" android:paddingBottom="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</ru.ok.android.ui.fragments.messages.view.AudioMsgPlayer>

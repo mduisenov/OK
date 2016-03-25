@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/pinned_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" style="@style/PinnedView" />
+    <ViewStub android:id="@id/promo_label" android:visibility="gone" android:layout="@layout/stream_promo_label" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <ImageView android:id="@id/feed_header_options_btn" android:paddingLeft="@dimen/mt_options_left_padding" android:paddingTop="@dimen/options_btn_padding_vertical" android:paddingRight="@dimen/options_btn_padding_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_more_medium_xml" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/primary_header_content" android:addStatesFromChildren="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/feed_card_padding_inner" android:layout_toLeftOf="@id/feed_header_options_btn" android:layout_below="@id/promo_label" android:layout_alignParentLeft="true">
+        <ru.ok.android.ui.custom.imageview.MultiUserAvatar android:layout_gravity="top" android:id="@id/avatar" android:focusable="true" android:focusableInTouchMode="false" android:clickable="true" android:layout_width="@dimen/feed_header_round_avatar" android:layout_height="@dimen/feed_header_round_avatar" />
+        <TextView android:layout_gravity="center_vertical" android:id="@id/feed_header_text" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" />
+    </LinearLayout>
+</merge>

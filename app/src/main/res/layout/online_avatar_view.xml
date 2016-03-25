@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/avatar_background_item" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ru.ok.android.ui.custom.imageview.AsyncDraweeView android:id="@id/avatar" android:layout_width="@dimen/size_avatars_w" android:layout_height="@dimen/size_avatars_h" android:scaleType="centerCrop" android:layout_centerInParent="true" app:roundingType="rounded" />
+    <ImageView android:id="@id/online" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" />
+</RelativeLayout>

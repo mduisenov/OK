@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@drawable/stream_item_link_selector_bg" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fresco="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_gravity="top" android:id="@id/image_container" android:visibility="visible" android:addStatesFromChildren="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:foreground="@drawable/transparent_alpha_orange">
+        <com.facebook.drawee.view.SimpleDraweeView android:id="@id/link_image" android:visibility="gone" android:layout_width="@dimen/stream_item_link_image_size" android:layout_height="@dimen/stream_item_link_image_size" android:layout_marginLeft="8.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="2.0dip" android:layout_marginBottom="8.0dip" android:scaleType="fitStart" android:adjustViewBounds="true" fresco:placeholderImage="@color/stream_image_stub" />
+    </FrameLayout>
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:paddingTop="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textAppearance="@style/TextAppearance_Feed.Link.Title" android:textSize="14.0sp" android:ellipsize="end" android:id="@id/link_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:includeFontPadding="false" android:layout_toLeftOf="@id/link_icon" style="@style/TextAppearance_Feed.Link.Title" />
+            <ImageView android:id="@id/link_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" android:src="@drawable/ic_feed_link" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+        <TextView android:textAppearance="@style/TextAppearance_Feed.Link.Description" android:textSize="14.0sp" android:ellipsize="end" android:id="@id/link_descr" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:maxLines="3" android:includeFontPadding="false" style="@style/TextAppearance_Feed.Link.Description" />
+        <TextView android:textAppearance="@style/TextAppearance_Feed.Link.Link" android:textSize="14.0sp" android:id="@id/link_url" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginBottom="8.0dip" android:includeFontPadding="false" style="@style/TextAppearance_Feed.Link.Link" />
+        <FrameLayout android:layout_gravity="top" android:id="@id/image_container_down" android:background="@drawable/stream_item_selector_bg" android:visibility="gone" android:addStatesFromChildren="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:foreground="@drawable/transparent_alpha_orange">
+            <com.facebook.drawee.view.SimpleDraweeView android:id="@id/link_image_down" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="fitCenter" android:adjustViewBounds="true" fresco:placeholderImage="@color/stream_image_stub" />
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/Notification.Dark"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/top_row_layout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@id/odkl_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginRight="8.0dip" android:src="@drawable/notification_call" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <Chronometer android:id="@id/notification_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/odkl_icon" android:layout_centerVertical="true" style="@style/TextAppearance.Notification.Dark.Title" />
+    </RelativeLayout>
+    <TextView android:id="@id/notification_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/top_row_layout" android:layout_alignParentLeft="true" style="@style/TextAppearance.Notification.Dark" />
+    <ImageButton android:id="@id/drop_button" android:background="@color/notification_button_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/end_call" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</RelativeLayout>

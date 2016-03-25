@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ok="http://schemas.android.com/apk/res-auto">
+    <ru.ok.android.ui.custom.UploadAvatarRoundedImageView android:layout_gravity="center_horizontal" android:id="@id/avatar" android:layout_width="@dimen/update_user_info_avatar" android:layout_height="@dimen/update_user_info_avatar" android:layout_marginBottom="32.0dip" ok:malePlaceHolder="@drawable/avatar_man" ok:femalePlaceHolder="@drawable/avatar_woman" ok:showHint="true" />
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="32.0dip">
+        <ImageView android:layout_gravity="center" android:id="@id/name_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" android:layout_marginBottom="6.0dip" android:src="@drawable/name_man" />
+        <EditText android:gravity="start" android:id="@id/first_name" android:layout_width="0.0dip" android:layout_height="wrap_content" android:hint="@string/first_name" android:maxLength="16" android:layout_weight="1.0" android:imeOptions="flagNoExtractUi" style="@style/RegInput" />
+        <EditText android:gravity="start" android:id="@id/last_name" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="18.0dip" android:hint="@string/last_name" android:maxLength="24" android:layout_weight="1.0" android:imeOptions="flagNoExtractUi" style="@style/RegInput" />
+    </LinearLayout>
+    <RelativeLayout android:id="@id/birthday_anchor" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="32.0dip">
+        <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" android:layout_marginBottom="6.0dip" android:src="@drawable/ic_reg_profile_birthday" />
+        <EditText android:gravity="left" android:id="@id/birthday" android:focusable="false" android:clickable="true" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:hint="@string/birthday" android:layout_weight="1.0" style="@style/RegInput" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="32.0dip">
+        <ImageView android:layout_gravity="center" android:id="@id/gender_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" android:layout_marginBottom="6.0dip" android:src="@drawable/gender_man" />
+        <Spinner android:orientation="horizontal" android:id="@id/gender" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:drawSelectorOnTop="true" android:spinnerMode="dialog" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/password_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="42.0dip">
+        <ImageView android:layout_gravity="top" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" android:src="@drawable/key" />
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip">
+                <ru.ok.android.ui.custom.text.PasswordEditText android:id="@id/password_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/password" ok:password_alwaysVisible="true" ok:editText_paddingRight="30.0dip" ok:password_gravity="left" />
+                <ImageView android:id="@id/clear_pw" android:paddingLeft="5.0dip" android:paddingTop="5.0dip" android:paddingRight="5.0dip" android:paddingBottom="5.0dip" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_up_cancel" android:layout_alignParentRight="true" />
+            </RelativeLayout>
+            <TextView android:textSize="14.0sp" android:id="@id/update_password_info" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <Button android:id="@id/go_btn" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/ready" style="@style/NativeRegistrationButton" />
+            <ProgressBar android:layout_gravity="center" android:id="@id/login_progress" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/RegistrationProgressBar" />
+        </FrameLayout>
+    </RelativeLayout>
+</LinearLayout>

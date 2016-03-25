@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/grey_div_lighter" />
+        </shape>
+    </item>
+    <item>
+        <inset android:drawable="@color/grey_div_darker" android:insetBottom="1.0dip" />
+    </item>
+</layer-list>

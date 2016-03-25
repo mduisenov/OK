@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ru.ok.android.ui.custom.emptyview.SmartEmptyViewAnimated android:id="@id/empty_view" android:paddingTop="@dimen/page_indicator_height" android:paddingBottom="@dimen/tabbar_horizontal_height_with_shadow" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="?actionBarSize" />
+    <ru.ok.android.ui.swiperefresh.OkGroupsSwipeRefreshLayout android:id="@id/swipe_refresh" android:background="@null" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ru.ok.android.ui.CoordinatorLayoutNested android:orientation="vertical" android:id="@id/coordinator_nested" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <android.support.design.widget.AppBarLayout android:id="@id/groups_own_appbar" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" app:background="@color/white" app:elevation="0.0dip" app:layout_behavior="ru.ok.android.ui.coordinator.behaviors.AppBarGroupsOwnLayoutBehavior">
+                <RelativeLayout android:id="@id/groups_own_content" android:background="@color/white" android:paddingLeft="0.0dip" android:paddingRight="0.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_scrollFlags="enterAlways|scroll">
+                    <TextView android:id="@id/groups_own_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="12.0dip" android:text="@string/my_groups" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" style="@style/TextAppearance_Groups_Section_Label" />
+                    <TextView android:id="@id/groups_own_all" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" android:text="@string/groups_button_all" android:layout_alignBaseline="@id/groups_own_label" android:layout_alignParentRight="true" style="@style/ButtonAll" />
+                    <ru.ok.android.ui.GroupsOwnRecyclerView android:id="@id/recycler_groups_own" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="@dimen/groups_own_recycler_height" android:layout_below="@id/groups_own_label" android:overScrollMode="never" />
+                </RelativeLayout>
+            </android.support.design.widget.AppBarLayout>
+            <FrameLayout android:id="@id/groups_portal_content" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+                <ru.ok.android.ui.GroupsRecyclerView android:id="@id/recycler_groups_portal" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                <View android:layout_gravity="top" android:background="@color/stream_list_bg" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            </FrameLayout>
+            <View android:layout_gravity="bottom" android:id="@id/shadow" android:visibility="gone" android:alpha="0.0" app:layout_behavior="ru.ok.android.ui.coordinator.behaviors.GroupsShadowBehavior" app:layout_anchor="@id/groups_portal_content" app:layout_anchorGravity="top" style="@style/ActionBar.Shadow" />
+        </ru.ok.android.ui.CoordinatorLayoutNested>
+    </ru.ok.android.ui.swiperefresh.OkGroupsSwipeRefreshLayout>
+    <FrameLayout android:id="@id/search_groups_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

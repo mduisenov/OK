@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ru.ok.android.ui.custom.profiles.ProfileButtonsLayout android:layout_width="fill_parent" android:layout_height="40.0dip" android:divider="@drawable/profile_vertical_divider" android:showDividers="middle" profile:maxOpenViews="@integer/max_buttons_in_profile"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:profile="http://schemas.android.com/apk/res-auto">
+    <ru.ok.android.ui.custom.profiles.ProfilesButton android:id="@id/subscribe_to_user" android:visibility="gone" android:layout_width="wrap_content" profile:titleText="@string/subscribe" profile:image="@drawable/profile_adduser" style="@style/StreamGreenButtonNewForProfiles" />
+    <ru.ok.android.ui.custom.profiles.ProfilesButton android:id="@id/invite" android:visibility="gone" android:layout_width="wrap_content" profile:titleText="@string/invite_friend" profile:image="@drawable/profile_friends" style="@style/StreamGreenButtonNewForProfiles" />
+    <ru.ok.android.ui.custom.profiles.ProfilesButton android:id="@id/send_message" android:visibility="gone" android:layout_width="wrap_content" profile:titleText="@string/button_text_message" profile:image="@drawable/profile_message" style="@style/StreamGreenButtonNewForProfiles" />
+    <ru.ok.android.ui.custom.profiles.ProfilesButton android:id="@id/send_present" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="40.0dip" profile:titleText="@string/text_send_present" profile:image="@drawable/profile_gift" style="@style/StreamGreenButtonNewForProfiles" />
+    <ru.ok.android.ui.custom.profiles.ProfilesButton android:id="@id/call" android:visibility="gone" android:layout_width="wrap_content" profile:titleText="@string/call_text" profile:image="@drawable/profile_call" style="@style/StreamGreenButtonNewForProfiles" />
+</ru.ok.android.ui.custom.profiles.ProfileButtonsLayout>

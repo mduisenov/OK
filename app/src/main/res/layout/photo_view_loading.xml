@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/black" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ru.ok.android.ui.custom.ProgressWheelView android:id="@id/progress_left" android:layout_marginLeft="36.0dip" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="@style/PhotoViewProgress" />
+    <ru.ok.android.ui.custom.ProgressWheelView android:id="@id/progress_right" android:layout_marginRight="36.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/PhotoViewProgress" />
+</RelativeLayout>

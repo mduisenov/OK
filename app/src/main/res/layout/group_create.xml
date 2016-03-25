@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ok="http://schemas.android.com/apk/res-auto">
+    <android.support.design.widget.TextInputLayout android:textColorHint="@color/hint_textColor" android:id="@id/name_input_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/grpup_create_name_hint" ok:hintTextAppearance="@style/TextAppearance_TextInput_Hint" ok:errorTextAppearance="@style/TextAppearance_TextInput_Error" ok:hintAnimationEnabled="true">
+        <EditText android:id="@id/name_edit" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="" android:hint="@string/grpup_create_name_hint" android:singleLine="true" />
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout android:textColorHint="@color/hint_textColor" android:id="@id/description_input_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:hint="@string/grpup_create_description_hint" ok:hintTextAppearance="@style/TextAppearance_TextInput_Hint" ok:errorTextAppearance="@style/TextAppearance_TextInput_Error" ok:hintAnimationEnabled="true">
+        <EditText android:id="@id/description_edit" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="" android:hint="@string/grpup_create_description_hint" android:singleLine="false" />
+    </android.support.design.widget.TextInputLayout>
+</LinearLayout>

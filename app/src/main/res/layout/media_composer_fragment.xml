@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/text_place" android:background="?android:actionBarItemBackground" android:padding="8.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:drawableLeft="@drawable/ic_geolocation_small" style="@style/MediaComposerItem_Text_Place" />
+    <View android:id="@id/divider" android:background="#ffe3e3e3" android:layout_width="fill_parent" android:layout_height="3.0px" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:layout_alignParentBottom="true" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true" android:layout_weight="1.0">
+        <ru.ok.android.ui.custom.mediacomposer.MediaComposerView android:id="@id/media_composer" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/MediaComposerView" />
+    </ScrollView>
+    <ViewStub android:id="@id/toolbar" android:layout="@layout/media_composer_toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

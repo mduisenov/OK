@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <WebView android:id="@id/player_web_view" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+      xmlns:android="http://schemas.android.com/apk/res/android" />
+    <View android:id="@id/cover_view" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <View android:id="@id/gradient_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:id="@id/loading_spinner" android:background="@android:color/black" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ProgressBar android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <ViewStub android:gravity="center" android:id="@id/error_stub" android:layout="@layout/error_text_stub" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ru.ok.android.ui.video.player.FitSystemControlsFrameLayout android:id="@id/player_controls_anchor" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

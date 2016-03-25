@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="is_landscape">false</bool>
+    <bool name="constant_size_widget_enabled">true</bool>
+    <bool name="resizable_widget_enabled">false</bool>
+    <bool name="connectivity_immediate_enabled">true</bool>
+    <bool name="cardListClipChildren">true</bool>
+    <bool name="default_title_indicator_selected_bold">false</bool>
+</resources>

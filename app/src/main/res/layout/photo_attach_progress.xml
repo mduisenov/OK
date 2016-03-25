@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ru.ok.android.ui.custom.imageview.ConversationAttachDraweeView android:id="@id/image" android:background="@color/grey_4" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    <ProgressBar android:id="@id/progress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/padding_medium" android:layout_centerInParent="true" />
+    <TextView android:textSize="16.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/error" android:background="@color/attach_error_fatal" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/error" />
+</merge>

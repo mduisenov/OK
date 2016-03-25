@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@id/to_topic" android:visible="false" app:showAsAction="always|withText" />
+    <item android:icon="@drawable/ic_photo_view_tag" android:id="@id/tags" android:visible="false" android:title="@string/Show_tags" app:showAsAction="always|withText" />
+    <item android:id="@id/save" android:title="@string/save" app:showAsAction="withText" />
+    <item android:id="@id/change_descr" android:visible="false" android:title="@string/Change_description" app:showAsAction="withText" />
+    <item android:id="@id/info" android:title="@string/Photo_info" app:showAsAction="withText" />
+    <item android:id="@id/use_avatar" android:visible="false" android:title="@string/Use_as_avatar" app:showAsAction="withText" />
+    <item android:id="@id/use_album_cover" android:visible="false" android:title="@string/Use_as_album_cover" app:showAsAction="withText" />
+    <item android:id="@id/mark_spam" android:visible="false" android:title="@string/Mark_photo_spam" app:showAsAction="withText" />
+    <item android:id="@id/delete" android:visible="false" android:title="@string/Delete_photo" app:showAsAction="withText" />
+    <item android:id="@id/delete_tag" android:visible="false" android:title="@string/delete_own_tag" app:showAsAction="withText" />
+    <item android:id="@id/copy_link" android:visible="false" android:title="@string/copy_link" app:showAsAction="withText" />
+</menu>

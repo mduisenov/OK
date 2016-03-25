@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="center" android:background="@color/stream_list_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:BaseEmptyView="http://schemas.android.com/apk/res-auto">
+    <ru.ok.android.ui.swiperefresh.SwipeEmptyViewRefreshLayout android:id="@id/swipe_refresh" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ru.ok.android.ui.custom.animationlist.AnimateChangesListView android:id="@id/list" android:background="@color/white" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@drawable/selector_bg" android:cacheColorHint="@color/stream_list_bg" android:divider="@null" android:dividerHeight="0.0px" />
+        <ru.ok.android.ui.custom.emptyview.SmartEmptyView android:gravity="center" android:layout_gravity="center" android:id="@id/empty_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" BaseEmptyView:errorText="@string/error" BaseEmptyView:progressText="@string/loading" BaseEmptyView:emptyText="@string/no_conversation_in_list" />
+    </ru.ok.android.ui.swiperefresh.SwipeEmptyViewRefreshLayout>
+    <ru.ok.android.ui.custom.NetworkStatusView android:layout_gravity="top" android:id="@id/network_status" android:visibility="gone" style="@style/NetworkStatus" />
+</FrameLayout>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ru.ok.android.ui.custom.mediacomposer.EditablePhotoItemView android:layout_width="@dimen/mc_photo_size_in_block" android:layout_height="@dimen/mc_photo_size_in_block" android:scaleType="centerCrop" android:maxWidth="@dimen/mc_photo_size_in_block" android:maxHeight="@dimen/mc_photo_size_in_block" android:minWidth="@dimen/mc_photo_size_in_block" android:minHeight="@dimen/mc_photo_size_in_block" style="@style/MediaComposerItem_Photo_InBlock"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

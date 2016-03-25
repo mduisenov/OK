@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ru.ok.android.fresco.FrescoBackgroundRelativeLayout android:gravity="center_vertical" android:background="@color/toolbar_background_start" android:paddingLeft="5.0dip" android:paddingTop="10.0dip" android:paddingRight="10.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ok="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/image_layout" android:background="@drawable/image_border" android:layout_width="120.0dip" android:layout_height="120.0dip" android:layout_margin="10.0dip" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_alignParentBottom="true">
+        <ru.ok.android.ui.custom.imageview.UrlImageView android:id="@id/image" android:layout_width="110.0dip" android:layout_height="110.0dip" android:layout_centerVertical="true" ok:placeholderImage="@drawable/stub_album" ok:backgroundImage="@color/white" />
+    </FrameLayout>
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginRight="5.0dip" android:layout_toRightOf="@id/image_layout">
+        <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="@color/white" android:id="@id/text_album" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minWidth="100.0dip" android:singleLine="true" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/white" android:id="@id/text_ensemble" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:singleLine="true" android:layout_below="@id/text_album" />
+    </RelativeLayout>
+</ru.ok.android.fresco.FrescoBackgroundRelativeLayout>

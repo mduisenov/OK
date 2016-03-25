@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/actionbar_photo_white" android:id="@id/photo" android:title="@string/resume_upld_ttl" app:showAsAction="always" />
+    <item android:id="@id/edit_album" android:visible="false" android:title="@string/Edit_album" app:showAsAction="withText" />
+    <item android:id="@id/delete_album" android:visible="false" android:title="@string/Remove_album" app:showAsAction="withText" />
+    <item android:id="@id/album_info" android:visible="false" android:title="@string/album_info" app:showAsAction="never" />
+    <item android:id="@id/copy_link" android:visible="true" android:title="@string/copy_link" app:showAsAction="never" />
+</menu>

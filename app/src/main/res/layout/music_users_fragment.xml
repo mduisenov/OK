@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/gray_bcg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v7.widget.RecyclerView android:id="@id/users_list" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:cacheColorHint="@null" android:divider="@null" android:dividerHeight="0.0px" android:headerDividersEnabled="true" />
+    <ru.ok.android.ui.custom.emptyview.SmartEmptyViewAnimated android:id="@id/empty_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="218.0dip" style="@style/SmartEmptyViewAnimatedWithTabbarAndScroll" />
+    <View android:id="@id/separator" android:background="@color/divider" android:layout_width="1.0dip" android:layout_height="fill_parent" android:layout_alignParentRight="true" />
+</RelativeLayout>

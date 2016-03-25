@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ru.ok.android.emoji.container.RelativePanelLayout android:id="@id/messages_list_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:focusable="true" android:focusableInTouchMode="true" android:layout_width="0.0px" android:layout_height="0.0px" android:layout_alignParentBottom="true" />
+    <ru.ok.android.ui.custom.CreateMessageView android:id="@id/create_message_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+    <ru.ok.android.ui.custom.ReplyToCommentView android:id="@id/reply_to" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/create_message_view" />
+    <ru.ok.android.ui.swiperefresh.OkSwipeUpRefreshLayout android:id="@id/messages_swipe_refresh" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/reply_to" android:layout_alignParentTop="true">
+        <ru.ok.android.ui.custom.animationlist.AnimateChangesListView android:id="@id/messages_list" android:paddingBottom="5.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@android:color/transparent" android:cacheColorHint="@color/pull_to_refresh_bg_color" android:divider="@null" />
+    </ru.ok.android.ui.swiperefresh.OkSwipeUpRefreshLayout>
+    <ru.ok.android.ui.messaging.views.ComposingView android:id="@id/composing_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_above="@id/reply_to" android:layout_alignBottom="@id/messages_swipe_refresh" android:layout_centerHorizontal="true" />
+    <ru.ok.android.ui.custom.emptyview.SmartEmptyView android:gravity="center" android:id="@id/messages_empty_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/reply_to" android:layout_centerInParent="true" app:emptyText="@string/discussion_comments_empty" />
+    <ru.ok.android.ui.custom.scroll.ScrollTopView android:layout_gravity="bottom|center|right" android:id="@id/new_messages_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/scroll_view_margin" android:layout_marginBottom="@dimen/scroll_view_margin" android:layout_above="@id/reply_to" android:layout_alignParentRight="true" refresh:route="bottom" xmlns:refresh="http://schemas.android.com/apk/res-auto" />
+    <View android:gravity="center" android:id="@id/block_screen_view" android:background="@color/message_block_screen" android:visibility="invisible" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/reply_to" android:layout_centerInParent="true" />
+    <ru.ok.android.ui.custom.OkViewStub android:id="@id/audio_buttons_stub" android:layout_width="wrap_content" android:layout_height="wrap_content" app:useInflatedLp="true" app:layout="@layout/messages_list_audio_buttons" />
+    <ru.ok.android.ui.custom.NetworkStatusView android:id="@id/network_status" android:visibility="gone" android:layout_alignParentTop="true" style="@style/NetworkStatus" />
+    <View android:layout_below="@id/indicator" style="@style/ActionBar.Shadow" />
+</ru.ok.android.emoji.container.RelativePanelLayout>

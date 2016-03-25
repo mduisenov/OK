@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ok="http://schemas.android.com/apk/res-auto">
+    <ru.ok.android.ui.custom.imageview.MultipleSizesAspectRatioAsyncDraweeView android:id="@id/image" android:background="@color/gray_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="centerCrop" ok:aspectRatio="@dimen/feed_video_thumb_aspect_ratio" />
+    <ImageView android:id="@id/play" android:background="@drawable/transparent_grey" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/ic_play_video_item" android:scaleType="center" />
+    <TextView android:textSize="12.0sp" android:textColor="@android:color/white" android:layout_gravity="center|right|top" android:id="@id/duration" android:background="@drawable/rectangle_tough_rounded" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/feed_card_margin_outer" android:layout_marginRight="@dimen/feed_card_margin_outer" />
+</merge>

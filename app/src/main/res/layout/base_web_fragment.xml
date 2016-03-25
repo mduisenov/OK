@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ru.ok.android.ui.stream.view.StreamScrollTopView android:layout_gravity="center|right|top" android:id="@id/stream_scroll_top_view" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/scroll_view_margin" android:layout_marginRight="@dimen/scroll_view_margin" style="@style/StreamScrollTopView" />
+    <ru.ok.android.ui.custom.emptyview.SmartEmptyViewAnimated android:layout_gravity="top" android:orientation="vertical" android:id="@id/empty_view" android:background="@color/white" android:paddingBottom="@dimen/tabbar_horizontal_height_with_shadow" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

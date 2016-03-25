@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/md_content_textsize" android:layout_gravity="center_horizontal" android:id="@android:id/message" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginBottom="8.0dip" android:fontFamily="sans-serif" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ProgressBar android:id="@android:id/progress" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/md_dialog_frame_margin" android:layout_marginBottom="@dimen/md_dialog_frame_margin" android:layout_toLeftOf="@id/label" android:layout_centerVertical="true" style="?android:progressBarStyleHorizontal" />
+        <TextView android:textSize="14.0sp" android:gravity="end" android:id="@id/label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip" android:minWidth="36.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</LinearLayout>

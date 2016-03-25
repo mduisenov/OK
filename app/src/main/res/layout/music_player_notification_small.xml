@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="64.0dip" style="@style/Notification.Dark"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/cover" android:layout_width="60.0dip" android:layout_height="60.0dip" android:layout_margin="2.0dip" android:src="@drawable/stub_album" android:scaleType="fitCenter" />
+    <LinearLayout android:gravity="center|left" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginRight="2.0dip" android:layout_weight="1.0">
+        <TextView android:id="@id/song_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="@style/TextAppearance.Notification.Dark.Title" />
+        <TextView android:id="@id/artist_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="@style/TextAppearance.Notification.Dark" />
+    </LinearLayout>
+    <ImageButton android:id="@id/play_previous" android:background="@drawable/widget_music_button_bg" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/player_button_prev" android:layout_toLeftOf="@id/play_pause" />
+    <ImageButton android:id="@id/play_pause" android:background="@drawable/widget_music_button_bg" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="-10.0dip" android:layout_marginRight="-10.0dip" android:src="@drawable/player_button_play" />
+    <ImageButton android:id="@id/play_next" android:background="@drawable/widget_music_button_bg" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="-4.0dip" android:src="@drawable/player_button_next" />
+    <ImageButton android:layout_gravity="center|right|top" android:id="@id/play_stop" android:background="@drawable/popup_close_normal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="18.0dip" android:layout_marginTop="0.0dip" android:layout_marginRight="0.0dip" android:alpha="0.6" />
+</LinearLayout>

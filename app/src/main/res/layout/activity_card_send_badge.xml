@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/outsideArea" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ScrollView android:scrollbars="none" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <RelativeLayout android:id="@id/scrollLayout" android:paddingTop="16.0dip" android:paddingBottom="16.0dip" android:clickable="true" android:layout_width="@dimen/send_present_content_width" android:layout_height="wrap_content">
+            <FrameLayout android:id="@id/background" android:background="@drawable/present_card_background" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="32.0dip">
+                <LinearLayout android:orientation="vertical" android:id="@id/content" android:paddingTop="38.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <TextView android:textSize="20.0dip" android:textColor="@color/black_2" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/send_present_card_content_padding" android:layout_marginRight="@dimen/send_present_card_content_padding" />
+                    <LinearLayout android:layout_gravity="center_horizontal" android:background="@drawable/card_shadow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_marginBottom="8.0dip">
+                        <ru.ok.android.ui.custom.CompositePresentView android:id="@id/present" android:layout_width="@dimen/send_present_card_width" android:layout_height="@dimen/send_present_card_height" />
+                    </LinearLayout>
+                    <RelativeLayout android:orientation="horizontal" android:paddingLeft="@dimen/send_present_card_content_padding" android:paddingRight="@dimen/send_present_card_content_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="-7.0dip" android:layout_marginTop="8.0dip">
+                        <CheckBox android:id="@id/checkbox_private" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" />
+                        <TextView android:textSize="14.0dip" android:textColor="@color/black_2" android:id="@id/checkbox_private_title" android:paddingBottom="3.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/send_present_dialog_private_card_badge" android:layout_toRightOf="@id/checkbox_private" android:layout_centerVertical="true" />
+                    </RelativeLayout>
+                    <TextView android:textSize="14.0dip" android:textColor="@color/black_2" android:ellipsize="end" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/costs" android:background="@drawable/gray_border" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="32.0dip" android:layout_marginLeft="@dimen/send_present_card_content_padding" android:layout_marginTop="23.0dip" android:layout_marginRight="@dimen/send_present_card_content_padding" android:singleLine="true" />
+                    <RelativeLayout android:paddingRight="@dimen/send_present_card_badge_buttons_padding" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginTop="22.0dip" android:layout_marginBottom="22.0dip">
+                        <LinearLayout android:gravity="right" android:orientation="horizontal" android:id="@id/buttons" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                            <TextView android:textSize="14.0dip" android:textColor="@color/grey_3" android:gravity="center_vertical" android:id="@id/cancel" android:background="@drawable/selector_bg_dialog_button" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="16.0dip" android:text="@string/cancel" android:textAllCaps="true" />
+                            <TextView android:textSize="14.0dip" android:textColor="@color/orange_2" android:gravity="center_vertical" android:id="@id/send" android:background="@drawable/selector_bg_dialog_button" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/send_present_dialog_attach" android:textAllCaps="true" />
+                        </LinearLayout>
+                        <RelativeLayout android:id="@id/btn_progress" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                            <ProgressBar android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_centerInParent="true" />
+                        </RelativeLayout>
+                    </RelativeLayout>
+                </LinearLayout>
+            </FrameLayout>
+            <ru.ok.android.ui.custom.imageview.RoundAvatarImageView android:id="@id/user" android:layout_width="76.0dip" android:layout_height="76.0dip" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

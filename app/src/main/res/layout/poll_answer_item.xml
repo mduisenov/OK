@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RadioButton android:layout_gravity="center_vertical" android:id="@id/poll_radio_btn" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:checked="false" android:button="@drawable/btn_radio_poll" />
+    <EditText android:id="@id/edit_text_answer" android:background="@drawable/edittext_drawable_poll_answer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/poll_answer_hint" android:inputType="textCapSentences|textMultiLine" android:textCursorDrawable="@null" style="@style/TextAppearance_MediaComposer" />
+</LinearLayout>

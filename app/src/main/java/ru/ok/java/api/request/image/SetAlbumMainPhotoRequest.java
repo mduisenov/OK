@@ -1,0 +1,32 @@
+package ru.ok.java.api.request.image;
+
+import android.text.TextUtils;
+import ru.ok.java.api.request.BaseRequest;
+import ru.ok.java.api.request.serializer.RequestSerializer;
+import ru.ok.java.api.request.serializer.SerializeParamName;
+import ru.ok.java.api.request.serializer.http.HttpPreamble;
+
+@HttpPreamble(hasSessionKey = true)
+public class SetAlbumMainPhotoRequest extends BaseRequest {
+    private final String aid;
+    private final String gid;
+    private final String pid;
+
+    public SetAlbumMainPhotoRequest(String aid, String pid, String gid) {
+        this.aid = aid;
+        this.pid = pid;
+        this.gid = gid;
+    }
+
+    public String getMethodName() {
+        return "photos.setAlbumMainPhoto";
+    }
+
+    public void serializeInternal(RequestSerializer<?> serializer) {
+        serializer.add(SerializeParamName.PHOTO_ID, this.pid);
+        serializer.add(SerializeParamName.ALBUM_ID, this.aid);
+        if (!TextUtils.isEmpty(this.gid)) {
+            serializer.add(SerializeParamName.GID, this.gid);
+        }
+    }
+}

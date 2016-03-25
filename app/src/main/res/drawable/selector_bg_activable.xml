@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector android:enterFadeDuration="200" android:exitFadeDuration="200"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_focused="true" android:state_enabled="false" android:state_pressed="true" android:drawable="@drawable/selector_bg_disabled" />
+    <item android:state_focused="true" android:state_enabled="false" android:drawable="@drawable/selector_bg_disabled" />
+    <item android:drawable="@color/selector_bg_without_alpha" android:state_activated="true" />
+    <item android:state_pressed="true" android:drawable="@color/selector_bg_without_alpha" />
+    <item android:state_pressed="false" android:drawable="@android:color/transparent" />
+</selector>

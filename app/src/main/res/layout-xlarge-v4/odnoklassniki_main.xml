@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/viewmain" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:leftRight="http://schemas.android.com/apk/res-auto">
+    <ru.ok.android.ui.custom.layout.OkLargeTabletLayout android:layout_width="fill_parent" android:layout_height="fill_parent" leftRight:left_layout_weight="2.0" leftRight:right_layout_weight="3.0">
+        <FrameLayout android:name="ru.ok.android.ui.fragments.PlayerFragment" android:id="@id/top_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <View android:id="@id/divider" android:background="@color/player_divider_color" android:layout_width="fill_parent" android:layout_height="0.0px" android:layout_below="@id/top_container" />
+        <FrameLayout android:id="@id/left_container" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_below="@id/divider" />
+        <FrameLayout android:id="@id/right_container" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_below="@id/divider" />
+        <View android:id="@id/shadow_left_right" android:background="@drawable/shadow_tablet_sections_leftdark" android:layout_width="@dimen/shadow_size_tablet_sections" android:layout_height="fill_parent" android:layout_below="@id/divider" />
+    </ru.ok.android.ui.custom.layout.OkLargeTabletLayout>
+    <FrameLayout android:id="@id/full_screen_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

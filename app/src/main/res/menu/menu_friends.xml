@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/actionbar_filter" android:id="@id/search_friends" android:hint="@string/select_friends" android:title="@string/friends_filter_hint" app:showAsAction="always|collapseActionView" app:actionViewClass="ru.ok.android.ui.custom.OkSearchView" />
+</menu>

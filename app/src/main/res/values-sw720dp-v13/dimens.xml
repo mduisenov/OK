@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="stream_photo_height_land">540.0dip</dimen>
+    <dimen name="mc_photo_size_in_block">192.0dip</dimen>
+    <dimen name="repeat_width">60.0dip</dimen>
+    <dimen name="gallery_album_row_height">125.0dip</dimen>
+    <dimen name="gallery_grid_spacing">4.0dip</dimen>
+    <dimen name="gallery_image_tile_side_min">150.0dip</dimen>
+    <item type="dimen" name="user_list_item_left_margin">@dimen/user_list_item_left_margin_extra</item>
+    <item type="dimen" name="user_list_item_right_margin">@dimen/user_list_item_right_margin_extra</item>
+    <item type="dimen" name="user_list_item_vmargin">@dimen/user_list_item_vmargin_extra</item>
+    <item type="dimen" name="feed_font_size_primary">@dimen/feed_font_size_normal</item>
+</resources>

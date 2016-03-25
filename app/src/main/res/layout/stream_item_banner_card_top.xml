@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/feed_card_top_selector_bg" android:paddingLeft="@dimen/feed_card_padding_total" android:paddingRight="@dimen/feed_card_margin_outer" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@style/TextAppearance_Feed.BannerSecondary.Info" android:id="@id/banner_label" android:paddingTop="@dimen/feed_card_padding_inner" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" style="@style/TextAppearance_Feed.BannerSecondary.Info" />
+    <ImageView android:id="@id/feed_header_options_btn" android:paddingLeft="@dimen/mt_options_left_padding" android:paddingTop="@dimen/options_btn_padding_vertical" android:paddingRight="@dimen/options_btn_padding_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_more_medium_xml" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+</RelativeLayout>

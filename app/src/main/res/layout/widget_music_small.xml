@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/music_widget_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="@dimen/widget_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/cover" android:layout_width="80.0dip" android:layout_height="fill_parent" android:layout_margin="2.0dip" android:src="@drawable/stub_album" android:scaleType="fitCenter" />
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="2.0dip" android:layout_marginRight="5.0dip" android:layout_weight="1.0">
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/goto_player_area" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="2.0dip" android:layout_weight="1.0">
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="@android:color/white" android:id="@id/song_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:bufferType="spannable" android:maxLines="2" android:singleLine="false" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="2.0dip">
+            <ImageButton android:id="@id/play_previous" android:background="@drawable/widget_music_button_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginTop="-8.0dip" android:layout_marginBottom="-6.0dip" android:src="@drawable/player_button_prev" android:layout_weight="1.0" />
+            <ImageButton android:id="@id/play_pause" android:background="@drawable/widget_music_button_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="-10.0dip" android:layout_marginTop="-8.0dip" android:layout_marginRight="-10.0dip" android:layout_marginBottom="-6.0dip" android:src="@drawable/widget_button_play" android:layout_weight="1.0" />
+            <ImageButton android:id="@id/play_next" android:background="@drawable/widget_music_button_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginTop="-8.0dip" android:layout_marginBottom="-6.0dip" android:src="@drawable/player_button_next" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

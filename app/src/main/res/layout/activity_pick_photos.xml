@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/root" android:background="#ff333333" android:padding="@dimen/padding_micro" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v7.widget.RecyclerView android:id="@id/grid" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ProgressBar android:id="@id/progress" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/empty" android:padding="@dimen/padding_medium" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/camera" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_photolayer_camera" />
+        <TextView android:textColor="@color/grey_1" android:gravity="center" android:id="@id/empty_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/padding_large" android:text="@string/device_gallery_empty" android:singleLine="false" android:layout_centerInParent="true" />
+    </LinearLayout>
+    <TextView android:textColor="@color/grey_1" android:gravity="center" android:id="@id/error" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/device_gallery_load_error" android:singleLine="false" android:layout_centerInParent="true" />
+</RelativeLayout>

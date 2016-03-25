@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/main_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ok="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/above_anchor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="48.0dip" android:layout_marginBottom="20.0dip" android:layout_centerHorizontal="true" layout="@layout/logo_fragment" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:paddingBottom="80.0dip" android:layout_width="256.0dip" android:layout_height="fill_parent" android:layout_below="@id/above_anchor" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+        <EditText android:textSize="22.0sp" android:id="@id/login_field" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/create_login" android:maxLength="100" style="@style/RegInput" />
+        <ru.ok.android.ui.custom.text.PasswordEditText android:id="@id/password_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="22.0dip" android:hint="@string/new_password" ok:password_gravity="center" />
+        <include layout="@layout/registration_error_text" />
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip">
+            <Button android:id="@id/create_user_btn" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/continue_text" style="@style/NativeRegistrationButton" />
+            <ProgressBar android:layout_gravity="center" android:id="@id/login_progress" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/RegistrationProgressBar" />
+        </FrameLayout>
+        <TextView android:textColor="@color/gray_text" android:gravity="center_horizontal" android:id="@id/login_creation_message" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/new_login_message" android:fontFamily="sans-serif" />
+    </LinearLayout>
+    <include android:id="@id/below_anchor" android:layout_width="256.0dip" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" layout="@layout/feedback_link" />
+</RelativeLayout>

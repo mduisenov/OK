@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/padding_dialog_horizontal" android:paddingTop="@dimen/padding_dialog_top" android:paddingRight="@dimen/padding_dialog_horizontal" android:paddingBottom="@dimen/padding_dialog_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="18.0sp" android:textColor="@color/black_2" android:id="@id/description" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" />
+        <TextView android:id="@id/date" android:paddingTop="10.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawableLeft="@drawable/ic_dialog_calendar" style="@style/About_Group_Item_Text" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/scope_holder" android:background="@drawable/transparent_semisilver" android:paddingTop="12.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:id="@id/scope" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawableLeft="@drawable/ic_dialog_category" style="@style/About_Group_Item_Text" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/admin_holder" android:background="@drawable/transparent_semisilver" android:paddingTop="10.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:id="@id/admin" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawableLeft="@drawable/ic_dialog_user" style="@style/About_Group_Item_Text" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/address_holder" android:background="@drawable/transparent_semisilver" android:paddingTop="10.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:id="@id/address" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawableLeft="@drawable/ic_dialog_geo" style="@style/About_Group_Item_Text" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/web_holder" android:background="@drawable/transparent_semisilver" android:paddingTop="10.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="12.0sp" android:id="@id/web_home" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/phone_holder" android:background="@drawable/transparent_semisilver" android:paddingTop="10.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="12.0sp" android:id="@id/phone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <TextView android:id="@id/date_create" android:paddingTop="10.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/About_Group_Item_Text" />
+    </LinearLayout>
+</ScrollView>

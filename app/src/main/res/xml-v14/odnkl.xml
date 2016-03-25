@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider android:minWidth="250.0dip" android:minHeight="40.0dip" android:updatePeriodMillis="36000000" android:initialLayout="@layout/odnkl_appwidget" android:configure="ru.ok.android.ui.settings.SettingsActivity"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

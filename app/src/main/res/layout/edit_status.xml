@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText android:gravity="top" android:id="@id/status" android:layout_width="fill_parent" android:layout_height="fill_parent" android:hint="@string/statushint" android:layout_weight="1.0" android:inputType="textMultiLine" android:windowSoftInputMode="stateVisible" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:enabled="false" android:gravity="center" android:id="@id/save" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/statussave" android:layout_weight="1.0" android:layout_alignParentLeft="true" />
+        <Button android:gravity="center" android:id="@id/cancel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/cancel" android:layout_weight="1.0" android:layout_alignParentRight="true" />
+    </LinearLayout>
+    <include layout="@layout/stub_list" />
+</LinearLayout>

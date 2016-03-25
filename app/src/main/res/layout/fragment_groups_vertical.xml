@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ru.ok.android.ui.custom.emptyview.SmartEmptyViewAnimated android:id="@id/empty_view" android:paddingTop="@dimen/page_indicator_height" android:paddingBottom="@dimen/tabbar_horizontal_height_with_shadow" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="?actionBarSize" />
+    <ru.ok.android.ui.swiperefresh.OkSwipeRefreshLayout android:id="@id/swipe_refresh" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ru.ok.android.ui.GroupsRecyclerView android:id="@id/list" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </ru.ok.android.ui.swiperefresh.OkSwipeRefreshLayout>
+    <FrameLayout android:id="@id/search_groups_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

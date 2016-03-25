@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/pinned_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" style="@style/PinnedView" />
+    <ImageView android:id="@id/feed_header_options_btn" android:paddingLeft="@dimen/feed_card_padding_inner" android:paddingTop="@dimen/options_btn_padding_vertical" android:paddingRight="@dimen/options_btn_padding_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_more_medium_xml" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+    <TextView android:id="@id/feed_header_text" android:paddingBottom="@dimen/feed_card_padding_inner" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/feed_card_padding_inner" android:layout_toLeftOf="@id/feed_header_options_btn" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    <TextView android:textSize="14.0sp" android:textStyle="normal" android:textColor="#ff0000ff" android:id="@id/debug_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/feed_card_padding_total" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+</merge>

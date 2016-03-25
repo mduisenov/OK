@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:BaseEmptyView="http://schemas.android.com/apk/res-auto">
+    <ru.ok.android.ui.tabbar.HideTabbarListView android:id="@id/list" android:background="@color/white" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@drawable/selector_bg" android:cacheColorHint="@color/pull_to_refresh_bg_color" android:divider="@null" android:layout_alignParentTop="true" android:headerDividersEnabled="true" />
+    <ru.ok.android.ui.custom.emptyview.SmartEmptyView android:gravity="center" android:id="@id/empty_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="?android:actionBarSize" android:layout_below="@id/list" BaseEmptyView:errorText="@string/error" BaseEmptyView:progressText="@string/loading" BaseEmptyView:emptyText="@string/no_places" />
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/load_more_layout" android:background="@drawable/discussion_comments_loadmore_bg" android:layout_width="fill_parent" android:layout_height="56.0dip">
+        <Button android:textSize="14.0sp" android:textColor="@color/grey_3" android:gravity="center" android:id="@id/go_to_top" android:background="@drawable/discussion_comments_loadmore_btn_bg" android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginTop="12.0dip" android:layout_marginRight="12.0dip" android:layout_marginBottom="12.0dip" android:minHeight="1.0dip" android:text="@string/go_to_top_short" android:layout_alignParentRight="true" android:layout_centerInParent="true" style="@style/RobotoTextViewStyle" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/load_more_click_layout" android:background="@drawable/selector_bg_on_gray" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="12.0dip" android:layout_marginTop="12.0dip" android:layout_marginBottom="12.0dip" android:layout_toLeftOf="@id/go_to_top" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:layout_alignWithParentIfMissing="true">
+            <TextView android:textSize="14.0sp" android:textColor="@color/grey_3" android:id="@id/message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" style="@style/RobotoTextViewStyle" />
+            <ProgressBar android:id="@id/progress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_toRightOf="@id/message" android:layout_centerVertical="true" style="@android:style/Widget.ProgressBar.Small" />
+        </LinearLayout>
+    </RelativeLayout>
+</merge>

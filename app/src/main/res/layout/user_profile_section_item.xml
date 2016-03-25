@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:background="@drawable/selector_bg_on_dark" android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:background="#ff404040" android:layout_width="1.0px" android:layout_height="50.0dip" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" android:layout_alignParentRight="true" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/info_layout" android:paddingLeft="15.0dip" android:paddingRight="15.0dip" android:layout_width="wrap_content" android:layout_height="50.0dip" android:layout_alignParentTop="true" android:layout_alignParentBottom="true" android:layout_centerInParent="true">
+        <TextView android:layout_gravity="center_vertical" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Profile_MenuText" />
+        <TextView android:textAppearance="@style/TextAppearance_Profile_Section_Count" android:layout_gravity="center_horizontal" android:id="@id/count" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/title" />
+    </LinearLayout>
+</RelativeLayout>

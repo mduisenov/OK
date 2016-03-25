@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@drawable/feed_card_bottom_bg" android:paddingLeft="@dimen/feed_card_margin_outer" android:paddingRight="@dimen/feed_card_margin_outer" android:addStatesFromChildren="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:foreground="@drawable/feed_card_transparent_orange_fg"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ok="http://schemas.android.com/apk/res-auto">
+    <ru.ok.android.ui.custom.imageview.AspectRatioGifAsMp4ImageView android:layout_gravity="center" android:id="@id/image" android:background="@drawable/photo_bottom_round_corners_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" ok:aspectRatio="1.0" />
+    <ViewStub android:layout_gravity="bottom" android:id="@id/likes_layout_stub" android:layout="@layout/photo_actions_footer" android:inflatedId="@id/likes_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</FrameLayout>

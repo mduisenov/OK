@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="false">
+        <inset android:insetLeft="@dimen/card_shadow_height_" android:insetRight="@dimen/card_shadow_height_" android:insetTop="@dimen/card_shadow_height_">
+            <shape>
+                <solid android:color="@android:color/white" />
+                <stroke android:width="@dimen/card_shadow_height" android:color="@color/grey_light" />
+            </shape>
+        </inset>
+    </item>
+    <item android:state_pressed="true">
+        <inset android:insetLeft="@dimen/card_shadow_height_" android:insetRight="@dimen/card_shadow_height_" android:insetTop="@dimen/card_shadow_height_">
+            <shape>
+                <solid android:color="@color/selector_bg" />
+                <stroke android:width="@dimen/card_shadow_height" android:color="@color/grey_light" />
+            </shape>
+        </inset>
+    </item>
+</selector>

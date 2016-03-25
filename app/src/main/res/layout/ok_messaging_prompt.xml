@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@drawable/tabbar_shadow" android:layout_width="fill_parent" android:layout_height="@dimen/shadow_size_toolbar" />
+    <LinearLayout android:gravity="center|left" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:background="@drawable/msg_banner_pic" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:layout_width="64.0dip" android:layout_height="64.0dip" android:src="@drawable/ic_contacts_send_message" />
+            <TextView android:textSize="14.0sp" android:textColor="@android:color/white" android:id="@id/ok_messaging" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/ok_messaging" android:shadowColor="@color/black_transparent" android:shadowDy="2.0" android:shadowRadius="2.0" />
+        </LinearLayout>
+        <FrameLayout android:background="@color/white" android:padding="18.0dip" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:textSize="@dimen/ok_messaging_message_text_size" android:textColor="@color/grey_5" android:layout_gravity="top" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/add_messaging_shortcut_text" />
+            <LinearLayout android:gravity="center_vertical" android:layout_gravity="bottom|center|right" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <Button android:textAppearance="@style/TextAppearance_Semibold" android:textSize="@dimen/ok_messaging_button_text_size" android:textColor="@color/orange_2" android:id="@id/cancel" android:background="@color/selector_bg" android:paddingLeft="@dimen/ok_messaging_button_padding" android:paddingRight="@dimen/ok_messaging_button_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cancel" android:textAllCaps="true" />
+                <Button android:textAppearance="@style/TextAppearance_Semibold" android:textSize="@dimen/ok_messaging_button_text_size" android:textColor="@color/orange_2" android:id="@id/ok" android:background="@color/selector_bg" android:paddingLeft="@dimen/ok_messaging_button_padding" android:paddingRight="@dimen/ok_messaging_button_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:text="@string/create" android:textAllCaps="true" />
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

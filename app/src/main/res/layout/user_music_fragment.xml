@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ru.ok.android.ui.custom.indicator.PagerSlidingTabStrip android:id="@id/indicator" android:layout_width="fill_parent" android:layout_alignParentTop="true" style="@style/PageIndicator" />
+    <Space android:id="@id/space_under_indicator" android:layout_width="fill_parent" android:layout_height="@dimen/page_indicator_height" android:layout_alignParentTop="true" />
+    <ru.ok.android.widget.ViewPagerDisable android:id="@id/pager" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/space_under_indicator" />
+    <View android:id="@id/indicator_shadow" android:layout_below="@id/indicator" style="@style/ActionBar.Shadow" />
+    <View android:id="@id/separator" android:background="@color/grey_light" android:layout_width="1.0dip" android:layout_height="fill_parent" android:layout_alignParentRight="true" />
+</RelativeLayout>

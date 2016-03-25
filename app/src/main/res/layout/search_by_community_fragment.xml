@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true" android:layout_above="@id/members_count">
+        <LinearLayout android:orientation="vertical" android:id="@id/layout_container" android:padding="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:id="@id/city_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/city_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/city" style="@style/SearchByCommunity.LabelTextView" />
+                <include android:id="@id/city_field" layout="@layout/search_field" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/community_container" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="7.0dip">
+                <TextView android:id="@id/community_label" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/SearchByCommunity.LabelTextView" />
+                <include android:id="@id/community_field" layout="@layout/search_field" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/years_container" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="7.0dip">
+                <TextView android:id="@id/years_label" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/SearchByCommunity.LabelTextView" />
+                <include android:id="@id/community_years" layout="@layout/search_years_fields" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <FrameLayout android:layout_gravity="bottom|center" android:id="@id/members_count" android:background="@color/orange_general" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginBottom="@dimen/tabbar_horizontal_height_with_shadow" android:layout_alignParentLeft="false" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+        <ImageView android:layout_gravity="center|right" android:id="@id/next_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:src="@drawable/app_poll_next" />
+        <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center" android:id="@id/members_count_textView" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="" android:textAllCaps="true" />
+    </FrameLayout>
+</RelativeLayout>

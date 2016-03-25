@@ -1,0 +1,1508 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="action_bar_activity_content" />
+    <item type="id" name="action_bar_spinner" />
+    <item type="id" name="action_menu_divider" />
+    <item type="id" name="action_menu_presenter" />
+    <item type="id" name="billing_item_icon" />
+    <item type="id" name="billing_item_price" />
+    <item type="id" name="billing_item_text" />
+    <item type="id" name="block_index" />
+    <item type="id" name="bus_exec_background" />
+    <item type="id" name="bus_exec_database" />
+    <item type="id" name="bus_exec_main" />
+    <item type="id" name="bus_req_ACCEPT_PRESENT" />
+    <item type="id" name="bus_req_AUTHORIZATION_SETTINGS" />
+    <item type="id" name="bus_req_CHANGE_PASSWORD" />
+    <item type="id" name="bus_req_CHAT_ADD_USERS" />
+    <item type="id" name="bus_req_CHAT_CREATE" />
+    <item type="id" name="bus_req_CHAT_KICK_USER" />
+    <item type="id" name="bus_req_CHAT_LEAVE" />
+    <item type="id" name="bus_req_CHAT_SET_TOPIC" />
+    <item type="id" name="bus_req_COMMUNITY_PARTICIPANTS" />
+    <item type="id" name="bus_req_COMPLAINT_TO_GROUP" />
+    <item type="id" name="bus_req_COMPLAINT_TO_USER" />
+    <item type="id" name="bus_req_CONVERSATIONS_DELETE" />
+    <item type="id" name="bus_req_CONVERSATIONS_MARK_AS_READ" />
+    <item type="id" name="bus_req_CONVERSATION_UPDATE" />
+    <item type="id" name="bus_req_CreatePhotoAlbumProcessor" />
+    <item type="id" name="bus_req_DECLINE_PRESENT" />
+    <item type="id" name="bus_req_DISCUSSIONS_ADD_COMMENT" />
+    <item type="id" name="bus_req_DISCUSSIONS_DELETE_COMMENTS" />
+    <item type="id" name="bus_req_DISCUSSIONS_LIKE" />
+    <item type="id" name="bus_req_DISCUSSIONS_LIKE_COMMENT" />
+    <item type="id" name="bus_req_DISCUSSIONS_LOAD_FIRST_COMMENTS_PORTION" />
+    <item type="id" name="bus_req_DISCUSSIONS_LOAD_NEXT_COMMENTS_PORTION" />
+    <item type="id" name="bus_req_DISCUSSIONS_LOAD_PREVIOUS_COMMENTS_PORTION" />
+    <item type="id" name="bus_req_DISCUSSIONS_MARK_AS_READ" />
+    <item type="id" name="bus_req_DISCUSSIONS_MARK_DISCUSSION_AS_READ" />
+    <item type="id" name="bus_req_DISCUSSIONS_SPAM_COMMENTS" />
+    <item type="id" name="bus_req_DISCUSSION_COMMENT_EDIT" />
+    <item type="id" name="bus_req_DISCUSSION_COMMENT_EDIT_UNDO" />
+    <item type="id" name="bus_req_DISCUSSION_LOAD_ONE_COMMENT" />
+    <item type="id" name="bus_req_DeletePhotoAlbumProcessor" />
+    <item type="id" name="bus_req_DeletePhotoProcessor" />
+    <item type="id" name="bus_req_DeleteUserPhotoTagProcessor" />
+    <item type="id" name="bus_req_EditPhotoAlbumProcessor" />
+    <item type="id" name="bus_req_EditPhotoProcessor" />
+    <item type="id" name="bus_req_FRIENDS_FILTER" />
+    <item type="id" name="bus_req_GCM_REGISTER" />
+    <item type="id" name="bus_req_GET_APP_POLL" />
+    <item type="id" name="bus_req_GET_GUEST" />
+    <item type="id" name="bus_req_GET_LOGOUT_ALL" />
+    <item type="id" name="bus_req_GET_ONLINE_FRIENDS" />
+    <item type="id" name="bus_req_GET_PROMO_LINKS" />
+    <item type="id" name="bus_req_GET_PYMK" />
+    <item type="id" name="bus_req_GET_PYMK_WITH_DETAILS" />
+    <item type="id" name="bus_req_GROUP_COMMUNITY_JOIN" />
+    <item type="id" name="bus_req_GROUP_CREATE" />
+    <item type="id" name="bus_req_GROUP_FRIENDS" />
+    <item type="id" name="bus_req_GROUP_GET_MEMBERS" />
+    <item type="id" name="bus_req_GROUP_INFO" />
+    <item type="id" name="bus_req_GROUP_INVITE_FRIENDS" />
+    <item type="id" name="bus_req_GROUP_JOIN" />
+    <item type="id" name="bus_req_GROUP_LEAVE" />
+    <item type="id" name="bus_req_GetAlbumInfoBatchProcessor" />
+    <item type="id" name="bus_req_GetFullPhotoInfoProcessor" />
+    <item type="id" name="bus_req_GetPhotoAlbumProcessor" />
+    <item type="id" name="bus_req_GetPhotoAlbumsBatchProcessor" />
+    <item type="id" name="bus_req_GetPhotoAlbumsProcessor" />
+    <item type="id" name="bus_req_GetPhotoInfoProcessor" />
+    <item type="id" name="bus_req_GetPhotoTagsProcessor" />
+    <item type="id" name="bus_req_GetPhotosProcessor" />
+    <item type="id" name="bus_req_GetViewInfoBatchProcessor" />
+    <item type="id" name="bus_req_ImageUploadNotificationProcessor_CLEAR_ALL" />
+    <item type="id" name="bus_req_ImageUploadNotificationProcessor_CLEAR_ERRORS" />
+    <item type="id" name="bus_req_LIKE" />
+    <item type="id" name="bus_req_LIKE_VIDEO" />
+    <item type="id" name="bus_req_LOAD_AND_SAVE_APP_POLL" />
+    <item type="id" name="bus_req_LOAD_PRESENTS" />
+    <item type="id" name="bus_req_LOAD_PRESENT_AND_USER" />
+    <item type="id" name="bus_req_LOAD_PRESENT_NOTIFICATION" />
+    <item type="id" name="bus_req_LikePhotoAlbumProcessor" />
+    <item type="id" name="bus_req_LikePhotoProcessor" />
+    <item type="id" name="bus_req_MARK_STREAM_ALL_READ" />
+    <item type="id" name="bus_req_MEDIATOPIC_DELETE" />
+    <item type="id" name="bus_req_MEDIATOPIC_PIN" />
+    <item type="id" name="bus_req_MEDIATOPIC_SET_TO_STATUS" />
+    <item type="id" name="bus_req_MEDIATOPIC_VOTE" />
+    <item type="id" name="bus_req_MEDIA_COMPOSER_SETTINGS" />
+    <item type="id" name="bus_req_MESSAGES_COMPLAINT_PLACE" />
+    <item type="id" name="bus_req_MESSAGES_CUSTOM_TRACK" />
+    <item type="id" name="bus_req_MESSAGES_DELETE" />
+    <item type="id" name="bus_req_MESSAGES_EDIT" />
+    <item type="id" name="bus_req_MESSAGES_EDIT_UNDO" />
+    <item type="id" name="bus_req_MESSAGES_GET_CATEGORIES" />
+    <item type="id" name="bus_req_MESSAGES_GET_PLACES" />
+    <item type="id" name="bus_req_MESSAGES_GET_UPDATES" />
+    <item type="id" name="bus_req_MESSAGES_LOAD_FIRST_PORTION" />
+    <item type="id" name="bus_req_MESSAGES_LOAD_NEXT_PORTION" />
+    <item type="id" name="bus_req_MESSAGES_LOAD_ONE_MESSAGE" />
+    <item type="id" name="bus_req_MESSAGES_LOAD_PREVIOUS_PORTION" />
+    <item type="id" name="bus_req_MESSAGES_REVERSE_GEOCODE" />
+    <item type="id" name="bus_req_MESSAGES_SPAM" />
+    <item type="id" name="bus_req_MESSAGES_VALIDATE_PLACE" />
+    <item type="id" name="bus_req_MESSAGE_ADD_TRACK_MUSIC" />
+    <item type="id" name="bus_req_MESSAGE_DELETE_STATUS" />
+    <item type="id" name="bus_req_MESSAGE_DELETE_TRACK_MUSIC" />
+    <item type="id" name="bus_req_MESSAGE_EXPIRE_SESSION" />
+    <item type="id" name="bus_req_MESSAGE_GET_ALBUM_INFO" />
+    <item type="id" name="bus_req_MESSAGE_GET_ALBUM_TRACKS" />
+    <item type="id" name="bus_req_MESSAGE_GET_ARTIST_ALBUMS" />
+    <item type="id" name="bus_req_MESSAGE_GET_ARTIST_INFO" />
+    <item type="id" name="bus_req_MESSAGE_GET_ARTIST_SIMILAR_TRACKS" />
+    <item type="id" name="bus_req_MESSAGE_GET_ARTIST_TRACKS" />
+    <item type="id" name="bus_req_MESSAGE_GET_CALL_PARAMS" />
+    <item type="id" name="bus_req_MESSAGE_GET_COLLECTION_INFO" />
+    <item type="id" name="bus_req_MESSAGE_GET_COLLECTION_MUSIC" />
+    <item type="id" name="bus_req_MESSAGE_GET_CURRENT_USER_INFO" />
+    <item type="id" name="bus_req_MESSAGE_GET_CURRENT_USER_INFO_NEW" />
+    <item type="id" name="bus_req_MESSAGE_GET_EVENTS" />
+    <item type="id" name="bus_req_MESSAGE_GET_GROUP_STREAM" />
+    <item type="id" name="bus_req_MESSAGE_GET_GROUP_STREAM_CACHED" />
+    <item type="id" name="bus_req_MESSAGE_GET_HISTORY_MUSIC" />
+    <item type="id" name="bus_req_MESSAGE_GET_MY_MUSIC" />
+    <item type="id" name="bus_req_MESSAGE_GET_MY_MUSIC_COLLECTIONS" />
+    <item type="id" name="bus_req_MESSAGE_GET_MY_MUSIC_FRIENDS" />
+    <item type="id" name="bus_req_MESSAGE_GET_PLAYLIST_INFO" />
+    <item type="id" name="bus_req_MESSAGE_GET_PLAY_TRACK_INFO" />
+    <item type="id" name="bus_req_MESSAGE_GET_POP_COLLECTION_MUSIC" />
+    <item type="id" name="bus_req_MESSAGE_GET_POP_MUSIC" />
+    <item type="id" name="bus_req_MESSAGE_GET_POP_MUSIC_COLLECTIONS" />
+    <item type="id" name="bus_req_MESSAGE_GET_RECOMMENDED_FRIENDS" />
+    <item type="id" name="bus_req_MESSAGE_GET_SEARCH_ALBUMS" />
+    <item type="id" name="bus_req_MESSAGE_GET_SEARCH_ARTISTS" />
+    <item type="id" name="bus_req_MESSAGE_GET_SEARCH_MUSIC" />
+    <item type="id" name="bus_req_MESSAGE_GET_SEARCH_RELEVANT" />
+    <item type="id" name="bus_req_MESSAGE_GET_STATUS" />
+    <item type="id" name="bus_req_MESSAGE_GET_STREAM" />
+    <item type="id" name="bus_req_MESSAGE_GET_TUNERS" />
+    <item type="id" name="bus_req_MESSAGE_GET_TUNERS_TRACKS" />
+    <item type="id" name="bus_req_MESSAGE_GET_USER_INFO" />
+    <item type="id" name="bus_req_MESSAGE_GET_USER_MUSIC" />
+    <item type="id" name="bus_req_MESSAGE_GET_USER_MUSIC_COLLECTIONS" />
+    <item type="id" name="bus_req_MESSAGE_GET_USER_STREAM" />
+    <item type="id" name="bus_req_MESSAGE_GET_USER_STREAM_CACHED" />
+    <item type="id" name="bus_req_MESSAGE_MARK_AS_READ_DISCUSSIONS" />
+    <item type="id" name="bus_req_MESSAGE_PLAY_30" />
+    <item type="id" name="bus_req_MESSAGE_SET_STATUS_MUSIC" />
+    <item type="id" name="bus_req_MESSAGE_SUBSCRIBE_COLLECTION" />
+    <item type="id" name="bus_req_MESSAGE_UN_SUBSCRIBE_COLLECTION" />
+    <item type="id" name="bus_req_MESSAGE_UPLOAD_PHOTO" />
+    <item type="id" name="bus_req_MESSAGE_VIDEO_PROCESS_FINISH" />
+    <item type="id" name="bus_req_MUSIC_SERVICE_PAUSE_EVENT" />
+    <item type="id" name="bus_req_MUSIC_STATUS_PLAY" />
+    <item type="id" name="bus_req_MarkPhotoProcessor" />
+    <item type="id" name="bus_req_MarkPhotoSpamProcessor" />
+    <item type="id" name="bus_req_MediaTopicEditTextProcessor" />
+    <item type="id" name="bus_req_MediaTopicGetByPhotoProcessor" />
+    <item type="id" name="bus_req_MutualFriendsProcessor" />
+    <item type="id" name="bus_req_NOTIFICATION_RECEIVED" />
+    <item type="id" name="bus_req_PHOTO_ROLL_SETTINGS_REFRESHED" />
+    <item type="id" name="bus_req_REGISTER_LIBVERIFY" />
+    <item type="id" name="bus_req_REMOVE_GUEST" />
+    <item type="id" name="bus_req_REMOVE_OLD_DATA" />
+    <item type="id" name="bus_req_RINGTONES" />
+    <item type="id" name="bus_req_SAVE_ANSWERS_APP_POLL" />
+    <item type="id" name="bus_req_SEND_PRESENT" />
+    <item type="id" name="bus_req_SERVICES_SETTINGS" />
+    <item type="id" name="bus_req_START_SETTINGS" />
+    <item type="id" name="bus_req_STICKERS_GET_SETS" />
+    <item type="id" name="bus_req_STREAM_DELETE" />
+    <item type="id" name="bus_req_STREAM_GROUP_SUBSCRIBE" />
+    <item type="id" name="bus_req_STREAM_LIKE" />
+    <item type="id" name="bus_req_STREAM_MARK_AS_SPAM" />
+    <item type="id" name="bus_req_STREAM_MEDIA_PLAYER_GET_STATE" />
+    <item type="id" name="bus_req_STREAM_UNLIKE" />
+    <item type="id" name="bus_req_STREAM_UNSUBSCRIBE" />
+    <item type="id" name="bus_req_STREAM_USER_SUBSCRIBE" />
+    <item type="id" name="bus_req_SearchCitiesProcessor" />
+    <item type="id" name="bus_req_SearchQuickProcessor" />
+    <item type="id" name="bus_req_SetAlbumMainPhotoProcessor" />
+    <item type="id" name="bus_req_SetMainPhotoProcessor" />
+    <item type="id" name="bus_req_SetStatusProcessor" />
+    <item type="id" name="bus_req_UNLIKE" />
+    <item type="id" name="bus_req_UNLIKE_VIDEO" />
+    <item type="id" name="bus_req_UPDATE_FRIENDS" />
+    <item type="id" name="bus_req_USER_COUNTERS" />
+    <item type="id" name="bus_req_USER_DELETE_FRIEND" />
+    <item type="id" name="bus_req_USER_INVITE_FRIEND" />
+    <item type="id" name="bus_req_USER_INVITE_FRIENDS" />
+    <item type="id" name="bus_req_VIDEO_GET" />
+    <item type="id" name="bus_req_VIDEO_GET_SIMILAR" />
+    <item type="id" name="bus_res_ACCEPT_PRESENT" />
+    <item type="id" name="bus_res_ATTACHMENT_PROCESSING_CHECK" />
+    <item type="id" name="bus_res_AUTHORIZATION_SETTINGS" />
+    <item type="id" name="bus_res_CHANGE_PASSWORD" />
+    <item type="id" name="bus_res_CHAT_ADD_USERS" />
+    <item type="id" name="bus_res_CHAT_CREATE" />
+    <item type="id" name="bus_res_CHAT_KICK_USER" />
+    <item type="id" name="bus_res_CHAT_LEAVE" />
+    <item type="id" name="bus_res_CHAT_SET_TOPIC" />
+    <item type="id" name="bus_res_COMMUNITY_PARTICIPANTS" />
+    <item type="id" name="bus_res_COMPLAINT_TO_GROUP" />
+    <item type="id" name="bus_res_COMPLAINT_TO_USER" />
+    <item type="id" name="bus_res_CONVERSATIONS_DELETE" />
+    <item type="id" name="bus_res_CONVERSATION_UPDATE" />
+    <item type="id" name="bus_res_CreatePhotoAlbumProcessor" />
+    <item type="id" name="bus_res_DECLINE_PRESENT" />
+    <item type="id" name="bus_res_DISCUSSIONS_ADD_COMMENT" />
+    <item type="id" name="bus_res_DISCUSSIONS_DELETE_COMMENTS" />
+    <item type="id" name="bus_res_DISCUSSIONS_LIKE" />
+    <item type="id" name="bus_res_DISCUSSIONS_LIKE_COMMENT" />
+    <item type="id" name="bus_res_DISCUSSIONS_LOAD_FIRST_COMMENTS_PORTION" />
+    <item type="id" name="bus_res_DISCUSSIONS_LOAD_NEXT_COMMENTS_PORTION" />
+    <item type="id" name="bus_res_DISCUSSIONS_LOAD_PREVIOUS_COMMENTS_PORTION" />
+    <item type="id" name="bus_res_DISCUSSIONS_MARK_AS_READ" />
+    <item type="id" name="bus_res_DISCUSSIONS_MARK_DISCUSSION_AS_READ" />
+    <item type="id" name="bus_res_DISCUSSIONS_SPAM_COMMENTS" />
+    <item type="id" name="bus_res_DISCUSSION_COMMENT_EDIT" />
+    <item type="id" name="bus_res_DISCUSSION_COMMENT_EDIT_UNDO" />
+    <item type="id" name="bus_res_DISCUSSION_LOAD_INFO" />
+    <item type="id" name="bus_res_DISCUSSION_LOAD_ONE_COMMENT" />
+    <item type="id" name="bus_res_DeletePhotoAlbumProcessor" />
+    <item type="id" name="bus_res_DeletePhotoProcessor" />
+    <item type="id" name="bus_res_DeleteUserPhotoTagProcessor" />
+    <item type="id" name="bus_res_EditPhotoAlbumProcessor" />
+    <item type="id" name="bus_res_EditPhotoProcessor" />
+    <item type="id" name="bus_res_FRIENDS_FILTER" />
+    <item type="id" name="bus_res_FRIENDS_ONLINE_UPDATED" />
+    <item type="id" name="bus_res_FRIENDS_UPDATED" />
+    <item type="id" name="bus_res_GET_APP_POLL" />
+    <item type="id" name="bus_res_GET_ONLINE_FRIENDS" />
+    <item type="id" name="bus_res_GET_PYMK_WITH_DETAILS" />
+    <item type="id" name="bus_res_GROUP_COMMUNITY_JOIN" />
+    <item type="id" name="bus_res_GROUP_CREATE" />
+    <item type="id" name="bus_res_GROUP_FRIENDS" />
+    <item type="id" name="bus_res_GROUP_GET_MEMBERS" />
+    <item type="id" name="bus_res_GROUP_INFO" />
+    <item type="id" name="bus_res_GROUP_INVITE_FRIENDS" />
+    <item type="id" name="bus_res_GROUP_JOIN" />
+    <item type="id" name="bus_res_GROUP_LEAVE" />
+    <item type="id" name="bus_res_GetAlbumInfoBatchProcessor" />
+    <item type="id" name="bus_res_GetFullPhotoInfoProcessor" />
+    <item type="id" name="bus_res_GetPhotoAlbumProcessor" />
+    <item type="id" name="bus_res_GetPhotoAlbumsBatchProcessor" />
+    <item type="id" name="bus_res_GetPhotoAlbumsProcessor" />
+    <item type="id" name="bus_res_GetPhotoInfoProcessor" />
+    <item type="id" name="bus_res_GetPhotoTagsProcessor" />
+    <item type="id" name="bus_res_GetPhotosProcessor" />
+    <item type="id" name="bus_res_GetViewInfoBatchProcessor" />
+    <item type="id" name="bus_res_LIKE" />
+    <item type="id" name="bus_res_LIKE_VIDEO" />
+    <item type="id" name="bus_res_LOAD_AND_SAVE_APP_POLL" />
+    <item type="id" name="bus_res_LOAD_PRESENTS" />
+    <item type="id" name="bus_res_LOAD_PRESENT_AND_USER" />
+    <item type="id" name="bus_res_LOAD_PRESENT_NOTIFICATION" />
+    <item type="id" name="bus_res_LikePhotoAlbumProcessor" />
+    <item type="id" name="bus_res_LikePhotoProcessor" />
+    <item type="id" name="bus_res_MEDIATOPIC_DELETE" />
+    <item type="id" name="bus_res_MEDIATOPIC_PIN" />
+    <item type="id" name="bus_res_MEDIATOPIC_SET_TO_STATUS" />
+    <item type="id" name="bus_res_MEDIATOPIC_VOTE" />
+    <item type="id" name="bus_res_MEDIA_COMPOSER_SETTINGS" />
+    <item type="id" name="bus_res_MESSAGES_ADD" />
+    <item type="id" name="bus_res_MESSAGES_COMPLAINT_PLACE" />
+    <item type="id" name="bus_res_MESSAGES_CUSTOM_TRACK" />
+    <item type="id" name="bus_res_MESSAGES_DELETE" />
+    <item type="id" name="bus_res_MESSAGES_EDIT" />
+    <item type="id" name="bus_res_MESSAGES_EDIT_UNDO" />
+    <item type="id" name="bus_res_MESSAGES_GET_CATEGORIES" />
+    <item type="id" name="bus_res_MESSAGES_GET_PLACES" />
+    <item type="id" name="bus_res_MESSAGES_LOAD_FIRST_PORTION" />
+    <item type="id" name="bus_res_MESSAGES_LOAD_NEXT_PORTION" />
+    <item type="id" name="bus_res_MESSAGES_LOAD_ONE_MESSAGE" />
+    <item type="id" name="bus_res_MESSAGES_LOAD_PREVIOUS_PORTION" />
+    <item type="id" name="bus_res_MESSAGES_REVERSE_GEOCODE" />
+    <item type="id" name="bus_res_MESSAGES_SPAM" />
+    <item type="id" name="bus_res_MESSAGES_UNREAD_COUNT_CHANGED" />
+    <item type="id" name="bus_res_MESSAGES_VALIDATE_PLACE" />
+    <item type="id" name="bus_res_MESSAGE_CHANGED" />
+    <item type="id" name="bus_res_MESSAGE_CONVERSATION_MESSAGE_SENT" />
+    <item type="id" name="bus_res_MESSAGE_DELETE_STATUS" />
+    <item type="id" name="bus_res_MESSAGE_GET_CURRENT_USER_INFO" />
+    <item type="id" name="bus_res_MESSAGE_GET_GROUP_STREAM" />
+    <item type="id" name="bus_res_MESSAGE_GET_GROUP_STREAM_CACHED" />
+    <item type="id" name="bus_res_MESSAGE_GET_RECOMMENDED_FRIENDS" />
+    <item type="id" name="bus_res_MESSAGE_GET_STREAM" />
+    <item type="id" name="bus_res_MESSAGE_GET_USER_INFO" />
+    <item type="id" name="bus_res_MESSAGE_GET_USER_STREAM" />
+    <item type="id" name="bus_res_MESSAGE_GET_USER_STREAM_CACHED" />
+    <item type="id" name="bus_res_MESSAGE_UPDATE_STREAM_BANNERS" />
+    <item type="id" name="bus_res_MESSAGE_UPLOAD_PHOTO" />
+    <item type="id" name="bus_res_MSG_GROUP_TOPIC_LOAD" />
+    <item type="id" name="bus_res_MSG_USER_TOPIC_LOAD" />
+    <item type="id" name="bus_res_MarkPhotoProcessor" />
+    <item type="id" name="bus_res_MarkPhotoSpamProcessor" />
+    <item type="id" name="bus_res_MediaTopicEditTextProcessor" />
+    <item type="id" name="bus_res_MediaTopicGetByPhotoProcessor" />
+    <item type="id" name="bus_res_MutualFriendsProcessor" />
+    <item type="id" name="bus_res_ON_CONNECTION_AVAILABLE" />
+    <item type="id" name="bus_res_ON_NEW_EVENT" />
+    <item type="id" name="bus_res_PROMO_LINKS_FETCHED" />
+    <item type="id" name="bus_res_PUT_GUEST" />
+    <item type="id" name="bus_res_PUT_LOGOUT_ALL" />
+    <item type="id" name="bus_res_PUT_PYMK" />
+    <item type="id" name="bus_res_REGISTER_LIBVERIFY" />
+    <item type="id" name="bus_res_REMOVE_GUEST" />
+    <item type="id" name="bus_res_SAVE_ANSWERS_APP_POLL" />
+    <item type="id" name="bus_res_SEND_PRESENT" />
+    <item type="id" name="bus_res_SHOW_PLAY_INFO_ERROR" />
+    <item type="id" name="bus_res_START_SETTINGS" />
+    <item type="id" name="bus_res_STICKERS_GET_SETS" />
+    <item type="id" name="bus_res_STREAM_DELETE" />
+    <item type="id" name="bus_res_STREAM_GROUP_SUBSCRIBE" />
+    <item type="id" name="bus_res_STREAM_LIKE" />
+    <item type="id" name="bus_res_STREAM_MARK_AS_SPAM" />
+    <item type="id" name="bus_res_STREAM_MEDIA_DOWNLOAD_PROGRESS" />
+    <item type="id" name="bus_res_STREAM_MEDIA_PLAYER_PROGRESS" />
+    <item type="id" name="bus_res_STREAM_MEDIA_PLAYER_PUT_STATE" />
+    <item type="id" name="bus_res_STREAM_UNLIKE" />
+    <item type="id" name="bus_res_STREAM_UNSUBSCRIBE" />
+    <item type="id" name="bus_res_STREAM_USER_SUBSCRIBE" />
+    <item type="id" name="bus_res_SearchCitiesProcessor" />
+    <item type="id" name="bus_res_SearchQuickProcessor" />
+    <item type="id" name="bus_res_SetAlbumMainPhotoProcessor" />
+    <item type="id" name="bus_res_SetMainPhotoProcessor" />
+    <item type="id" name="bus_res_SetStatusProcessor" />
+    <item type="id" name="bus_res_UNLIKE" />
+    <item type="id" name="bus_res_UNLIKE_VIDEO" />
+    <item type="id" name="bus_res_UPDATE_FRIENDS" />
+    <item type="id" name="bus_res_USER_COUNTERS" />
+    <item type="id" name="bus_res_USER_DELETE_FRIEND" />
+    <item type="id" name="bus_res_USER_INVITE_FRIEND" />
+    <item type="id" name="bus_res_VIDEO_GET" />
+    <item type="id" name="bus_res_VIDEO_GET_SIMILAR" />
+    <item type="id" name="cast_notification_id" />
+    <item type="id" name="db_error_notification" />
+    <item type="id" name="hide_panel_ext" />
+    <item type="id" name="home" />
+    <item type="id" name="image_new" />
+    <item type="id" name="item_touch_helper_previous_elevation" />
+    <item type="id" name="loader_categories_groups" />
+    <item type="id" name="loader_groups" />
+    <item type="id" name="loader_groups_categories" />
+    <item type="id" name="loader_groups_search" />
+    <item type="id" name="loader_groups_user_groups" />
+    <item type="id" name="mc_popup_edit" />
+    <item type="id" name="mc_popup_insert_text" />
+    <item type="id" name="mc_popup_open_browser" />
+    <item type="id" name="mc_popup_remove" />
+    <item type="id" name="package_details_intent" />
+    <item type="id" name="persistent_service_notification" />
+    <item type="id" name="photo_album" />
+    <item type="id" name="photo_tile" />
+    <item type="id" name="post_media_topic_completed_notification" />
+    <item type="id" name="post_video_upload_completed_notification" />
+    <item type="id" name="progress_circular" />
+    <item type="id" name="progress_horizontal" />
+    <item type="id" name="recycler_adapter_position" />
+    <item type="id" name="recycler_view_type_app_poll" />
+    <item type="id" name="recycler_view_type_music_history_track_section" />
+    <item type="id" name="recycler_view_type_photo_roll" />
+    <item type="id" name="recycler_view_type_promo_links" />
+    <item type="id" name="recycler_view_type_pymk_preview" />
+    <item type="id" name="recycler_view_type_search_suggestions" />
+    <item type="id" name="recycler_view_type_userinfo" />
+    <item type="id" name="recycler_view_type_userinfo_divider" />
+    <item type="id" name="refresh_web_view" />
+    <item type="id" name="selected_view" />
+    <item type="id" name="side_links_loader" />
+    <item type="id" name="sliding_menu" />
+    <item type="id" name="smilesContainer" />
+    <item type="id" name="spinner_adapter_tags_holder" />
+    <item type="id" name="spinner_adapter_tags_holder_dropdown" />
+    <item type="id" name="split_action_bar" />
+    <item type="id" name="tag_action_extras" />
+    <item type="id" name="tag_action_icon_view" />
+    <item type="id" name="tag_adapter_position" />
+    <item type="id" name="tag_app_entity" />
+    <item type="id" name="tag_banner" />
+    <item type="id" name="tag_banner_with_rating_bottom" />
+    <item type="id" name="tag_can_call" />
+    <item type="id" name="tag_can_write" />
+    <item type="id" name="tag_disc_summary" />
+    <item type="id" name="tag_feed" />
+    <item type="id" name="tag_feed_footer_view" />
+    <item type="id" name="tag_feed_photo_entity" />
+    <item type="id" name="tag_feed_video" />
+    <item type="id" name="tag_feed_with_state" />
+    <item type="id" name="tag_groupinfo" />
+    <item type="id" name="tag_is_animate_photo" />
+    <item type="id" name="tag_layout_id" />
+    <item type="id" name="tag_like_info_context" />
+    <item type="id" name="tag_link" />
+    <item type="id" name="tag_list_places" />
+    <item type="id" name="tag_list_scroll_listeners" />
+    <item type="id" name="tag_media_item_photo" />
+    <item type="id" name="tag_photo_id" />
+    <item type="id" name="tag_photo_info_page" />
+    <item type="id" name="tag_photo_item_image_view" />
+    <item type="id" name="tag_photos" />
+    <item type="id" name="tag_poll_answer" />
+    <item type="id" name="tag_present_info" />
+    <item type="id" name="tag_present_type" />
+    <item type="id" name="tag_promo_group_id" />
+    <item type="id" name="tag_promo_user_id" />
+    <item type="id" name="tag_share_pressed_state" />
+    <item type="id" name="tag_shown_on_scroll_feed" />
+    <item type="id" name="tag_stat_pixel_holder" />
+    <item type="id" name="tag_stream_stat_source" />
+    <item type="id" name="tag_thumb_request" />
+    <item type="id" name="tag_user_entity" />
+    <item type="id" name="tag_user_info_alist" />
+    <item type="id" name="tag_video_data" />
+    <item type="id" name="tag_video_url" />
+    <item type="id" name="tag_view_holder" />
+    <item type="id" name="to_status_checkbox" />
+    <item type="id" name="topic_id" />
+    <item type="id" name="touch_listener" />
+    <item type="id" name="up" />
+    <item type="id" name="user_info" />
+    <item type="id" name="view_offset_helper" />
+    <item type="id" name="view_transient_state_tag" />
+    <item type="id" name="view_type_friend_alphabet_header" />
+    <item type="id" name="view_type_friend_section_header" />
+    <item type="id" name="view_type_friends_block" />
+    <item type="id" name="view_type_group" />
+    <item type="id" name="view_type_group_search_header" />
+    <item type="id" name="view_type_groups_section_header" />
+    <item type="id" name="view_type_load_item" />
+    <item type="id" name="view_type_sticker" />
+    <item type="id" name="view_type_sticker_header" />
+    <item type="id" name="view_type_user" />
+    <item type="id" name="view_type_user_suggestions" />
+    <item type="id" name="name">false</item>
+    <item type="id" name="category">false</item>
+    <item type="id" name="count">false</item>
+    <item type="id" name="subtitle">false</item>
+    <item type="id" name="action_bar_title">false</item>
+    <item type="id" name="action_bar_subtitle">false</item>
+    <item type="id" name="action_mode_close_button">false</item>
+    <item type="id" name="activity_chooser_view_content">false</item>
+    <item type="id" name="expand_activities_button">false</item>
+    <item type="id" name="image">false</item>
+    <item type="id" name="default_activity_button">false</item>
+    <item type="id" name="list_item">false</item>
+    <item type="id" name="icon">false</item>
+    <item type="id" name="title">false</item>
+    <item type="id" name="parentPanel">false</item>
+    <item type="id" name="topPanel">false</item>
+    <item type="id" name="title_template">false</item>
+    <item type="id" name="alertTitle">false</item>
+    <item type="id" name="contentPanel">false</item>
+    <item type="id" name="scrollView">false</item>
+    <item type="id" name="textSpacerNoButtons">false</item>
+    <item type="id" name="customPanel">false</item>
+    <item type="id" name="custom">false</item>
+    <item type="id" name="buttonPanel">false</item>
+    <item type="id" name="expanded_menu">false</item>
+    <item type="id" name="checkbox">false</item>
+    <item type="id" name="shortcut">false</item>
+    <item type="id" name="radio">false</item>
+    <item type="id" name="action_bar_root">false</item>
+    <item type="id" name="action_mode_bar_stub">false</item>
+    <item type="id" name="action_mode_bar">false</item>
+    <item type="id" name="decor_content_parent">false</item>
+    <item type="id" name="action_bar_container">false</item>
+    <item type="id" name="action_bar">false</item>
+    <item type="id" name="action_context_bar">false</item>
+    <item type="id" name="edit_query">false</item>
+    <item type="id" name="search_bar">false</item>
+    <item type="id" name="search_badge">false</item>
+    <item type="id" name="search_button">false</item>
+    <item type="id" name="search_edit_frame">false</item>
+    <item type="id" name="search_mag_icon">false</item>
+    <item type="id" name="search_plate">false</item>
+    <item type="id" name="search_src_text">false</item>
+    <item type="id" name="search_close_btn">false</item>
+    <item type="id" name="submit_area">false</item>
+    <item type="id" name="search_go_btn">false</item>
+    <item type="id" name="search_voice_btn">false</item>
+    <item type="id" name="select_dialog_listview">false</item>
+    <item type="id" name="iv_icon">false</item>
+    <item type="id" name="tv_title">false</item>
+    <item type="id" name="at_info_message">false</item>
+    <item type="id" name="at_close">false</item>
+    <item type="id" name="action_btn">false</item>
+    <item type="id" name="bubble_icon">false</item>
+    <item type="id" name="notification_button">false</item>
+    <item type="id" name="notification_bubble">false</item>
+    <item type="id" name="notification_button_h">false</item>
+    <item type="id" name="top_row_layout">false</item>
+    <item type="id" name="odkl_icon">false</item>
+    <item type="id" name="notification_title">false</item>
+    <item type="id" name="notification_text">false</item>
+    <item type="id" name="drop_button">false</item>
+    <item type="id" name="app_poll_container">false</item>
+    <item type="id" name="app_poll_progressbar">false</item>
+    <item type="id" name="app_poll_next">false</item>
+    <item type="id" name="outsideArea">false</item>
+    <item type="id" name="scrollLayout">false</item>
+    <item type="id" name="background">false</item>
+    <item type="id" name="content">false</item>
+    <item type="id" name="present">false</item>
+    <item type="id" name="checkbox_private">false</item>
+    <item type="id" name="checkbox_private_title">false</item>
+    <item type="id" name="costs">false</item>
+    <item type="id" name="buttons">false</item>
+    <item type="id" name="cancel">false</item>
+    <item type="id" name="send">false</item>
+    <item type="id" name="btn_progress">false</item>
+    <item type="id" name="user">false</item>
+    <item type="id" name="packagesLayout">false</item>
+    <item type="id" name="packagesRecyclerView">false</item>
+    <item type="id" name="checkbox_mystery">false</item>
+    <item type="id" name="checkbox_mystery_title">false</item>
+    <item type="id" name="page_view">false</item>
+    <item type="id" name="gradient_view">false</item>
+    <item type="id" name="play_view">false</item>
+    <item type="id" name="controllers">false</item>
+    <item type="id" name="live_text">false</item>
+    <item type="id" name="start_text">false</item>
+    <item type="id" name="end_text">false</item>
+    <item type="id" name="cc">false</item>
+    <item type="id" name="seekbar">false</item>
+    <item type="id" name="textview2">false</item>
+    <item type="id" name="loading_spinner">false</item>
+    <item type="id" name="root">false</item>
+    <item type="id" name="message">false</item>
+    <item type="id" name="add_smile_checkbox">false</item>
+    <item type="id" name="avatar_container">false</item>
+    <item type="id" name="date">false</item>
+    <item type="id" name="incoming_message">false</item>
+    <item type="id" name="send_button">false</item>
+    <item type="id" name="photo_albums_fragment_cont">false</item>
+    <item type="id" name="album_photos_fragment_cont">false</item>
+    <item type="id" name="action_toast_container">false</item>
+    <item type="id" name="grid">false</item>
+    <item type="id" name="progress">false</item>
+    <item type="id" name="camera">false</item>
+    <item type="id" name="empty_title">false</item>
+    <item type="id" name="error">false</item>
+    <item type="id" name="rootLayout">false</item>
+    <item type="id" name="sender_name">false</item>
+    <item type="id" name="firstStateLayout">false</item>
+    <item type="id" name="card_background">false</item>
+    <item type="id" name="present_pic">false</item>
+    <item type="id" name="present_music">false</item>
+    <item type="id" name="secondStateLayout">false</item>
+    <item type="id" name="user_avatar">false</item>
+    <item type="id" name="present_pic_on_user_layout">false</item>
+    <item type="id" name="present_pic_on_user">false</item>
+    <item type="id" name="music_on_present">false</item>
+    <item type="id" name="thirdStateLayout">false</item>
+    <item type="id" name="img1">false</item>
+    <item type="id" name="img2">false</item>
+    <item type="id" name="img3">false</item>
+    <item type="id" name="img4">false</item>
+    <item type="id" name="buttonsLayout">false</item>
+    <item type="id" name="reject">false</item>
+    <item type="id" name="accept">false</item>
+    <item type="id" name="showAll">false</item>
+    <item type="id" name="toastLayout">false</item>
+    <item type="id" name="toastText">false</item>
+    <item type="id" name="sender_avatar">false</item>
+    <item type="id" name="search_root">false</item>
+    <item type="id" name="indicator">false</item>
+    <item type="id" name="empty_view">false</item>
+    <item type="id" name="suggestions">false</item>
+    <item type="id" name="pager">false</item>
+    <item type="id" name="tb_root">false</item>
+    <item type="id" name="toolbar">false</item>
+    <item type="id" name="parent_scroll">false</item>
+    <item type="id" name="main_container">false</item>
+    <item type="id" name="my_profile_title">false</item>
+    <item type="id" name="fragment_container">false</item>
+    <item type="id" name="activity_root">false</item>
+    <item type="id" name="container">false</item>
+    <item type="id" name="activity_loading_spinner">false</item>
+    <item type="id" name="error_stub">false</item>
+    <item type="id" name="root_view">false</item>
+    <item type="id" name="photo_animation">false</item>
+    <item type="id" name="error_icon">false</item>
+    <item type="id" name="error_message">false</item>
+    <item type="id" name="error_retry">false</item>
+    <item type="id" name="mt_button_send">false</item>
+    <item type="id" name="map_fragment">false</item>
+    <item type="id" name="information_panel">false</item>
+    <item type="id" name="first_panel">false</item>
+    <item type="id" name="text_addresses">false</item>
+    <item type="id" name="divider0">false</item>
+    <item type="id" name="place_name">false</item>
+    <item type="id" name="divider">false</item>
+    <item type="id" name="category_name">false</item>
+    <item type="id" name="addresses_panel">false</item>
+    <item type="id" name="text">false</item>
+    <item type="id" name="country">false</item>
+    <item type="id" name="city">false</item>
+    <item type="id" name="street">false</item>
+    <item type="id" name="house">false</item>
+    <item type="id" name="load_view">false</item>
+    <item type="id" name="swipe_refresh">false</item>
+    <item type="id" name="albumsList">false</item>
+    <item type="id" name="answer_item">false</item>
+    <item type="id" name="app_poll_question">false</item>
+    <item type="id" name="app_poll_item_text">false</item>
+    <item type="id" name="app_poll_mark">false</item>
+    <item type="id" name="app_poll_item_image">false</item>
+    <item type="id" name="app_poll_security">false</item>
+    <item type="id" name="item_layout">false</item>
+    <item type="id" name="control_layout">false</item>
+    <item type="id" name="control_hint">false</item>
+    <item type="id" name="artistsList">false</item>
+    <item type="id" name="stub_view">false</item>
+    <item type="id" name="audio_player_inflated">false</item>
+    <item type="id" name="play_layout">false</item>
+    <item type="id" name="btn_layout">false</item>
+    <item type="id" name="play_btn">false</item>
+    <item type="id" name="preload_spinner">false</item>
+    <item type="id" name="record_layout">false</item>
+    <item type="id" name="record_view">false</item>
+    <item type="id" name="record_bg">false</item>
+    <item type="id" name="audio_wave">false</item>
+    <item type="id" name="timer_text">false</item>
+    <item type="id" name="online">false</item>
+    <item type="id" name="promo_link_view">false</item>
+    <item type="id" name="bannersList">false</item>
+    <item type="id" name="full">false</item>
+    <item type="id" name="drawer_layout">false</item>
+    <item type="id" name="content_wrapper">false</item>
+    <item type="id" name="appbar">false</item>
+    <item type="id" name="base_compat_toolbar">false</item>
+    <item type="id" name="base_compat_toolbar_shadow">false</item>
+    <item type="id" name="left_drawer">false</item>
+    <item type="id" name="stream_scroll_top_view">false</item>
+    <item type="id" name="line_1">false</item>
+    <item type="id" name="billing_items">false</item>
+    <item type="id" name="buy_20">false</item>
+    <item type="id" name="buy_40">false</item>
+    <item type="id" name="buy_80">false</item>
+    <item type="id" name="buy_100">false</item>
+    <item type="id" name="bonus">false</item>
+    <item type="id" name="line_2">false</item>
+    <item type="id" name="button_cancel">false</item>
+    <item type="id" name="progress_bill">false</item>
+    <item type="id" name="bubble_image">false</item>
+    <item type="id" name="bubble_text">false</item>
+    <item type="id" name="avatar">false</item>
+    <item type="id" name="official">false</item>
+    <item type="id" name="private_group">false</item>
+    <item type="id" name="info">false</item>
+    <item type="id" name="arrow">false</item>
+    <item type="id" name="text_expand">false</item>
+    <item type="id" name="group_card">false</item>
+    <item type="id" name="members_count">false</item>
+    <item type="id" name="text_title">false</item>
+    <item type="id" name="private_profile">false</item>
+    <item type="id" name="user_card">false</item>
+    <item type="id" name="right_button">false</item>
+    <item type="id" name="pageview">false</item>
+    <item type="id" name="imageview">false</item>
+    <item type="id" name="textview1">false</item>
+    <item type="id" name="progressbar1">false</item>
+    <item type="id" name="texts">false</item>
+    <item type="id" name="above_anchor">false</item>
+    <item type="id" name="login_type_img">false</item>
+    <item type="id" name="user_name">false</item>
+    <item type="id" name="test_key">false</item>
+    <item type="id" name="btn_container">false</item>
+    <item type="id" name="button">false</item>
+    <item type="id" name="login_progress">false</item>
+    <item type="id" name="countdown_container">false</item>
+    <item type="id" name="countdown_text">false</item>
+    <item type="id" name="new_phone_code">false</item>
+    <item type="id" name="below_anchor">false</item>
+    <item type="id" name="autoReg">false</item>
+    <item type="id" name="hand_container">false</item>
+    <item type="id" name="hand_shadow">false</item>
+    <item type="id" name="hint_title">false</item>
+    <item type="id" name="hint">false</item>
+    <item type="id" name="continue_btn">false</item>
+    <item type="id" name="skip">false</item>
+    <item type="id" name="age_and_location">false</item>
+    <item type="id" name="invite_friend">false</item>
+    <item type="id" name="is_new">false</item>
+    <item type="id" name="author_reply_layout">false</item>
+    <item type="id" name="author">false</item>
+    <item type="id" name="replied_to_layout">false</item>
+    <item type="id" name="replied_to">false</item>
+    <item type="id" name="replied_avatar">false</item>
+    <item type="id" name="replied_to_block_stub">false</item>
+    <item type="id" name="cant_show_attach_text">false</item>
+    <item type="id" name="actions_block">false</item>
+    <item type="id" name="actions_block_inflated">false</item>
+    <item type="id" name="video_attach">false</item>
+    <item type="id" name="video_attach_inflated">false</item>
+    <item type="id" name="audio_player">false</item>
+    <item type="id" name="photo_attach">false</item>
+    <item type="id" name="photo_attach_inflated">false</item>
+    <item type="id" name="gif_as_mp4_attach">false</item>
+    <item type="id" name="gif_as_mp4_attach_inflated">false</item>
+    <item type="id" name="topic_link_attach">false</item>
+    <item type="id" name="topic_link_attach_inflated">false</item>
+    <item type="id" name="check_selected">false</item>
+    <item type="id" name="edited">false</item>
+    <item type="id" name="comment_options">false</item>
+    <item type="id" name="message_data">false</item>
+    <item type="id" name="status">false</item>
+    <item type="id" name="separator">false</item>
+    <item type="id" name="separator_tail">false</item>
+    <item type="id" name="radioGroup">false</item>
+    <item type="id" name="radioButtonPorno">false</item>
+    <item type="id" name="radioButtonAdv">false</item>
+    <item type="id" name="radioButtonExt">false</item>
+    <item type="id" name="radioButtonFake">false</item>
+    <item type="id" name="checkBoxBlackList">false</item>
+    <item type="id" name="composingAnimation">false</item>
+    <item type="id" name="composingText">false</item>
+    <item type="id" name="avatarsContainer">false</item>
+    <item type="id" name="content_stub">false</item>
+    <item type="id" name="network_status">false</item>
+    <item type="id" name="list">false</item>
+    <item type="id" name="as_admin">false</item>
+    <item type="id" name="action_container">false</item>
+    <item type="id" name="audio_attach">false</item>
+    <item type="id" name="audio_attach_cancel">false</item>
+    <item type="id" name="attach_video">false</item>
+    <item type="id" name="attach_photo">false</item>
+    <item type="id" name="new_message_text">false</item>
+    <item type="id" name="iconContainer">false</item>
+    <item type="id" name="iconView">false</item>
+    <item type="id" name="playPauseView">false</item>
+    <item type="id" name="loadingView">false</item>
+    <item type="id" name="textContainer">false</item>
+    <item type="id" name="titleView">false</item>
+    <item type="id" name="subTitleView">false</item>
+    <item type="id" name="emptyView">false</item>
+    <item type="id" name="icon_view">false</item>
+    <item type="id" name="removeView">false</item>
+    <item type="id" name="play_pause">false</item>
+    <item type="id" name="loading_view">false</item>
+    <item type="id" name="title_view">false</item>
+    <item type="id" name="subtitle_view">false</item>
+    <item type="id" name="tabhost">false</item>
+    <item type="id" name="listview1">false</item>
+    <item type="id" name="listview2">false</item>
+    <item type="id" name="text_empty_message">false</item>
+    <item type="id" name="audio_empty_message">false</item>
+    <item type="id" name="text_delete_message">false</item>
+    <item type="id" name="text_im">false</item>
+    <item type="id" name="snackbar_text">false</item>
+    <item type="id" name="snackbar_action">false</item>
+    <item type="id" name="access_controls">false</item>
+    <item type="id" name="access_public">false</item>
+    <item type="id" name="access_friends">false</item>
+    <item type="id" name="access_relatives">false</item>
+    <item type="id" name="access_love">false</item>
+    <item type="id" name="access_close_friends">false</item>
+    <item type="id" name="access_colleagues">false</item>
+    <item type="id" name="access_classmates">false</item>
+    <item type="id" name="access_coursemates">false</item>
+    <item type="id" name="access_companions_in_arms">false</item>
+    <item type="id" name="unsubscribe">false</item>
+    <item type="id" name="password_text">false</item>
+    <item type="id" name="album_container">false</item>
+    <item type="id" name="album_photo_count">false</item>
+    <item type="id" name="album">false</item>
+    <item type="id" name="group">false</item>
+    <item type="id" name="photos_count">false</item>
+    <item type="id" name="creation_date">false</item>
+    <item type="id" name="access_types">false</item>
+    <item type="id" name="controls_container">false</item>
+    <item type="id" name="owner">false</item>
+    <item type="id" name="load_more_layout">false</item>
+    <item type="id" name="go_to_top">false</item>
+    <item type="id" name="load_more_click_layout">false</item>
+    <item type="id" name="author_block">false</item>
+    <item type="id" name="author_avatar">false</item>
+    <item type="id" name="title_secondary">false</item>
+    <item type="id" name="title_third">false</item>
+    <item type="id" name="content_block">false</item>
+    <item type="id" name="content_holder">false</item>
+    <item type="id" name="likes_block">false</item>
+    <item type="id" name="liked_users">false</item>
+    <item type="id" name="likes">false</item>
+    <item type="id" name="play">false</item>
+    <item type="id" name="web_view">false</item>
+    <item type="id" name="discussions_pager">false</item>
+    <item type="id" name="notification">false</item>
+    <item type="id" name="save">false</item>
+    <item type="id" name="delimiter">false</item>
+    <item type="id" name="delete">false</item>
+    <item type="id" name="icon_background">false</item>
+    <item type="id" name="logo">false</item>
+    <item type="id" name="recovery_btn">false</item>
+    <item type="id" name="error_view">false</item>
+    <item type="id" name="go_to_registration">false</item>
+    <item type="id" name="user_phone">false</item>
+    <item type="id" name="fab">false</item>
+    <item type="id" name="fading_container">false</item>
+    <item type="id" name="text_comments">false</item>
+    <item type="id" name="text_share">false</item>
+    <item type="id" name="feedback_link">false</item>
+    <item type="id" name="filter_layout">false</item>
+    <item type="id" name="filter_text">false</item>
+    <item type="id" name="clear_filter_button">false</item>
+    <item type="id" name="image_switcher">false</item>
+    <item type="id" name="current_image">false</item>
+    <item type="id" name="next_image">false</item>
+    <item type="id" name="enter_button">false</item>
+    <item type="id" name="registration_button">false</item>
+    <item type="id" name="need_help_button">false</item>
+    <item type="id" name="poll_recycler">false</item>
+    <item type="id" name="app_poll_other">false</item>
+    <item type="id" name="app_poll_other_title">false</item>
+    <item type="id" name="app_poll_text">false</item>
+    <item type="id" name="app_poll_radio_group">false</item>
+    <item type="id" name="app_poll_radio_1">false</item>
+    <item type="id" name="app_poll_radio_2">false</item>
+    <item type="id" name="app_poll_radio_3">false</item>
+    <item type="id" name="app_poll_radio_4">false</item>
+    <item type="id" name="app_poll_radio_5">false</item>
+    <item type="id" name="app_poll_count">false</item>
+    <item type="id" name="avatar_remove">false</item>
+    <item type="id" name="upload">false</item>
+    <item type="id" name="recyclerView">false</item>
+    <item type="id" name="empty_stub">false</item>
+    <item type="id" name="first_letter_text">false</item>
+    <item type="id" name="radio_button">false</item>
+    <item type="id" name="coordinator_nested">false</item>
+    <item type="id" name="groups_own_appbar">false</item>
+    <item type="id" name="groups_own_content">false</item>
+    <item type="id" name="groups_own_label">false</item>
+    <item type="id" name="groups_own_all">false</item>
+    <item type="id" name="recycler_groups_own">false</item>
+    <item type="id" name="groups_portal_content">false</item>
+    <item type="id" name="recycler_groups_portal">false</item>
+    <item type="id" name="shadow">false</item>
+    <item type="id" name="search_groups_container">false</item>
+    <item type="id" name="country_filter">false</item>
+    <item type="id" name="country_list">false</item>
+    <item type="id" name="empty_text">false</item>
+    <item type="id" name="name_icon">false</item>
+    <item type="id" name="first_name">false</item>
+    <item type="id" name="last_name">false</item>
+    <item type="id" name="birthday_anchor">false</item>
+    <item type="id" name="birthday">false</item>
+    <item type="id" name="gender_icon">false</item>
+    <item type="id" name="gender">false</item>
+    <item type="id" name="password_container">false</item>
+    <item type="id" name="clear_pw">false</item>
+    <item type="id" name="update_password_info">false</item>
+    <item type="id" name="go_btn">false</item>
+    <item type="id" name="surface_view">false</item>
+    <item type="id" name="player_controls_anchor">false</item>
+    <item type="id" name="repeat">false</item>
+    <item type="id" name="target_view">false</item>
+    <item type="id" name="text_target">false</item>
+    <item type="id" name="target_finish_button">false</item>
+    <item type="id" name="player_web_view">false</item>
+    <item type="id" name="cover_view">false</item>
+    <item type="id" name="header">false</item>
+    <item type="id" name="write_message">false</item>
+    <item type="id" name="info_container">false</item>
+    <item type="id" name="dots">false</item>
+    <item type="id" name="options_stub">false</item>
+    <item type="id" name="options">false</item>
+    <item type="id" name="friend_item">false</item>
+    <item type="id" name="profile">false</item>
+    <item type="id" name="participants">false</item>
+    <item type="id" name="full_screen_container">false</item>
+    <item type="id" name="friends_pager">false</item>
+    <item type="id" name="gif_as_mp4_attach_view">false</item>
+    <item type="id" name="gif_as_mp4_image">false</item>
+    <item type="id" name="shadow_layer">false</item>
+    <item type="id" name="controls_bottom">false</item>
+    <item type="id" name="comment_container">false</item>
+    <item type="id" name="comment">false</item>
+    <item type="id" name="content_frame">false</item>
+    <item type="id" name="name_input_layout">false</item>
+    <item type="id" name="name_edit">false</item>
+    <item type="id" name="description_input_layout">false</item>
+    <item type="id" name="description_edit">false</item>
+    <item type="id" name="unread_events">false</item>
+    <item type="id" name="text_block">false</item>
+    <item type="id" name="friends_members_count">false</item>
+    <item type="id" name="join">false</item>
+    <item type="id" name="joined">false</item>
+    <item type="id" name="members_content">false</item>
+    <item type="id" name="description">false</item>
+    <item type="id" name="scope_holder">false</item>
+    <item type="id" name="scope">false</item>
+    <item type="id" name="admin_holder">false</item>
+    <item type="id" name="admin">false</item>
+    <item type="id" name="address_holder">false</item>
+    <item type="id" name="address">false</item>
+    <item type="id" name="web_holder">false</item>
+    <item type="id" name="web_home">false</item>
+    <item type="id" name="phone_holder">false</item>
+    <item type="id" name="phone">false</item>
+    <item type="id" name="date_create">false</item>
+    <item type="id" name="avatar_view">false</item>
+    <item type="id" name="information_layout">false</item>
+    <item type="id" name="button_layout">false</item>
+    <item type="id" name="sections_horizontal">false</item>
+    <item type="id" name="bg_layout">false</item>
+    <item type="id" name="avatar_layout">false</item>
+    <item type="id" name="bg_layout_no">false</item>
+    <item type="id" name="sections_vertical">false</item>
+    <item type="id" name="name_layout">false</item>
+    <item type="id" name="privateView">false</item>
+    <item type="id" name="premiumView">false</item>
+    <item type="id" name="additional">false</item>
+    <item type="id" name="created">false</item>
+    <item type="id" name="location">false</item>
+    <item type="id" name="count_text">false</item>
+    <item type="id" name="invite">false</item>
+    <item type="id" name="invite_happening">false</item>
+    <item type="id" name="may_invite_happening">false</item>
+    <item type="id" name="add_friends">false</item>
+    <item type="id" name="content_groups_portal">false</item>
+    <item type="id" name="groups_portal_label">false</item>
+    <item type="id" name="list_header_container">false</item>
+    <item type="id" name="currentView">false</item>
+    <item type="id" name="nextView">false</item>
+    <item type="id" name="controls">false</item>
+    <item type="id" name="discard">false</item>
+    <item type="id" name="image_placeholder">false</item>
+    <item type="id" name="image_default">false</item>
+    <item type="id" name="remove">false</item>
+    <item type="id" name="msg">false</item>
+    <item type="id" name="pause">false</item>
+    <item type="id" name="pause_bar">false</item>
+    <item type="id" name="resume">false</item>
+    <item type="id" name="to_album">false</item>
+    <item type="id" name="single_upload">false</item>
+    <item type="id" name="uploads">false</item>
+    <item type="id" name="album_prefix">false</item>
+    <item type="id" name="album_name">false</item>
+    <item type="id" name="group_prefix">false</item>
+    <item type="id" name="group_name">false</item>
+    <item type="id" name="thumb">false</item>
+    <item type="id" name="status_layer">false</item>
+    <item type="id" name="divider1">false</item>
+    <item type="id" name="rotate_ccw">false</item>
+    <item type="id" name="crop">false</item>
+    <item type="id" name="rotate_cw">false</item>
+    <item type="id" name="images_count">false</item>
+    <item type="id" name="add_container">false</item>
+    <item type="id" name="add_photos">false</item>
+    <item type="id" name="image_layout">false</item>
+    <item type="id" name="text_album">false</item>
+    <item type="id" name="text_ensemble">false</item>
+    <item type="id" name="text_artist">false</item>
+    <item type="id" name="button_albums">false</item>
+    <item type="id" name="button_radio">false</item>
+    <item type="id" name="notify">false</item>
+    <item type="id" name="text_disc">false</item>
+    <item type="id" name="conversation_item">false</item>
+    <item type="id" name="avatar_image">false</item>
+    <item type="id" name="last_message_user_avatars">false</item>
+    <item type="id" name="last_message_me_text">false</item>
+    <item type="id" name="media_icon">false</item>
+    <item type="id" name="text_author">false</item>
+    <item type="id" name="text_date">false</item>
+    <item type="id" name="right_block">false</item>
+    <item type="id" name="select_checkbox">false</item>
+    <item type="id" name="text_name">false</item>
+    <item type="id" name="text_include">false</item>
+    <item type="id" name="music_element">false</item>
+    <item type="id" name="item_holiday_avatar">false</item>
+    <item type="id" name="feed_holiday_text">false</item>
+    <item type="id" name="text_collection">false</item>
+    <item type="id" name="text_tracks_count">false</item>
+    <item type="id" name="text_tuner">false</item>
+    <item type="id" name="text_artists">false</item>
+    <item type="id" name="presentContainer">false</item>
+    <item type="id" name="presentImg">false</item>
+    <item type="id" name="userAvatar">false</item>
+    <item type="id" name="optionsBtn">false</item>
+    <item type="id" name="actionBtn">false</item>
+    <item type="id" name="kick_user">false</item>
+    <item type="id" name="last_online">false</item>
+    <item type="id" name="menu">false</item>
+    <item type="id" name="text_category">false</item>
+    <item type="id" name="text_address">false</item>
+    <item type="id" name="playlist_song_item">false</item>
+    <item type="id" name="dots_checkbox">false</item>
+    <item type="id" name="rightLayout">false</item>
+    <item type="id" name="play_image">false</item>
+    <item type="id" name="text_time">false</item>
+    <item type="id" name="text_track_name">false</item>
+    <item type="id" name="text_artist_name">false</item>
+    <item type="id" name="presentPack">false</item>
+    <item type="id" name="cost">false</item>
+    <item type="id" name="promo_link">false</item>
+    <item type="id" name="holiday">false</item>
+    <item type="id" name="text_klass_count">false</item>
+    <item type="id" name="text_klass">false</item>
+    <item type="id" name="live">false</item>
+    <item type="id" name="quality">false</item>
+    <item type="id" name="main">false</item>
+    <item type="id" name="register_button">false</item>
+    <item type="id" name="login_group">false</item>
+    <item type="id" name="login_lv">false</item>
+    <item type="id" name="login">false</item>
+    <item type="id" name="password">false</item>
+    <item type="id" name="check">false</item>
+    <item type="id" name="login_button">false</item>
+    <item type="id" name="help_layout">false</item>
+    <item type="id" name="recovery_button">false</item>
+    <item type="id" name="feedback_button">false</item>
+    <item type="id" name="odnoklassniki_website">false</item>
+    <item type="id" name="login_web">false</item>
+    <item type="id" name="logo_image">false</item>
+    <item type="id" name="registration_ok_title">false</item>
+    <item type="id" name="mainFrame">false</item>
+    <item type="id" name="titleFrame">false</item>
+    <item type="id" name="titleBarDivider">false</item>
+    <item type="id" name="contentScrollView">false</item>
+    <item type="id" name="contentListViewFrame">false</item>
+    <item type="id" name="contentListView">false</item>
+    <item type="id" name="customViewFrame">false</item>
+    <item type="id" name="buttonBarDivider">false</item>
+    <item type="id" name="buttonDefaultFrame">false</item>
+    <item type="id" name="buttonDefaultNeutral">false</item>
+    <item type="id" name="buttonDefaultNegative">false</item>
+    <item type="id" name="buttonDefaultPositive">false</item>
+    <item type="id" name="buttonStackedFrame">false</item>
+    <item type="id" name="buttonStackedPositive">false</item>
+    <item type="id" name="buttonStackedNegative">false</item>
+    <item type="id" name="buttonStackedNeutral">false</item>
+    <item type="id" name="control">false</item>
+    <item type="id" name="label">false</item>
+    <item type="id" name="text_place">false</item>
+    <item type="id" name="media_composer">false</item>
+    <item type="id" name="composer_panel_open_circles">false</item>
+    <item type="id" name="media_composer_circle_video">false</item>
+    <item type="id" name="media_composer_circle_photo">false</item>
+    <item type="id" name="media_composer_circle_note">false</item>
+    <item type="id" name="media_composer_circle_plus">false</item>
+    <item type="id" name="media_composer_labels">false</item>
+    <item type="id" name="media_composer_label_video">false</item>
+    <item type="id" name="media_composer_label_photo">false</item>
+    <item type="id" name="media_composer_label_note">false</item>
+    <item type="id" name="to_status_text">false</item>
+    <item type="id" name="time_current">false</item>
+    <item type="id" name="mediacontroller_progress">false</item>
+    <item type="id" name="time">false</item>
+    <item type="id" name="media_item_container">false</item>
+    <item type="id" name="corner_icon">false</item>
+    <item type="id" name="mediacomposer_tracks_container">false</item>
+    <item type="id" name="menu_standard_icon">false</item>
+    <item type="id" name="menu_notify">false</item>
+    <item type="id" name="menu_standart_name">false</item>
+    <item type="id" name="menu_standart_counter">false</item>
+    <item type="id" name="line">false</item>
+    <item type="id" name="grid_layout">false</item>
+    <item type="id" name="grid_item_0">false</item>
+    <item type="id" name="grid_item_1">false</item>
+    <item type="id" name="grid_item_3">false</item>
+    <item type="id" name="grid_item_2">false</item>
+    <item type="id" name="prew_button">false</item>
+    <item type="id" name="menu_subtext">false</item>
+    <item type="id" name="next_button">false</item>
+    <item type="id" name="pause_button">false</item>
+    <item type="id" name="menu_counter">false</item>
+    <item type="id" name="menu_user_bg">false</item>
+    <item type="id" name="menu_user_status_space">false</item>
+    <item type="id" name="menu_user_menu_icon">false</item>
+    <item type="id" name="menu_user_notification">false</item>
+    <item type="id" name="menu_user_avatar_content">false</item>
+    <item type="id" name="menu_standart_icon_left_space">false</item>
+    <item type="id" name="likes_count">false</item>
+    <item type="id" name="like">false</item>
+    <item type="id" name="reply">false</item>
+    <item type="id" name="message_item">false</item>
+    <item type="id" name="reply_with_sticker_container_stub">false</item>
+    <item type="id" name="reply_with_sticker_container">false</item>
+    <item type="id" name="reply_with_stickers">false</item>
+    <item type="id" name="messages_list_layout">false</item>
+    <item type="id" name="create_message_view">false</item>
+    <item type="id" name="reply_to">false</item>
+    <item type="id" name="messages_swipe_refresh">false</item>
+    <item type="id" name="messages_list">false</item>
+    <item type="id" name="composing_view">false</item>
+    <item type="id" name="messages_empty_view">false</item>
+    <item type="id" name="new_messages_view">false</item>
+    <item type="id" name="block_screen_view">false</item>
+    <item type="id" name="audio_buttons_stub">false</item>
+    <item type="id" name="messages_header">false</item>
+    <item type="id" name="participants_preview">false</item>
+    <item type="id" name="topic">false</item>
+    <item type="id" name="audio_buttons">false</item>
+    <item type="id" name="audio_attach_send">false</item>
+    <item type="id" name="audio_attach_record">false</item>
+    <item type="id" name="bigContainer">false</item>
+    <item type="id" name="more">false</item>
+    <item type="id" name="thumbnail">false</item>
+    <item type="id" name="media_route_list">false</item>
+    <item type="id" name="title_bar">false</item>
+    <item type="id" name="route_name">false</item>
+    <item type="id" name="settings">false</item>
+    <item type="id" name="media_route_control_frame">false</item>
+    <item type="id" name="default_control_frame">false</item>
+    <item type="id" name="art">false</item>
+    <item type="id" name="media_route_volume_layout">false</item>
+    <item type="id" name="media_route_volume_slider">false</item>
+    <item type="id" name="disconnect">false</item>
+    <item type="id" name="stop">false</item>
+    <item type="id" name="cover">false</item>
+    <item type="id" name="play_stop">false</item>
+    <item type="id" name="song_name">false</item>
+    <item type="id" name="artist_name">false</item>
+    <item type="id" name="play_previous">false</item>
+    <item type="id" name="play_next">false</item>
+    <item type="id" name="users_list">false</item>
+    <item type="id" name="viewpager_container">false</item>
+    <item type="id" name="name_text">false</item>
+    <item type="id" name="login_text">false</item>
+    <item type="id" name="transition_container">false</item>
+    <item type="id" name="need_help_btn">false</item>
+    <item type="id" name="text_login">false</item>
+    <item type="id" name="action0">false</item>
+    <item type="id" name="cancel_action">false</item>
+    <item type="id" name="status_bar_latest_event_content">false</item>
+    <item type="id" name="media_actions">false</item>
+    <item type="id" name="action_divider">false</item>
+    <item type="id" name="line1">false</item>
+    <item type="id" name="chronometer">false</item>
+    <item type="id" name="text2">false</item>
+    <item type="id" name="line3">false</item>
+    <item type="id" name="end_padder">false</item>
+    <item type="id" name="takepicture">false</item>
+    <item type="id" name="nomessages">false</item>
+    <item type="id" name="wmessagest">false</item>
+    <item type="id" name="currentstatus">false</item>
+    <item type="id" name="viewmain">false</item>
+    <item type="id" name="top_container">false</item>
+    <item type="id" name="left_container">false</item>
+    <item type="id" name="right_container">false</item>
+    <item type="id" name="shadow_left_right">false</item>
+    <item type="id" name="right_container_small">false</item>
+    <item type="id" name="ok_messaging">false</item>
+    <item type="id" name="ok">false</item>
+    <item type="id" name="online_layout">false</item>
+    <item type="id" name="online_separate">false</item>
+    <item type="id" name="online_text">false</item>
+    <item type="id" name="list_header">false</item>
+    <item type="id" name="users_count_summary">false</item>
+    <item type="id" name="select_all_text">false</item>
+    <item type="id" name="select_all_checkbox">false</item>
+    <item type="id" name="editText">false</item>
+    <item type="id" name="checkBox">false</item>
+    <item type="id" name="textView">false</item>
+    <item type="id" name="camera_video_preview_old">false</item>
+    <item type="id" name="camera_video_preview_new">false</item>
+    <item type="id" name="phone_call_layout">false</item>
+    <item type="id" name="linear_layout">false</item>
+    <item type="id" name="main_layout">false</item>
+    <item type="id" name="video_layout">false</item>
+    <item type="id" name="input_video">false</item>
+    <item type="id" name="userpic_view">false</item>
+    <item type="id" name="texture_container">false</item>
+    <item type="id" name="camera_video_layout">false</item>
+    <item type="id" name="camera_video_inc">false</item>
+    <item type="id" name="status_label_layout">false</item>
+    <item type="id" name="status_label">false</item>
+    <item type="id" name="footer">false</item>
+    <item type="id" name="activecall_footer_layout">false</item>
+    <item type="id" name="mute_button">false</item>
+    <item type="id" name="video_button">false</item>
+    <item type="id" name="incomingcall_footer_layout">false</item>
+    <item type="id" name="accept_button">false</item>
+    <item type="id" name="reject_button">false</item>
+    <item type="id" name="header_layout">false</item>
+    <item type="id" name="user_name_label">false</item>
+    <item type="id" name="header_status_label">false</item>
+    <item type="id" name="black_screen">false</item>
+    <item type="id" name="likes_layout">false</item>
+    <item type="id" name="album_header">false</item>
+    <item type="id" name="author_container">false</item>
+    <item type="id" name="album_user">false</item>
+    <item type="id" name="album_group">false</item>
+    <item type="id" name="counts_container">false</item>
+    <item type="id" name="album_comments">false</item>
+    <item type="id" name="like_iconed">false</item>
+    <item type="id" name="like_divider">false</item>
+    <item type="id" name="like_additional">false</item>
+    <item type="id" name="photo_albums_pager">false</item>
+    <item type="id" name="photo_attach_view">false</item>
+    <item type="id" name="user_mark_container">false</item>
+    <item type="id" name="marks_control_space">false</item>
+    <item type="id" name="your_mark_label">false</item>
+    <item type="id" name="user_mark">false</item>
+    <item type="id" name="raise_mark_label">false</item>
+    <item type="id" name="max_mark">false</item>
+    <item type="id" name="marks_bar_container">false</item>
+    <item type="id" name="marks_control">false</item>
+    <item type="id" name="mark_1">false</item>
+    <item type="id" name="mark_2">false</item>
+    <item type="id" name="mark_3">false</item>
+    <item type="id" name="mark_4">false</item>
+    <item type="id" name="mark_5">false</item>
+    <item type="id" name="mark_6">false</item>
+    <item type="id" name="photo">false</item>
+    <item type="id" name="photo_stub_view_image">false</item>
+    <item type="id" name="photo_stub_view_title">false</item>
+    <item type="id" name="photo_stub_view_subtitle">false</item>
+    <item type="id" name="drawer_pushable">false</item>
+    <item type="id" name="comments_count">false</item>
+    <item type="id" name="marks_bar">false</item>
+    <item type="id" name="progress_left">false</item>
+    <item type="id" name="progress_right">false</item>
+    <item type="id" name="address_panel">false</item>
+    <item type="id" name="hide_panel">false</item>
+    <item type="id" name="address_search_text">false</item>
+    <item type="id" name="map">false</item>
+    <item type="id" name="playlist">false</item>
+    <item type="id" name="view_pager">false</item>
+    <item type="id" name="player_body">false</item>
+    <item type="id" name="progress_layout">false</item>
+    <item type="id" name="time_to_start">false</item>
+    <item type="id" name="time_to_end">false</item>
+    <item type="id" name="info_layout">false</item>
+    <item type="id" name="track_name">false</item>
+    <item type="id" name="button_shuffle">false</item>
+    <item type="id" name="button_prev">false</item>
+    <item type="id" name="play_pause_view">false</item>
+    <item type="id" name="button_next">false</item>
+    <item type="id" name="button_repeat">false</item>
+    <item type="id" name="legal_info">false</item>
+    <item type="id" name="list_divider">false</item>
+    <item type="id" name="poll_radio_btn">false</item>
+    <item type="id" name="edit_text_answer">false</item>
+    <item type="id" name="answer_icon">false</item>
+    <item type="id" name="answer_text">false</item>
+    <item type="id" name="answers_progress">false</item>
+    <item type="id" name="answer_count">false</item>
+    <item type="id" name="edit_poll_title">false</item>
+    <item type="id" name="answer_container">false</item>
+    <item type="id" name="checkbox_only_one_answer">false</item>
+    <item type="id" name="answers">false</item>
+    <item type="id" name="scroller">false</item>
+    <item type="id" name="tracks">false</item>
+    <item type="id" name="playView">false</item>
+    <item type="id" name="play_view_stub">false</item>
+    <item type="id" name="playViewLayout">false</item>
+    <item type="id" name="subscribe_to_user">false</item>
+    <item type="id" name="send_message">false</item>
+    <item type="id" name="send_present">false</item>
+    <item type="id" name="call">false</item>
+    <item type="id" name="friends_avatars_view">false</item>
+    <item type="id" name="friends_text">false</item>
+    <item type="id" name="friends_holder_stub">false</item>
+    <item type="id" name="friends_holder">false</item>
+    <item type="id" name="birthdayView">false</item>
+    <item type="id" name="relations">false</item>
+    <item type="id" name="online_stub">false</item>
+    <item type="id" name="invisible_service">false</item>
+    <item type="id" name="profile_container_top">false</item>
+    <item type="id" name="stream_blocked_info">false</item>
+    <item type="id" name="profile_container_right">false</item>
+    <item type="id" name="button_play">false</item>
+    <item type="id" name="text_play">false</item>
+    <item type="id" name="button_msg">false</item>
+    <item type="id" name="text_msg">false</item>
+    <item type="id" name="line_3">false</item>
+    <item type="id" name="readStatusIcon">false</item>
+    <item type="id" name="readText">false</item>
+    <item type="id" name="recycler">false</item>
+    <item type="id" name="error_text">false</item>
+    <item type="id" name="country_code">false</item>
+    <item type="id" name="login_field">false</item>
+    <item type="id" name="create_user_btn">false</item>
+    <item type="id" name="button_img">false</item>
+    <item type="id" name="button_text">false</item>
+    <item type="id" name="user_agreement_info">false</item>
+    <item type="id" name="user_agreement_link">false</item>
+    <item type="id" name="registration_message">false</item>
+    <item type="id" name="avatar_cancel_btn">false</item>
+    <item type="id" name="type">false</item>
+    <item type="id" name="action_view">false</item>
+    <item type="id" name="layout_container">false</item>
+    <item type="id" name="city_container">false</item>
+    <item type="id" name="city_label">false</item>
+    <item type="id" name="city_field">false</item>
+    <item type="id" name="community_container">false</item>
+    <item type="id" name="community_label">false</item>
+    <item type="id" name="community_field">false</item>
+    <item type="id" name="years_container">false</item>
+    <item type="id" name="years_label">false</item>
+    <item type="id" name="community_years">false</item>
+    <item type="id" name="next_icon">false</item>
+    <item type="id" name="members_count_textView">false</item>
+    <item type="id" name="search_autocomplete">false</item>
+    <item type="id" name="progress_bar">false</item>
+    <item type="id" name="field_startYear">false</item>
+    <item type="id" name="field_endYear">false</item>
+    <item type="id" name="center_view">false</item>
+    <item type="id" name="menu_name">false</item>
+    <item type="id" name="slidingmenumain">false</item>
+    <item type="id" name="playButton">false</item>
+    <item type="id" name="another_sticker">false</item>
+    <item type="id" name="app_poll_title">false</item>
+    <item type="id" name="app_poll_description">false</item>
+    <item type="id" name="app_poll_layout">false</item>
+    <item type="id" name="app_poll_close">false</item>
+    <item type="id" name="app_poll_open">false</item>
+    <item type="id" name="stream_app_poll_test_info_stub">false</item>
+    <item type="id" name="stream_app_poll_stub">false</item>
+    <item type="id" name="test_info">false</item>
+    <item type="id" name="app_poll_last_update">false</item>
+    <item type="id" name="app_poll_last_show">false</item>
+    <item type="id" name="stream_blocked_title">false</item>
+    <item type="id" name="stream_blocked_message">false</item>
+    <item type="id" name="pinned_view">false</item>
+    <item type="id" name="promo_label">false</item>
+    <item type="id" name="feed_header_options_btn">false</item>
+    <item type="id" name="primary_header_content">false</item>
+    <item type="id" name="feed_header_text">false</item>
+    <item type="id" name="debug_text">false</item>
+    <item type="id" name="upper_text">false</item>
+    <item type="id" name="close_btn">false</item>
+    <item type="id" name="photo_list">false</item>
+    <item type="id" name="bottom_text">false</item>
+    <item type="id" name="users">false</item>
+    <item type="id" name="achvmnts">false</item>
+    <item type="id" name="bottom_space">false</item>
+    <item type="id" name="banner_outlink">false</item>
+    <item type="id" name="banner_app_rating">false</item>
+    <item type="id" name="banner_voters">false</item>
+    <item type="id" name="banner_label">false</item>
+    <item type="id" name="banner_icon">false</item>
+    <item type="id" name="banner_title">false</item>
+    <item type="id" name="banner_image">false</item>
+    <item type="id" name="banner_text">false</item>
+    <item type="id" name="cardImage">false</item>
+    <item type="id" name="sendBtn">false</item>
+    <item type="id" name="feed_header">false</item>
+    <item type="id" name="image_container">false</item>
+    <item type="id" name="link_image">false</item>
+    <item type="id" name="link_title">false</item>
+    <item type="id" name="link_icon">false</item>
+    <item type="id" name="link_descr">false</item>
+    <item type="id" name="link_url">false</item>
+    <item type="id" name="image_container_down">false</item>
+    <item type="id" name="link_image_down">false</item>
+    <item type="id" name="presents_scroll">false</item>
+    <item type="id" name="presents">false</item>
+    <item type="id" name="button_make_present">false</item>
+    <item type="id" name="track">false</item>
+    <item type="id" name="image_1">false</item>
+    <item type="id" name="image_2">false</item>
+    <item type="id" name="place">false</item>
+    <item type="id" name="poll_answer">false</item>
+    <item type="id" name="present1">false</item>
+    <item type="id" name="invite_friends_from_stream">false</item>
+    <item type="id" name="find_friends_from_school">false</item>
+    <item type="id" name="popular_people_in_town">false</item>
+    <item type="id" name="find_by_name">false</item>
+    <item type="id" name="find_by_phonebook">false</item>
+    <item type="id" name="image_old">false</item>
+    <item type="id" name="likes_layout_stub">false</item>
+    <item type="id" name="mutual_friends">false</item>
+    <item type="id" name="textView_pymk">false</item>
+    <item type="id" name="textView_show_more">false</item>
+    <item type="id" name="child_fragment_container">false</item>
+    <item type="id" name="stream_items">false</item>
+    <item type="id" name="user_name_text">false</item>
+    <item type="id" name="text_ext">false</item>
+    <item type="id" name="names">false</item>
+    <item type="id" name="video_thumb">false</item>
+    <item type="id" name="animating_panel">false</item>
+    <item type="id" name="head_container">false</item>
+    <item type="id" name="text_message">false</item>
+    <item type="id" name="shadow_right_container">false</item>
+    <item type="id" name="cover_image">false</item>
+    <item type="id" name="text_container">false</item>
+    <item type="id" name="fake_list">false</item>
+    <item type="id" name="school">false</item>
+    <item type="id" name="find_friends">false</item>
+    <item type="id" name="footer_textview">false</item>
+    <item type="id" name="tabbar_shadow">false</item>
+    <item type="id" name="actions_container">false</item>
+    <item type="id" name="content_container">false</item>
+    <item type="id" name="image_event">false</item>
+    <item type="id" name="selection">false</item>
+    <item type="id" name="phone_view">false</item>
+    <item type="id" name="pin_text">false</item>
+    <item type="id" name="back_btn">false</item>
+    <item type="id" name="toolbar_item_icon">false</item>
+    <item type="id" name="album_img_layout">false</item>
+    <item type="id" name="album_image_view">false</item>
+    <item type="id" name="progress_load">false</item>
+    <item type="id" name="user_layout">false</item>
+    <item type="id" name="track_info_in_page">false</item>
+    <item type="id" name="popup_anchor">false</item>
+    <item type="id" name="gridview">false</item>
+    <item type="id" name="tunersList">false</item>
+    <item type="id" name="avatar_text">false</item>
+    <item type="id" name="progress_ava">false</item>
+    <item type="id" name="title_text">false</item>
+    <item type="id" name="guest_tile">false</item>
+    <item type="id" name="login_creation_message">false</item>
+    <item type="id" name="collectionsList">false</item>
+    <item type="id" name="space_under_indicator">false</item>
+    <item type="id" name="indicator_shadow">false</item>
+    <item type="id" name="data_holder">false</item>
+    <item type="id" name="user_status">false</item>
+    <item type="id" name="video_attach_view">false</item>
+    <item type="id" name="video_play">false</item>
+    <item type="id" name="video_playback_view">false</item>
+    <item type="id" name="progress_indicator">false</item>
+    <item type="id" name="video_view">false</item>
+    <item type="id" name="duration">false</item>
+    <item type="id" name="thumbnail_view">false</item>
+    <item type="id" name="edit_layout">false</item>
+    <item type="id" name="title_edit">false</item>
+    <item type="id" name="video_privacy_box">false</item>
+    <item type="id" name="privacy_caption">false</item>
+    <item type="id" name="video_privacy_all">false</item>
+    <item type="id" name="video_privacy_friends">false</item>
+    <item type="id" name="accept_terms_text">false</item>
+    <item type="id" name="relativeLayout">false</item>
+    <item type="id" name="close">false</item>
+    <item type="id" name="goto_player_area">false</item>
+    <item type="id" name="player_start">false</item>
+    <item type="id" name="add">false</item>
+    <item type="id" name="add_place">false</item>
+    <item type="id" name="media_route_menu_item">false</item>
+    <item type="id" name="search">false</item>
+    <item type="id" name="add_music">false</item>
+    <item type="id" name="go_to_comment_user">false</item>
+    <item type="id" name="go_to_comment_group">false</item>
+    <item type="id" name="copy">false</item>
+    <item type="id" name="spam">false</item>
+    <item type="id" name="block">false</item>
+    <item type="id" name="resend">false</item>
+    <item type="id" name="edit_message">false</item>
+    <item type="id" name="error_info">false</item>
+    <item type="id" name="search_friends">false</item>
+    <item type="id" name="create_shortcut_list">false</item>
+    <item type="id" name="change_avatar">false</item>
+    <item type="id" name="copy_link">false</item>
+    <item type="id" name="mark">false</item>
+    <item type="id" name="go_to_end">false</item>
+    <item type="id" name="subscribe">false</item>
+    <item type="id" name="go_to_group">false</item>
+    <item type="id" name="go_to_happening">false</item>
+    <item type="id" name="go_to_user">false</item>
+    <item type="id" name="go_to_album">false</item>
+    <item type="id" name="search_item">false</item>
+    <item type="id" name="menu_search_friends">false</item>
+    <item type="id" name="may_invite_happening_group">false</item>
+    <item type="id" name="leave_group">false</item>
+    <item type="id" name="settings_group">false</item>
+    <item type="id" name="subscribe_to_stream">false</item>
+    <item type="id" name="complaint">false</item>
+    <item type="id" name="menu_groups_create">false</item>
+    <item type="id" name="menu_add_friends">false</item>
+    <item type="id" name="bell">false</item>
+    <item type="id" name="menu_log_report">false</item>
+    <item type="id" name="menu_log_benchmark">false</item>
+    <item type="id" name="search_main">false</item>
+    <item type="id" name="post">false</item>
+    <item type="id" name="add_photo">false</item>
+    <item type="id" name="add_poll">false</item>
+    <item type="id" name="with_friends">false</item>
+    <item type="id" name="media_topic_cancel">false</item>
+    <item type="id" name="media_topic_pause">false</item>
+    <item type="id" name="media_topic_resume">false</item>
+    <item type="id" name="media_topic_retry">false</item>
+    <item type="id" name="media_topic_edit">false</item>
+    <item type="id" name="media_topic_close">false</item>
+    <item type="id" name="edit">false</item>
+    <item type="id" name="delete_all">false</item>
+    <item type="id" name="leave_chat">false</item>
+    <item type="id" name="create_shortcut">false</item>
+    <item type="id" name="item_add">false</item>
+    <item type="id" name="item_subscribe">false</item>
+    <item type="id" name="edit_album">false</item>
+    <item type="id" name="delete_album">false</item>
+    <item type="id" name="album_info">false</item>
+    <item type="id" name="add_album">false</item>
+    <item type="id" name="to_topic">false</item>
+    <item type="id" name="tags">false</item>
+    <item type="id" name="change_descr">false</item>
+    <item type="id" name="use_avatar">false</item>
+    <item type="id" name="use_album_cover">false</item>
+    <item type="id" name="mark_spam">false</item>
+    <item type="id" name="delete_tag">false</item>
+    <item type="id" name="select">false</item>
+    <item type="id" name="share_menu_item">false</item>
+    <item type="id" name="like_menu_item">false</item>
+    <item type="id" name="visit_target_item">false</item>
+    <item type="id" name="add_to_album">false</item>
+    <item type="id" name="go_to_artist">false</item>
+    <item type="id" name="only_cache">false</item>
+    <item type="id" name="create_album">false</item>
+    <item type="id" name="refresh">false</item>
+    <item type="id" name="menu_search_music">false</item>
+    <item type="id" name="player">false</item>
+    <item type="id" name="delete_from_friends">false</item>
+    <item type="id" name="invite_group">false</item>
+    <item type="id" name="set_relation">false</item>
+    <item type="id" name="black_list">false</item>
+</resources>

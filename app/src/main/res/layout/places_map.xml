@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ru.ok.android.ui.custom.TouchDisallowLayout android:orientation="vertical" android:background="@color/pull_to_refresh_bg_color" android:layout_width="200.0dip" android:layout_height="200.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.gms.maps.MapView android:id="@id/map" android:background="@color/pull_to_refresh_bg_color" android:layout_width="fill_parent" android:layout_height="200.0dip" />
+</ru.ok.android.ui.custom.TouchDisallowLayout>

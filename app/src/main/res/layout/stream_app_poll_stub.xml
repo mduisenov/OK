@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/feed_card_padding_total" android:paddingRight="@dimen/feed_card_padding_total" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:id="@id/stream_app_poll_test_info_stub" android:layout="@layout/stream_app_poll_test_info" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+    <ViewStub android:id="@id/stream_app_poll_stub" android:layout="@layout/stream_app_poll" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+</LinearLayout>

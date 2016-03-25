@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:enabled="true" android:title="@string/profile_settings" android:key="@string/profile_pref_key" android:summary="@string/preference_profile_settings_summary" />
+    <CheckBoxPreference android:title="@string/store_images_pref_title" android:key="@string/store_images_pref_key" android:summary="@string/store_images_pref_summary" android:defaultValue="true" />
+    <CheckBoxPreference android:title="@string/gif_autoplay_title" android:key="@string/gif_autoplay_key" android:defaultValue="true" />
+    <CheckBoxPreference android:title="@string/animated_presents_title" android:key="@string/animated_presents_key" android:defaultValue="true" />
+    <PreferenceCategory android:title="@string/notifications_settings_title" android:key="@string/notifications_screen_key" android:summary="@string/notifications_settings_summary">
+        <SwitchPreference android:title="@string/notifications_disable_title" android:key="@string/notifications_disable_key" android:defaultValue="false" android:switchTextOn="" android:switchTextOff="" />
+        <ru.ok.android.ui.custom.prefs.CustomRingtonePreference android:title="@string/notifications_sound_title" android:key="@string/notifications_incoming_ringtone_key" />
+        <CheckBoxPreference android:title="@string/notifications_vibrate_title" android:key="@string/notifications_vibrate_key" android:defaultValue="true" />
+        <CheckBoxPreference android:title="@string/notifications_led_title" android:key="@string/notifications_led_key" android:defaultValue="true" />
+        <CheckBoxPreference android:title="@string/notifications_sent_message_title" android:key="@string/notifications_sent_message_key" android:summary="@string/notifications_sent_message_summary" android:defaultValue="true" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_category_music" android:key="@string/category_music">
+        <ru.ok.android.utils.IntListPreference android:entries="@array/cache_music_keys" android:title="@string/cache_music_pos_ttle" android:key="@string/cache_music_pos_key" android:defaultValue="0" android:entryValues="@array/music_cache_pos_values" />
+        <Preference android:enabled="false" android:title="@string/clear_cache" android:key="@string/clear_cache_key" />
+        <CheckBoxPreference android:title="@string/music_handset_button_title" android:key="@string/music_handset_button_key" android:summary="@string/music_handset_button_text" android:defaultValue="true" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/sync_contacts_category_title" android:key="@string/sync_contacts_category">
+        <CheckBoxPreference android:title="@string/sync_contacts_title" android:key="@string/sync_contacts_key" android:summary="@string/sync_contacts_summary" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_category_info" android:key="@string/category_info">
+        <Preference android:enabled="false" android:title="@string/appversion" android:key="@string/app_version_pref_key" />
+        <Preference android:enabled="false" android:title="@string/exited" android:key="@string/logout_pref_key" />
+    </PreferenceCategory>
+    <PreferenceScreen android:title="@string/test_settings_title" android:summary="@string/test_settings_summary">
+        <intent android:targetPackage="ru.ok.android" android:action="android.intent.action.VIEW" android:targetClass="ru.ok.android.ui.activity.TestSettingsActivity" />
+    </PreferenceScreen>
+</PreferenceScreen>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#ff333333" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ru.ok.android.ui.custom.photo.TiltGridView android:id="@id/grid" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/padding_tiny" android:layout_marginTop="@dimen/padding_tiny" android:layout_marginRight="@dimen/padding_tiny" android:listSelector="@drawable/selector_bg_on_dark" android:drawSelectorOnTop="true" android:scrollingCache="true" android:cacheColorHint="#ff333333" android:stretchMode="columnWidth" android:numColumns="2" />
+    <ru.ok.android.ui.custom.emptyview.SmartEmptyViewAnimated android:gravity="center" android:id="@id/empty" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/album_header" android:layout_alignWithParentIfMissing="true" style="@style/SmartEmptyViewAnimatedWithTabbarAndScroll.Photo" />
+</RelativeLayout>

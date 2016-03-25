@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Widget.Design.TabLayout" parent="@style/Base.Widget.Design.TabLayout">
+        <item name="tabMode">fixed</item>
+        <item name="tabGravity">center</item>
+    </style>
+    <style name="Theme.Odnoklassniki.Activity.Select.Friends" parent="@style/Theme.Odnoklassniki.Activity.Dialog" />
+    <style name="Private_View">
+        <item name="android:src">@drawable/ic_lockuser</item>
+    </style>
+    <style name="Profile_Group_InformationText">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textColor">@color/black_text</item>
+        <item name="android:maxLines">2</item>
+    </style>
+    <style name="Profile_InformationText">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textColor">@color/black_text</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="Profile_MenuText">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">@color/black_text</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="Profile_NameText">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">@color/black_text</item>
+        <item name="android:maxLines">2</item>
+    </style>
+</resources>

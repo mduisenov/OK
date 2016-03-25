@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ru.ok.android.ui.measuredobserver.MeasureObservableLinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.facebook.drawee.view.SimpleDraweeView android:layout_gravity="top" android:id="@id/avatar_view" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/FrescoRectImage.ProfileAvatar" />
+        <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:background="@drawable/bg_profile_shape" android:paddingTop="100.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include android:id="@id/information_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" android:layout_marginBottom="12.0dip" layout="@layout/group_profile_information" />
+            <include android:id="@id/button_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" android:layout_marginBottom="12.0dip" android:layout_alignParentLeft="true" android:layout_alignParentRight="true" layout="@layout/group_profiles_buttons" />
+            <View android:id="@id/divider" android:background="#ff404040" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="1.0px" />
+            <ru.ok.android.ui.custom.profiles.HorizontalItemsView android:id="@id/sections_horizontal" android:background="@color/profile_menu_bg" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="50.0dip" />
+        </LinearLayout>
+    </FrameLayout>
+    <include layout="@layout/profile_friends_group_stub" />
+</ru.ok.android.ui.measuredobserver.MeasureObservableLinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContactsAccountType
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ContactsDataKind android:icon="@drawable/icon" android:mimeType="vnd.android.cursor.item/vnd.ru.ok.android.profile" android:summaryColumn="data3" android:detailColumn="data2" android:detailSocialSummary="false" />
+    <ContactsDataKind android:icon="@drawable/ic_contacts_send_message" android:mimeType="vnd.android.cursor.item/vnd.ru.ok.android.messages" android:summaryColumn="data3" android:detailColumn="data2" android:detailSocialSummary="false" />
+</ContactsAccountType>

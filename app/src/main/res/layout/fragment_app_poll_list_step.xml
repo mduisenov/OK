@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v7.widget.RecyclerView android:id="@id/poll_recycler" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/app_poll_other" />
+    <LinearLayout android:orientation="vertical" android:id="@id/app_poll_other" android:paddingTop="12.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/bottom">
+        <TextView android:id="@id/app_poll_other_title" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <EditText android:id="@id/app_poll_text" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/AppPollOtherText" />
+    </LinearLayout>
+    <View android:id="@id/bottom" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_alignParentBottom="true" />
+</RelativeLayout>

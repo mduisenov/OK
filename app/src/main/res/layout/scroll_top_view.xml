@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:background="@drawable/stream_scroll_top_bg_selector" android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="40.0dip" android:minHeight="40.0dip"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <TextView android:textAppearance="@style/TextAppearance_StreamScrollTopView" android:id="@id/text" android:paddingTop="10.0dip" android:paddingRight="10.0dip" android:paddingBottom="10.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/stream_news" style="@style/TextAppearance_StreamScrollTopView" />
+        <ImageView android:id="@id/action_view" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <ru.ok.android.ui.custom.NotificationsView android:layout_gravity="center|right|top" android:id="@id/notification_bubble" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="4.0dip" />
+</merge>

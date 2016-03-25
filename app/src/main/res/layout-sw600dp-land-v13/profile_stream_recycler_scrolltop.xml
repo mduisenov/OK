@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:BaseEmptyView="http://schemas.android.com/apk/res-auto">
+    <ru.ok.android.ui.swiperefresh.OkSwipeRefreshLayoutWrappedList android:id="@id/swipe_refresh" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="@integer/profile_container_right">
+        <FrameLayout android:layout_gravity="center" android:background="@color/stream_list_bg" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ru.ok.android.ui.custom.emptyview.SmartEmptyViewAnimated android:id="@id/empty_view" android:background="@color/stream_list_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" BaseEmptyView:errorText="@string/error" BaseEmptyView:progressText="@string/loading" BaseEmptyView:emptyText="@string/stream_empty" />
+            <ru.ok.android.ui.StreamRecyclerView android:id="@id/list" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/StreamAnimationList" />
+            <ViewStub android:id="@id/stream_blocked_info" android:layout="@layout/stream_blocked_info" android:inflatedId="@id/stream_blocked_info" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </FrameLayout>
+    </ru.ok.android.ui.swiperefresh.OkSwipeRefreshLayoutWrappedList>
+    <FrameLayout android:layout_gravity="center" android:id="@id/profile_container_right" android:background="@color/stream_list_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+</LinearLayout>

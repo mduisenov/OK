@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:paddingTop="56.0dip" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v7.widget.RecyclerView android:layout_gravity="center" android:id="@id/recyclerView" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+    <ProgressBar android:layout_gravity="center" android:id="@id/loading_spinner" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:attr/progressBarStyle" />
+    <ViewStub android:layout_gravity="center" android:id="@id/empty_stub" android:layout="@layout/channels_empty_stub" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</FrameLayout>

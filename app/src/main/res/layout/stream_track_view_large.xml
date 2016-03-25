@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ok="http://schemas.android.com/apk/res-auto">
+    <ru.ok.android.ui.custom.imageview.AspectRatioAsyncDraweeView android:id="@id/cover_image" android:background="@color/inactive_video_color" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="centerCrop" android:layout_alignParentTop="true" android:layout_alignParentBottom="true" ok:aspectRatio="1.0" />
+    <ru.ok.android.ui.stream.view.PlayingProgressButton android:id="@id/play_pause" android:padding="0.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="0.0dip" android:minHeight="0.0dip" android:layout_centerInParent="true" style="@style/PlayingStateButton_Large" />
+    <LinearLayout android:orientation="vertical" android:id="@id/text_container" android:background="@drawable/black_transparent_gradient" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <TextView android:textAppearance="@style/TextAppearance_Feed.MusicCover.TrackName" android:ellipsize="marquee" android:gravity="left" android:id="@id/track_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scrollHorizontally="true" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" style="@style/TextAppearance_Feed.MusicCover.TrackName" />
+        <TextView android:textAppearance="@style/TextAppearance_Feed.MusicCover.AlbumName" android:ellipsize="marquee" android:gravity="left" android:id="@id/album_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scrollHorizontally="true" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" style="@style/TextAppearance_Feed.MusicCover.AlbumName" />
+    </LinearLayout>
+</merge>

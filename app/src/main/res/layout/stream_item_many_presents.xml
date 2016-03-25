@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/feed_card_middle_bg" android:paddingLeft="@dimen/feed_card_padding_total" android:paddingRight="@dimen/feed_card_padding_total" android:paddingBottom="@dimen/feed_game_inner_padding" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <HorizontalScrollView android:id="@id/presents_scroll" android:scrollbars="none" android:fadingEdgeLength="0.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:overScrollMode="never">
+        <LinearLayout android:gravity="center|left" android:orientation="horizontal" android:id="@id/presents" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </HorizontalScrollView>
+    <Button android:id="@id/button_make_present" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:focusable="false" android:focusableInTouchMode="false" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="@string/stream_make_present" style="@style/StreamGreenButtonNew" />
+</LinearLayout>

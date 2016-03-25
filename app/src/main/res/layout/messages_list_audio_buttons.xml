@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/audio_buttons" android:layout_width="150.0dip" android:layout_height="170.0dip" android:layout_alignParentRight="true" android:layout_alignParentBottom="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageButton android:layout_gravity="bottom|center" android:id="@id/audio_attach_send" android:background="@drawable/btn_send_cicle_bg" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/send_button_orange" android:scaleType="center" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    <ImageButton android:layout_gravity="bottom|center" android:id="@id/audio_attach_record" android:background="@drawable/orange_round_btn_bg" android:visibility="invisible" android:layout_width="150.0dip" android:layout_height="150.0dip" android:src="@drawable/ic_chat_microphone_pressed" android:scaleType="center" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+</FrameLayout>

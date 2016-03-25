@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="more_profile_menu_bg">#c8dddddd</color>
+    <color name="profile_button_bg_color">#1696e400</color>
+    <color name="profile_button_bg_color_pressed">#108fd900</color>
+    <color name="profile_button_bg_color_un_enabled">#108fd900</color>
+    <color name="profile_button_stroke_color">#ff26bd20</color>
+    <color name="profile_button_stroke_color_un_enabled">#9a449f14</color>
+    <color name="profile_button_stroke_pressed">#4b449f14</color>
+    <color name="profile_button_text_color">#ff449f14</color>
+    <color name="profile_menu_bg">#10000000</color>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/controls_bottom" android:background="@color/photo_layer_ab" android:paddingRight="12.0dip" android:clickable="false" android:layout_width="fill_parent" android:layout_height="44.0dip" android:layout_alignParentBottom="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center|right" android:orientation="horizontal" android:id="@id/drawer_pushable" android:clickable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+        <TextView android:id="@id/comments_count" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/action_button_height" android:layout_marginLeft="@dimen/padding_medium" android:drawableLeft="@drawable/ic_feed_comments_dark" style="@style/TextView_FeedFooter_Action.Dark.Footer" />
+        <ru.ok.android.ui.custom.photo.LikesViewSynced android:gravity="center_horizontal" android:id="@id/likes" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/padding_medium" style="@style/LikesView.Dark" />
+    </LinearLayout>
+    <ru.ok.android.ui.custom.photo.PhotoMarksBarView android:id="@id/marks_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+</RelativeLayout>

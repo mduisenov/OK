@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/selector_bg_on_dark" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/name_layout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/birthdayView" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" android:src="@drawable/ic_profile_happybirthday" />
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/privateView" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" style="@style/Private_View" />
+        <TextView android:layout_gravity="center_vertical" android:id="@id/name" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Profile_NameText" />
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/premiumView" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:src="@drawable/ic_profile_realperson" />
+    </LinearLayout>
+    <TextView android:id="@id/additional" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" style="@style/Profile_InformationText" />
+    <TextView android:id="@id/relations" android:background="@drawable/transparent_semisilver" android:layout_width="wrap_content" android:layout_height="wrap_content" android:bufferType="spannable" style="@style/Profile_InformationText" />
+    <ViewStub android:id="@id/online_stub" android:layout="@layout/online_stub" android:inflatedId="@id/online_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <TextView android:textStyle="bold" android:id="@id/invisible_service" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:bufferType="spannable" android:text="@string/invisible_profile" style="@style/Profile_InformationText" />
+</LinearLayout>

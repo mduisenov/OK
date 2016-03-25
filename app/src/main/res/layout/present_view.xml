@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ok="http://schemas.android.com/apk/res-auto">
+    <ru.ok.android.ui.custom.CompositePresentView android:id="@id/image" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:layout_gravity="bottom|center|right" android:id="@id/play_view_stub" android:layout="@layout/present_track_view" android:inflatedId="@id/playViewLayout" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</merge>

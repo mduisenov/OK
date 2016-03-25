@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/phone_call_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:keepScreenOn="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/linear_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <FrameLayout android:id="@id/main_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <RelativeLayout android:id="@id/video_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ru.ok.android.videochat.VideoRenderView android:id="@id/input_video" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                <ImageView android:id="@id/userpic_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                <ru.ok.android.videochat.RelativeLayoutWithSizeListener android:id="@id/texture_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                <RelativeLayout android:id="@id/camera_video_layout" android:layout_width="320.0dip" android:layout_height="224.0dip" android:layout_alignParentRight="true" android:layout_alignParentBottom="true">
+                    <include android:id="@id/camera_video_inc" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/phone_camera_video" />
+                </RelativeLayout>
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/status_label_layout" android:background="@color/transparent_label_background" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <TextView android:textAppearance="?android:textAppearanceLarge" android:gravity="center" android:id="@id/status_label" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+        </FrameLayout>
+        <RelativeLayout android:id="@id/footer" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:id="@id/activecall_footer_layout" android:layout_width="fill_parent" android:layout_height="44.0dip" android:weightSum="1.0">
+                <ImageButton android:layout_gravity="bottom" android:id="@id/mute_button" android:background="@drawable/red_button" android:layout_width="70.0dip" android:layout_height="fill_parent" android:src="@drawable/mic_off" android:scaleType="center" />
+                <Button android:textSize="18.0sp" android:textColor="@color/white" android:layout_gravity="bottom" android:id="@id/drop_button" android:background="@drawable/blue_button" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/drop" android:shadowColor="@color/shadow" android:shadowDx="0.0" android:shadowDy="-1.0" android:shadowRadius="1.0" android:layout_weight="1.0" />
+                <ImageButton android:layout_gravity="bottom" android:id="@id/video_button" android:background="@drawable/blue_button" android:layout_width="70.0dip" android:layout_height="fill_parent" android:src="@drawable/video_on" />
+            </LinearLayout>
+            <LinearLayout android:id="@id/incomingcall_footer_layout" android:layout_width="fill_parent" android:layout_height="44.0dip">
+                <Button android:textSize="18.0sp" android:textColor="@color/white" android:layout_gravity="bottom" android:id="@id/accept_button" android:background="@drawable/blue_button" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/answer" android:shadowColor="@color/shadow" android:shadowDx="0.0" android:shadowDy="-1.0" android:shadowRadius="1.0" android:layout_weight="1.0" />
+                <Button android:textSize="18.0sp" android:textColor="@color/white" android:layout_gravity="bottom" android:id="@id/reject_button" android:background="@drawable/blue_button" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/reject" android:shadowColor="@color/shadow" android:shadowDx="0.0" android:shadowDy="-1.0" android:shadowRadius="1.0" android:layout_weight="1.0" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/header_layout" android:background="@color/transparent_label_background" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textAppearance="?android:textAppearanceLarge" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/user_name_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" />
+        <Chronometer android:layout_gravity="center_horizontal" android:id="@id/chronometer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" />
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:layout_gravity="center_horizontal" android:id="@id/header_status_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/black_screen" android:background="@color/black" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</RelativeLayout>

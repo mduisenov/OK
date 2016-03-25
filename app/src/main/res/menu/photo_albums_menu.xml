@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/actionbar_photo_white" android:id="@id/photo" android:visible="false" android:title="@string/resume_upld_ttl" app:showAsAction="always" />
+    <item android:id="@id/add_album" android:visible="false" android:title="@string/Add_album" app:showAsAction="never" />
+</menu>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ru.ok.android.ui.custom.layout.RelativeSetSelectedLayout android:id="@id/grid_item_1" android:background="@drawable/selector_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <LinearLayout android:orientation="vertical" android:id="@id/icon" android:duplicateParentState="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="10.0sp" android:textColor="@color/sliding_menu_grid_text" android:id="@id/menu_name" android:duplicateParentState="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:layout_marginBottom="5.0dip" android:singleLine="true" android:layout_below="@id/icon" android:layout_centerHorizontal="true" android:textIsSelectable="false" />
+        <TextView android:textSize="@dimen/c_bubble_menu_text_size" android:textColor="@android:color/white" android:gravity="center" android:id="@id/menu_counter" android:background="@drawable/c_bubble_menu_small" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-5.0dip" android:layout_marginRight="-5.0dip" android:layout_alignTop="@id/icon" android:layout_alignRight="@id/icon" android:textIsSelectable="false" />
+    </RelativeLayout>
+</ru.ok.android.ui.custom.layout.RelativeSetSelectedLayout>

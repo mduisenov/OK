@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/image_switcher" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layerType="hardware">
+        <com.facebook.drawee.view.SimpleDraweeView android:gravity="bottom|center|right" android:id="@id/current_image" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/First_Enter_Image" />
+        <com.facebook.drawee.view.SimpleDraweeView android:gravity="bottom|center|right" android:id="@id/next_image" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/First_Enter_Image" />
+    </FrameLayout>
+    <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/bg_firstscreen_gradient" android:scaleType="fitXY" />
+    <RelativeLayout android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ScrollView android:gravity="center|top" android:id="@id/parent_scroll" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@id/logo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="45.0dip" android:src="@drawable/logo_ok_bigger_white" android:layout_toLeftOf="@id/buttons" android:layout_centerVertical="true" />
+                <LinearLayout android:orientation="vertical" android:id="@id/buttons" android:layout_width="256.0dip" android:layout_height="wrap_content" android:layout_marginLeft="11.0dip" android:layout_alignLeft="@id/need_help_button" android:layout_centerVertical="true">
+                    <Button android:textColor="@color/white" android:id="@id/enter_button" android:background="@drawable/reg_button_orange" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="14.0dip" android:text="@string/entrance" style="@style/NativeRegistrationButton" />
+                    <Button android:textColor="@color/white" android:id="@id/registration_button" android:background="@drawable/reg_button_white_border" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/quick_registration" style="@style/NativeRegistrationButton" />
+                </LinearLayout>
+                <TextView android:textColor="@color/white" android:id="@id/need_help_button" android:background="@drawable/selector_bg_on_dark" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:text="@string/need_help" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" style="@style/NativeRegistrationLinkButton" />
+            </RelativeLayout>
+        </ScrollView>
+    </RelativeLayout>
+</RelativeLayout>

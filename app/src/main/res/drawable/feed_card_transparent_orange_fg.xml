@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset android:drawable="@drawable/transparent_alpha_orange" android:insetLeft="@dimen/feed_card_margin_outer" android:insetRight="@dimen/feed_card_margin_outer"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

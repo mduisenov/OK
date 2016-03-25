@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="center" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:BaseEmptyView="http://schemas.android.com/apk/res-auto">
+    <android.support.v7.widget.RecyclerView android:layout_gravity="top" android:id="@id/list" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:listSelector="@drawable/selector_bg" android:cacheColorHint="@color/white" android:divider="@null" android:dividerHeight="0.0px" />
+    <ru.ok.android.ui.custom.emptyview.SmartEmptyView android:gravity="center" android:layout_gravity="center" android:id="@id/empty_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true" BaseEmptyView:errorText="@string/error" BaseEmptyView:progressText="@string/loading" BaseEmptyView:emptyText="@string/no_conversation_in_list" />
+</FrameLayout>

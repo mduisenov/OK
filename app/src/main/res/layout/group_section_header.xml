@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/content_groups_portal" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/groups_portal_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="12.0dip" android:layout_marginBottom="6.0dip" android:text="@string/groups_portal" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" style="@style/TextAppearance_Groups_Section_Label" />
+    <TextView android:textAppearance="@style/TextAppearance_Card_Info" android:textColor="@color/white" android:background="@drawable/button" android:padding="6.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" android:text="@string/groups_button_all" android:layout_alignBaseline="@id/groups_portal_label" android:layout_alignParentRight="true" android:textAllCaps="true" />
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/photo_stub_view_image" android:layout_width="256.0dip" android:layout_height="256.0dip" android:src="@drawable/photo_is_not_loaded" android:scaleType="fitCenter" />
+    <TextView android:textColor="@color/white" android:id="@id/photo_stub_view_title" android:text="@string/stub_photo_title" style="@style/TextAppearance_EmptyView_Title" />
+    <TextView android:textColor="@color/grey_1" android:id="@id/photo_stub_view_subtitle" android:text="@string/stub_photo_subtitle" style="@style/TextAppearance_EmptyView_SubTitle" />
+</LinearLayout>

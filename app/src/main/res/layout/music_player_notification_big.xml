@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="128.0dip" style="@style/Notification.Dark"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:id="@id/cover" android:layout_width="126.0dip" android:layout_height="126.0dip" android:layout_marginLeft="2.0dip" android:layout_marginTop="2.0dip" android:layout_marginBottom="2.0dip" android:src="@drawable/stub_album" android:scaleType="fitCenter" />
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageButton android:id="@id/play_stop" android:background="@drawable/popup_close_normal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:layout_marginRight="3.0dip" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:alpha="0.6" />
+            <TextView android:layout_gravity="center" android:id="@id/logo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="4.0dip" android:layout_marginRight="8.0dip" android:text="@string/music" android:drawableLeft="@drawable/small_logo" android:layout_toLeftOf="@id/play_stop" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" style="@style/TextAppearance.Notification.Dark" />
+            <TextView android:id="@id/song_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginTop="1.0dip" android:layout_marginRight="8.0dip" android:singleLine="true" android:layout_toLeftOf="@id/play_stop" android:layout_below="@id/logo" android:layout_alignParentLeft="true" style="@style/TextAppearance.Notification.Dark.Title" />
+            <TextView android:id="@id/artist_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginTop="1.0dip" android:layout_marginRight="8.0dip" android:singleLine="true" android:layout_below="@id/song_name" android:layout_alignParentLeft="true" style="@style/TextAppearance.Notification.Dark" />
+        </RelativeLayout>
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <ImageView android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:layout_width="fill_parent" android:layout_height="2.0dip" android:src="@drawable/toolbar_divider" android:scaleType="fitXY" />
+        <LinearLayout android:layout_gravity="bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false">
+            <ImageButton android:layout_gravity="center" android:id="@id/play_previous" android:background="@drawable/widget_music_button_bg" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_margin="4.0dip" android:src="@drawable/player_button_prev" android:layout_weight="1.0" />
+            <ImageView android:layout_gravity="center_vertical" android:layout_width="3.0dip" android:layout_height="40.0dip" android:src="@drawable/toolbar_divider" android:scaleType="fitXY" />
+            <ImageButton android:id="@id/play_pause" android:background="@drawable/widget_music_button_bg" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_margin="4.0dip" android:src="@drawable/player_button_play" android:layout_weight="1.0" />
+            <ImageView android:layout_gravity="center_vertical" android:layout_width="3.0dip" android:layout_height="40.0dip" android:src="@drawable/toolbar_divider" android:scaleType="fitXY" />
+            <ImageButton android:id="@id/play_next" android:background="@drawable/widget_music_button_bg" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_margin="4.0dip" android:src="@drawable/player_button_next" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

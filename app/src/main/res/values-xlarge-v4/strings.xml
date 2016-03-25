@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="format">large</string>
+    <string name="feed_font_family">@string/feed_font_family_tablet</string>
+    <string name="feed_time_font_family">@string/feed_time_font_family_tablet</string>
+    <string name="write_photo">ЗАГРУЗИТЬ ФОТО</string>
+    <string name="write_video">ЗАГРУЗИТЬ ВИДЕО</string>
+</resources>

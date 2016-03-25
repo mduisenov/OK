@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText android:textSize="18.0sp" android:gravity="left" android:id="@id/country_filter" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/fragment_activity_left_right_padding" android:layout_marginRight="@dimen/fragment_activity_left_right_padding" android:layout_marginBottom="20.0dip" android:hint="@string/country_or_code" android:singleLine="true" style="@style/RegInput">
+        <requestFocus />
+    </EditText>
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ListView android:id="@id/country_list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@null" />
+        <TextView android:textSize="18.0sp" android:textColor="@color/grey_1" android:gravity="center" android:id="@id/empty_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/list_empty" />
+    </FrameLayout>
+</LinearLayout>

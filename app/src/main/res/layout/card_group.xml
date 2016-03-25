@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/group_card" android:background="@drawable/selector_bg" android:padding="@dimen/card_padding" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ru.ok.android.ui.custom.imageview.AsyncDraweeView android:id="@id/avatar" android:layout_width="56.0dip" android:layout_height="56.0dip" android:src="@drawable/avatar_group" android:scaleType="centerCrop" android:layout_centerVertical="true" aiv:roundingType="rounded" xmlns:aiv="http://schemas.android.com/apk/res-auto" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/padding_small" android:layout_toRightOf="@id/avatar" android:layout_centerVertical="true">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/official" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/padding_medium" android:src="@drawable/ic_list_official" />
+            <ImageView android:id="@id/private_group" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/padding_medium" android:src="@drawable/ic_list_lock" />
+            <TextView android:textSize="16.0sp" android:textColor="@color/messages_author_incoming_color" android:ellipsize="end" android:id="@id/name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+        </LinearLayout>
+        <TextView android:textSize="12.0sp" android:textColor="@color/conversation_text_color" android:ellipsize="end" android:id="@id/members_count" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" />
+    </LinearLayout>
+</RelativeLayout>

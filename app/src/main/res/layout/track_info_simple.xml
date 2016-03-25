@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ok="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/album_img_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ru.ok.android.ui.custom.PlayerImageView android:layout_gravity="center" android:id="@id/album_image_view" android:layout_width="fill_parent" android:layout_height="fill_parent" ok:placeholderImage="@drawable/music_placeholder_album" ok:placeholderImageScaleType="centerCrop" ok:actualImageScaleType="centerCrop" />
+        <Space android:layout_gravity="center" android:id="@id/popup_anchor" android:visibility="invisible" android:layout_width="1.0dip" android:layout_height="1.0dip" />
+    </FrameLayout>
+</merge>

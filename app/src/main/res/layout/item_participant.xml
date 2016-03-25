@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ru.ok.android.ui.custom.layout.RelativeSetPressedLayout android:clipToPadding="false" android:addStatesFromChildren="true" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="@dimen/card_user_height_small"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageButton android:id="@id/kick_user" android:background="@drawable/selector_bg" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip" android:src="@drawable/popup_delete" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <ru.ok.android.ui.custom.imageview.AvatarImageView android:id="@id/avatar" android:background="@drawable/avatar_background" android:layout_width="@dimen/size_avatars_w" android:layout_height="@dimen/size_avatars_h" android:layout_margin="9.0dip" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/kick_user" android:layout_toRightOf="@id/avatar" android:layout_centerVertical="true">
+        <TextView android:id="@id/name" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/TextAppearance_Card_Name" />
+        <TextView android:id="@id/owner" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/conversation_owner" style="@style/TextAppearance_Card_Info" />
+        <TextView android:id="@id/last_online" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/TextAppearance_Card_Info" />
+    </LinearLayout>
+</ru.ok.android.ui.custom.layout.RelativeSetPressedLayout>

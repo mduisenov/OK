@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:paddingLeft="@dimen/feed_card_padding_inner" android:paddingRight="@dimen/feed_card_padding_inner" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ru.ok.android.ui.fragments.messages.view.SelectableWebView android:layout_gravity="center" android:id="@id/web_view" android:visibility="gone" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <ru.ok.android.ui.custom.emptyview.SmartEmptyView android:layout_gravity="center" android:id="@id/empty_view" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</FrameLayout>

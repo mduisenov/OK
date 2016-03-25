@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="block_for_one_day_text">1 kun</string>
+    <string name="block_for_one_hour_text">1 soat</string>
+    <string name="block_for_one_minute_text">1 daqiqa</string>
+    <string name="block_for_text">Meni bezovta qilmang</string>
+    <string name="block_notifications_description">Tekshiriladigan xabarlar olishni vaqtincha bloklash</string>
+    <string name="block_notifications_text">Meni bezovta qilmang</string>
+    <string name="notification_event_cancel">Bekor qilish</string>
+    <string name="notification_event_confirm">OK</string>
+    <string name="notification_settings">Sozlamalar</string>
+    <string name="report_reuse_text">%s menga tegishli emas</string>
+    <string name="report_reuse_text_confirmation">Siz barcha moslamalaringizga %s uchun tekshiriladigan xabarlar olishni bloklashni xohlashingizga aminmisiz?</string>
+    <string name="report_reuse_text_description">Mening barcha moslamalarimga tekshiriladigan xabarlar olishni bloklash</string>
+    <string name="setting_saved_toast_text">Sizning sozlamalaringiz saqlandi</string>
+    <string name="title_activity_settings">Xabarlar sozlamalari</string>
+</resources>

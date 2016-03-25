@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:id="@id/user_mark_container" android:paddingLeft="@dimen/padding_medium" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Space android:id="@id/marks_control_space" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+        <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/dark_theme_gray" android:id="@id/your_mark_label" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Your_mark" />
+        <ImageView android:id="@id/user_mark" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/padding_medium" android:layout_marginRight="@dimen/padding_medium" android:scaleType="center" />
+        <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/dark_theme_gray" android:id="@id/raise_mark_label" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/raise_to" />
+        <ImageView android:id="@id/max_mark" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/padding_medium" android:src="@drawable/ic_mark_6" android:scaleType="center" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/marks_bar_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/marks_control" android:background="@drawable/selector_bg_on_dark" android:layout_width="0.0dip" android:layout_height="fill_parent" android:scaleType="center" android:layout_weight="1.0" />
+        <ImageView android:id="@id/mark_1" android:background="@drawable/selector_bg_on_dark" android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/ic_mark_1" android:scaleType="center" android:layout_weight="1.0" />
+        <ImageView android:id="@id/mark_2" android:background="@drawable/selector_bg_on_dark" android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/ic_mark_2" android:scaleType="center" android:layout_weight="1.0" />
+        <ImageView android:id="@id/mark_3" android:background="@drawable/selector_bg_on_dark" android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/ic_mark_3" android:scaleType="center" android:layout_weight="1.0" />
+        <ImageView android:id="@id/mark_4" android:background="@drawable/selector_bg_on_dark" android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/ic_mark_4" android:scaleType="center" android:layout_weight="1.0" />
+        <ImageView android:id="@id/mark_5" android:background="@drawable/selector_bg_on_dark" android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/ic_mark_5" android:scaleType="center" android:layout_weight="1.0" />
+        <ImageView android:id="@id/mark_6" android:background="@drawable/selector_bg_on_dark" android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/ic_mark_6" android:scaleType="center" android:layout_weight="1.0" />
+    </LinearLayout>
+</merge>

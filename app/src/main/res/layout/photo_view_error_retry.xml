@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:paddingBottom="@dimen/tabbar_horizontal_height_with_shadow" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@id/error_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/photo_view_broken_large" />
+        <TextView android:textSize="20.0sp" android:textColor="@color/grey_1" android:id="@id/error_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/padding_medium" />
+        <TextView android:textSize="18.0sp" android:textColor="@color/grey_1" android:gravity="center" android:id="@id/error_retry" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/padding_medium" android:text="@string/Load_again" android:drawableLeft="@drawable/photo_view_retry_silver" android:drawablePadding="@dimen/padding_tiny" />
+    </LinearLayout>
+</FrameLayout>

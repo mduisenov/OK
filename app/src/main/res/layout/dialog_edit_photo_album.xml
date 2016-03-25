@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Dialog_Layout">
+        <EditText android:id="@id/title" android:fadingEdge="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip" android:hint="@string/Title" android:singleLine="true" android:maxLength="50" android:capitalize="sentences" />
+        <LinearLayout android:orientation="vertical" android:id="@id/access_controls" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <CheckBox android:id="@id/access_public" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/padding_medium" android:checked="true" android:text="@string/access_public" />
+            <CheckBox android:id="@id/access_friends" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/access_friends" />
+            <CheckBox android:id="@id/access_relatives" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/access_relatives" />
+            <CheckBox android:id="@id/access_love" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/access_love" />
+            <CheckBox android:id="@id/access_close_friends" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/access_close_friends" />
+            <CheckBox android:id="@id/access_colleagues" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/access_colleagues" />
+            <CheckBox android:id="@id/access_classmates" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/access_classmates" />
+            <CheckBox android:id="@id/access_coursemates" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/access_coursemates" />
+            <CheckBox android:id="@id/access_companions_in_arms" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/access_companions_in_arms" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

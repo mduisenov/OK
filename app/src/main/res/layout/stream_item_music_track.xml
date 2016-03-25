@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ru.ok.android.ui.stream.view.StreamTrackView android:id="@id/track" android:background="@drawable/stream_item_selector_bg" android:paddingLeft="11.0dip" android:paddingRight="@dimen/feed_card_padding_total" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/StreamTrackView_Small"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

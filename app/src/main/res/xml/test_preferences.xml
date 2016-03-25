@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/pref_category_settings">
+        <ru.ok.android.utils.IntListPreference android:entries="@array/test_pref_environment_keys" android:title="@string/test_pref_environment_title" android:key="@string/test_pref_environment_key" android:defaultValue="0" android:entryValues="@array/test_pref_environment_values" />
+        <EditTextPreference android:title="@string/test_pref_address_title" android:key="@string/test_pref_address_key" android:dialogTitle="@string/test_pref_address_title" />
+        <EditTextPreference android:title="@string/test_pref_app_key_title" android:key="@string/test_pref_app_key_key" android:dialogTitle="@string/test_pref_app_key_title" />
+        <PreferenceScreen android:title="@string/test_pref_app_version_title" android:key="@string/test_pref_app_version_key" />
+        <EditTextPreference android:title="@string/test_pref_app_secret_key_title" android:key="@string/test_pref_app_secret_key_key" android:dialogTitle="@string/test_pref_app_secret_key_title" />
+        <EditTextPreference android:title="@string/test_pref_web_server_title" android:key="@string/test_pref_web_server_key" android:dialogTitle="@string/test_pref_web_server_title" />
+        <EditTextPreference android:title="@string/test_pref_locale_title" android:key="@string/test_pref_locale_key" android:dialogTitle="@string/test_pref_locale_title" />
+        <EditTextPreference android:title="@string/test_pref_wmf_server_title" android:key="@string/test_pref_wmf_server_key" android:dialogTitle="@string/test_pref_wmf_server_title" />
+        <EditTextPreference android:title="@string/test_pref_portal_server_title" android:key="@string/test_pref_portal_server_key" android:dialogTitle="@string/test_pref_portal_server_title" />
+        <EditTextPreference android:title="@string/test_pref_xmpp_server_title" android:key="@string/test_pref_xmpp_server_key" android:dialogTitle="@string/test_pref_xmpp_server_title" />
+        <ru.ok.android.ui.custom.prefs.ConfirmPreference android:title="@string/test_pref_api_session_key_title" android:key="@string/test_pref_api_session_key_key" android:dialogTitle="@string/test_pref_api_session_key_title" android:dialogMessage="@string/test_pref_api_session_key_message" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_category_test_mediatopics">
+        <CheckBoxPreference android:title="@string/test_pref_mt_allow_check_restricted_title" android:key="@string/test_pref_mt_allow_check_restricted_key" android:defaultValue="false" android:summaryOn="@string/test_pref_mt_allow_check_restricted_summary_on" android:summaryOff="@string/test_pref_mt_allow_check_restricted_summary_off" />
+        <CheckBoxPreference android:title="@string/test_pref_mt_dont_enforce_limits_title" android:key="@string/test_pref_mt_dont_enforce_limits_key" android:defaultValue="false" android:summaryOn="@string/test_pref_mt_dont_enforce_limits_summary_on" android:summaryOff="@string/test_pref_mt_dont_enforce_limits_summary_off" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/stream">
+        <CheckBoxPreference android:title="@string/debug_mode" android:key="test_stream_debug_mode" android:defaultValue="false" android:summaryOn="@string/stream_debug_mode_summary_on" android:summaryOff="@string/stream_debug_mode_summary_off" />
+        <CheckBoxPreference android:title="@string/random_friendship_mode" android:key="test_stream_friendship_mode" android:defaultValue="false" android:summaryOn="@string/random_friendship_mode_on" android:summaryOff="@string/random_friendship_mode_off" />
+        <EditTextPreference android:title="@string/banner_expiration_title" android:key="banner_expiration_time" android:summary="@string/banner_expiration_summary" android:defaultValue="3600" android:inputType="number" />
+        <EditTextPreference android:title="@string/banner_interval_title" android:key="banner_update_interval" android:summary="@string/banner_interval_summary" android:defaultValue="900" android:inputType="number" />
+        <EditTextPreference android:title="@string/collage_interval_title" android:key="stream_photo_collage_update_interval" android:summary="@string/collage_interval_summary" android:defaultValue="21600" android:inputType="number" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/app_poll">
+        <CheckBoxPreference android:title="@string/app_poll_repeat_mode" android:key="app_poll_repeat_mode" android:defaultValue="false" />
+        <EditTextPreference android:title="@string/app_poll_load_interval" android:key="app_poll_load_interval" android:defaultValue="259200" android:inputType="number" />
+        <EditTextPreference android:title="@string/app_poll_display_interval" android:key="app_poll_display_interval" android:defaultValue="259200" android:inputType="number" />
+        <EditTextPreference android:title="@string/app_poll_display_duration_interval" android:key="app_poll_display_duration_interval" android:defaultValue="180" android:inputType="number" />
+        <EditTextPreference android:title="@string/app_poll_timing_interval" android:key="app_poll_timing_interval" android:defaultValue="21600" android:inputType="number" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/test_check_update_category">
+        <CheckBoxPreference android:title="@string/test_check_update_always_title" android:key="test_check_update_always" android:defaultValue="false" android:summaryOn="@string/test_check_update_always_summary_on" android:summaryOff="@string/test_check_update_always_summary_off" />
+        <CheckBoxPreference android:title="@string/test_show_update_always_title" android:key="test_show_update_always" android:defaultValue="false" android:summaryOn="@string/test_show_update_always_summary_on" android:summaryOff="@string/test_show_update_always_summary_off" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/test_localization_category">
+        <EditTextPreference android:title="@string/test_localization_update_interval" android:key="stream_localization_update_interval" android:defaultValue="86400" android:inputType="number" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/deep_link_injection_title">
+        <ru.ok.android.utils.IntListPreference android:entries="@array/deep_link_names" android:title="@string/deep_link_type_title" android:key="deep.link.type" android:defaultValue="0" android:entryValues="@array/deep_link_values" />
+        <EditTextPreference android:title="@string/deep_link_url_title" android:key="deep.link.url" android:dialogTitle="@string/deep_link_url_title" />
+        <EditTextPreference android:title="@string/deep_link_install_url_title" android:key="deep.link.install.url" android:dialogTitle="@string/deep_link_install_url_title" />
+    </PreferenceCategory>
+</PreferenceScreen>

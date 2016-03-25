@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/selector_bg" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="40.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ru.ok.android.ui.fragments.messages.view.ParticipantsPreviewView android:id="@id/friends_avatars_view" android:layout_width="wrap_content" android:layout_height="32.0dip" android:layout_marginLeft="8.0dip" android:layout_marginRight="@dimen/feed_card_margin_outer" android:layout_alignParentRight="true" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/grey_3" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/friends_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/feed_card_margin_outer" android:bufferType="spannable" android:lines="2" />
+</LinearLayout>

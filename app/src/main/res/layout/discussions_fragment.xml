@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ru.ok.android.ui.custom.indicator.SlidingTabLayout android:id="@id/indicator" android:background="@color/orange_2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" />
+    <ru.ok.android.widget.ViewPagerDisable android:id="@id/discussions_pager" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/indicator" />
+    <View android:layout_below="@id/indicator" style="@style/ActionBar.Shadow" />
+</RelativeLayout>

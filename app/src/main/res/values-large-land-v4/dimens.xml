@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="receive_present_buttons_margin">16.0dip</dimen>
+    <dimen name="receive_present_dialog_height">346.0dip</dimen>
+    <dimen name="receive_present_dialog_width">480.0dip</dimen>
+    <dimen name="receive_present_size">128.0dip</dimen>
+    <dimen name="receive_present_content_padding">80.0dip</dimen>
+</resources>

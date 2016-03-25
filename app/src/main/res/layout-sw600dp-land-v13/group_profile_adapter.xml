@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ru.ok.android.ui.measuredobserver.MeasureObservableScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/bg_layout_no" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/feed_card_margin_outer" android:layout_marginRight="@dimen/feed_card_margin_outer" android:layout_marginBottom="@dimen/feed_card_margin_outer">
+        <FrameLayout android:id="@id/avatar_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip">
+            <com.facebook.drawee.view.SimpleDraweeView android:id="@id/avatar_view" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/FrescoRectImage.ProfileAvatar" />
+        </FrameLayout>
+        <include android:id="@id/information_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" android:layout_marginBottom="12.0dip" layout="@layout/group_profile_information" />
+        <include android:orientation="vertical" android:id="@id/button_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" android:layout_marginBottom="@dimen/feed_card_padding_inner" layout="@layout/group_profiles_buttons" />
+        <include android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_margin="@dimen/feed_card_margin_outer" layout="@layout/profile_friends_group_stub" />
+        <ru.ok.android.ui.custom.profiles.VerticalProfileItemsView android:id="@id/sections_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</ru.ok.android.ui.measuredobserver.MeasureObservableScrollView>

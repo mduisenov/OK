@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/feed_card_top_bg" android:paddingLeft="8.0dip" android:paddingTop="4.0dip" android:paddingRight="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:id="@id/presentContainer" android:layout_width="@dimen/presents_size" android:layout_height="@dimen/presents_size" android:layout_marginLeft="12.0dip" android:layout_marginTop="12.0dip">
+                <ru.ok.android.ui.custom.CompositePresentView android:layout_gravity="center_horizontal" android:id="@id/presentImg" android:layout_width="@dimen/presents_size" android:layout_height="@dimen/presents_size" />
+                <ru.ok.android.ui.stream.view.ProfilePresentTrackView android:id="@id/present_music" android:background="@null" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_musicgift_selector" android:layout_alignRight="@id/presentImg" android:layout_alignBottom="@id/presentImg" />
+            </RelativeLayout>
+            <ru.ok.android.ui.custom.imageview.RoundAvatarImageView android:id="@id/userAvatar" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginLeft="12.0dip" android:layout_marginTop="12.0dip" android:layout_toRightOf="@id/presentContainer" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/black_2" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/name" android:paddingLeft="12.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:minHeight="25.0dip" android:maxLines="2" android:layout_toLeftOf="@id/optionsBtn" android:layout_toRightOf="@id/userAvatar" />
+            <ImageButton android:id="@id/optionsBtn" android:background="@null" android:layout_width="25.0dip" android:layout_height="40.0dip" android:layout_marginRight="2.0dip" android:src="@drawable/ic_more_medium_xml" android:layout_alignParentRight="true" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/grey_1" android:ellipsize="end" android:id="@id/date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="6.0dip" android:maxLines="1" android:layout_toRightOf="@id/presentContainer" android:layout_below="@id/name" />
+            <ru.ok.android.ui.custom.text.HighlightTextView android:textSize="14.0sp" android:textColor="@color/black_2" android:id="@id/message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="4.0dip" android:layout_marginRight="12.0dip" android:maxLines="4" android:layout_toRightOf="@id/presentContainer" android:layout_below="@id/date" />
+        </RelativeLayout>
+        <View android:id="@id/separator" android:background="@color/list_separator" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="12.0dip" android:layout_marginTop="4.0dip" android:layout_marginRight="12.0dip" />
+    </LinearLayout>
+    <RelativeLayout android:orientation="horizontal" android:background="@drawable/feed_card_bottom_bg" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:paddingBottom="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textColor="@color/orange_2" android:id="@id/actionBtn" android:background="@drawable/selector_bg_dialog_button" android:paddingLeft="12.0dip" android:paddingTop="16.0dip" android:paddingRight="12.0dip" android:paddingBottom="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:textAllCaps="true" />
+    </RelativeLayout>
+</LinearLayout>

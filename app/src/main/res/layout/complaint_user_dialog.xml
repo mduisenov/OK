@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/Dialog_Layout"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RadioGroup android:layout_gravity="center_horizontal" android:id="@id/radioGroup" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RadioButton android:textSize="14.0sp" android:id="@id/radioButtonPorno" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:checked="true" android:text="@string/complaint_porno" />
+            <RadioButton android:textSize="14.0sp" android:id="@id/radioButtonAdv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/complaint_advertising" />
+            <RadioButton android:textSize="14.0sp" android:id="@id/radioButtonExt" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/complaint_extreme" />
+            <RadioButton android:textSize="14.0sp" android:id="@id/radioButtonFake" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/complaint_fake" />
+        </RadioGroup>
+        <LinearLayout android:background="?android:listDividerAlertDialog" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_marginBottom="10.0dip" />
+        <CheckBox android:textSize="14.0sp" android:id="@id/checkBoxBlackList" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/add_to_black_list" />
+    </LinearLayout>
+</ScrollView>

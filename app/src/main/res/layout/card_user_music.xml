@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/selector_bg_activable" android:padding="@dimen/card_padding" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="@dimen/card_user_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/avatar_container" layout="@layout/online_avatar_view" />
+    <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/card_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toRightOf="@id/avatar_container" android:layout_centerVertical="true">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/private_profile" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/padding_medium" android:src="@drawable/ic_list_lock" />
+            <TextView android:textSize="@dimen/card_user_music_name_size" android:textStyle="bold" android:textColor="@color/card_user_music_name_text_color" android:ellipsize="end" android:id="@id/name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:drawablePadding="4.0dip" />
+        </LinearLayout>
+        <TextView android:ellipsize="end" android:id="@id/info" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" style="@style/TextAppearance_Card_Info" />
+    </LinearLayout>
+</RelativeLayout>

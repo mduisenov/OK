@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ru.ok.android.ui.swiperefresh.OkSwipeRefreshLayoutWrappedList android:id="@id/swipe_refresh" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ru.ok.android.ui.custom.NetworkStatusView android:layout_gravity="top" android:id="@id/network_status" android:visibility="gone" style="@style/NetworkStatus" />
+            <android.support.v7.widget.RecyclerView android:id="@id/list" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/network_status" />
+            <ru.ok.android.ui.custom.emptyview.SmartEmptyViewAnimated android:id="@id/empty_view" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/SmartEmptyViewAnimatedWithTabbarAndScroll" />
+        </RelativeLayout>
+    </ru.ok.android.ui.swiperefresh.OkSwipeRefreshLayoutWrappedList>
+</FrameLayout>

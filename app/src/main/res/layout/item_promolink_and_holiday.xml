@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ru.ok.android.ui.stream.view.PromoLinkView android:id="@id/promo_link" android:layout_width="fill_parent" android:layout_height="@dimen/promo_banner_height" />
+    <ru.ok.android.ui.stream.view.HolidayView android:id="@id/holiday" android:layout_width="fill_parent" android:layout_height="@dimen/holiday_height" />
+</merge>

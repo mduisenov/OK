@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:toolbar="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/mt_photos" android:id="@id/add_photo" android:title="@string/media_composer_add_photo" toolbar:align="left" />
+    <item android:icon="@drawable/mt_music" android:id="@id/add_music" android:title="@string/media_composer_add_music" toolbar:align="left" />
+    <item android:icon="@drawable/mt_poll" android:id="@id/add_poll" android:title="@string/media_composer_add_poll" toolbar:align="left" />
+    <item android:icon="@drawable/mt_users" android:id="@id/with_friends" android:title="@string/media_composer_with_friends" android:actionLayout="@layout/action_view_with_friends" toolbar:align="left" />
+    <item android:icon="@drawable/ic_mt_geo" android:id="@id/add_place" android:title="@string/media_composer_with_place" toolbar:align="left" />
+    <item android:icon="@drawable/mt_status_g" android:id="@id/to_status_checkbox" android:checked="true" android:title="@string/media_composer_to_status" android:checkable="true" android:actionLayout="@layout/media_composer_toolbar_item_to_status" toolbar:align="bottom" />
+</menu>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/app_poll_table_item_corner" />
+            <solid android:color="@color/white" />
+            <stroke android:width="@dimen/app_poll_table_item_stroke" android:color="@color/app_poll_orange_main" />
+        </shape>
+    </item>
+</selector>

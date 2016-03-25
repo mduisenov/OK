@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/background">
+        <inset android:drawable="@drawable/progress_background" android:insetTop="6.0dip" android:insetBottom="6.0dip" />
+    </item>
+    <item android:id="@android:id/secondaryProgress">
+        <clip android:gravity="left" android:clipOrientation="horizontal">
+            <inset android:drawable="@drawable/progress_secondary" android:insetTop="6.0dip" android:insetBottom="6.0dip" />
+        </clip>
+    </item>
+    <item android:id="@android:id/progress">
+        <clip android:gravity="left" android:clipOrientation="horizontal">
+            <inset android:drawable="@drawable/progress_white" android:insetTop="6.0dip" android:insetBottom="6.0dip" />
+        </clip>
+    </item>
+</layer-list>

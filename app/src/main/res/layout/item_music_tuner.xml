@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ru.ok.android.ui.custom.layout.RelativeSetPressedLayout android:gravity="center_vertical" android:background="@drawable/selector_bg" android:layout_width="fill_parent" android:layout_height="@dimen/card_height" android:minHeight="@dimen/card_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ru.ok.android.ui.fragments.messages.view.TunersMultipleImageView android:id="@id/image" android:background="@drawable/avatar_background_item" android:padding="6.0dip" android:clickable="false" android:layout_width="60.0dip" android:layout_height="60.0dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:layout_marginTop="6.0dip" android:layout_toLeftOf="@id/select_checkbox" android:layout_toRightOf="@id/image" android:layout_centerInParent="true">
+        <TextView android:textSize="16.0sp" android:textColor="@color/black_text" android:id="@id/text_tuner" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minWidth="100.0dip" android:singleLine="true" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+        <TextView android:gravity="top" android:id="@id/text_artists" android:paddingRight="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minWidth="100.0dip" android:layout_below="@id/text_tuner" style="@style/TextAppearance_Card_Info" />
+    </RelativeLayout>
+    <View android:id="@id/divider" android:background="@color/list_separator" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_alignParentBottom="true" />
+</ru.ok.android.ui.custom.layout.RelativeSetPressedLayout>

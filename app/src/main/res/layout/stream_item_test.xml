@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@color/black" android:layout_width="fill_parent" android:layout_height="500.0dip">
+        <FrameLayout android:id="@id/child_fragment_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_width="200.0dip" android:layout_height="200.0dip" android:src="@drawable/white_circle" /> ></FrameLayout>
+        <FrameLayout android:id="@id/stream_items" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</ScrollView>

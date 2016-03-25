@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="feed_set_avatar_image_size">264.0dip</dimen>
+    <dimen name="stream_photo_height_land">405.0dip</dimen>
+</resources>

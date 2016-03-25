@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:id="@id/delete" android:background="@drawable/ic_emoji_erase_item" android:layout_width="wrap_content" android:layout_height="@dimen/view_pager_indicator_height" android:minWidth="0.0dip" android:minHeight="0.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <ru.ok.android.emoji.ui.custom.PagerSlidingTabStripEmoji android:id="@id/indicator" android:layout_width="fill_parent" android:layout_toLeftOf="@id/delete" style="@style/PageIndicatorEmoji" />
+    </RelativeLayout>
+    <View android:background="@color/grey" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <android.support.v4.view.ViewPager android:id="@id/pager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</merge>

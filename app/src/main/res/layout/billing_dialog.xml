@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/Dialog_Layout"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/info_pad" android:paddingTop="@dimen/padding_middle" android:paddingBottom="3.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="4.0dip" android:weightSum="1.0">
+        <TextView android:textSize="17.0sp" android:textColor="#ffd6d6d6" android:id="@id/title" android:paddingLeft="@dimen/padding_large" android:paddingRight="@dimen/padding_large" android:paddingBottom="3.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <TextView android:textSize="15.0sp" android:textColor="@color/custom_dialog_gray" android:id="@id/message" android:paddingLeft="@dimen/padding_large" android:paddingRight="@dimen/padding_large" android:paddingBottom="@dimen/padding_large" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/title" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/line_1" android:background="@color/custom_dialog_gray" android:layout_below="@id/message" style="@style/BillingDialogDivider" />
+        <ScrollView android:id="@id/billing_items" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_below="@id/line_1">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <RelativeLayout android:id="@id/buy_20" style="@style/BillingDialogItem">
+                    <LinearLayout android:background="@drawable/ico_pay4" style="@style/BillingDialogItemIcon" />
+                    <TextView android:text="@string/billing_20_price" style="@style/BillingDialogItemPrice" />
+                    <TextView android:text="@string/billing_20" style="@style/BillingDialogItemText" />
+                </RelativeLayout>
+                <LinearLayout style="@style/BillingDialogDivider" />
+                <RelativeLayout android:id="@id/buy_40" style="@style/BillingDialogItem">
+                    <LinearLayout android:background="@drawable/ico_pay3" style="@style/BillingDialogItemIcon" />
+                    <TextView android:text="@string/billing_40_price" style="@style/BillingDialogItemPrice" />
+                    <TextView android:text="@string/billing_40" style="@style/BillingDialogItemText" />
+                </RelativeLayout>
+                <LinearLayout style="@style/BillingDialogDivider" />
+                <RelativeLayout android:id="@id/buy_80" style="@style/BillingDialogItem">
+                    <LinearLayout android:background="@drawable/ico_pay2" style="@style/BillingDialogItemIcon" />
+                    <TextView android:text="@string/billing_80_price" style="@style/BillingDialogItemPrice" />
+                    <TextView android:text="@string/billing_80" style="@style/BillingDialogItemText" />
+                </RelativeLayout>
+                <LinearLayout style="@style/BillingDialogDivider" />
+                <RelativeLayout android:id="@id/buy_100" style="@style/BillingDialogItem">
+                    <LinearLayout android:background="@drawable/ico_pay1" style="@style/BillingDialogItemIcon" />
+                    <TextView android:text="@string/billing_100_price" style="@style/BillingDialogItemPrice" />
+                    <TextView android:id="@id/bonus" android:text="@string/billing_100" style="@style/BillingDialogItemText" />
+                </RelativeLayout>
+            </LinearLayout>
+        </ScrollView>
+        <LinearLayout android:orientation="horizontal" android:id="@id/line_2" android:background="@color/custom_dialog_gray" android:layout_below="@id/billing_items" style="@style/BillingDialogDivider" />
+        <TextView android:textSize="14.0sp" android:textColor="#ff999999" android:gravity="center" android:id="@id/button_cancel" android:background="@drawable/color_rate_button" android:padding="19.0dip" android:paddingLeft="@dimen/padding_large" android:paddingRight="@dimen/padding_large" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/close" android:layout_below="@id/line_2" />
+    </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="4.0dip">
+        <ru.ok.android.ui.custom.emptyview.SmartEmptyView android:gravity="center" android:layout_gravity="center" android:id="@id/progress_bill" android:background="#55000000" android:visibility="invisible" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+</FrameLayout>
